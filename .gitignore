@@ -1,0 +1,11 @@
+/suanfa/image
+/suanfa/results
+/suanfa/ch_ppocr_mobile_v2.0_cls_infer
+/suanfa/ch_ppocr_server_v2.0_rec_infer
+/nftfansbot.session
+my_utils/__pycache__/MysqlUtility.cpython-39.pyc
+paddleORC_model/ch_ppocr_server_v2.0_det_infer/inference.pdiparams
+paddleORC_model/ch_ppocr_server_v2.0_det_infer/inference.pdiparams.info
+paddleORC_model/ch_ppocr_server_v2.0_det_infer/inference.pdmodel
+kjjjkljklbot.session
+biz-gps-kafka-pazlpush.log.2023-07-28.99

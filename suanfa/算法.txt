@@ -1,0 +1,49 @@
+有许多常用的算法，下面列举一些广泛应用的算法：
+
+1. 排序算法：
+   - 冒泡排序（Bubble Sort）
+   - 插入排序（Insertion Sort）
+   - 选择排序（Selection Sort）
+   - 快速排序（Quick Sort）
+   - 归并排序（Merge Sort）
+   - 堆排序（Heap Sort）
+   - 计数排序（Counting Sort）
+   - 桶排序（Bucket Sort）
+   - 基数排序（Radix Sort）
+
+2. 搜索算法：
+   - 线性搜索（Linear Search）
+   - 二分搜索（Binary Search）
+   - 广度优先搜索（Breadth-First Search，BFS）
+   - 深度优先搜索（Depth-First Search，DFS）
+
+3. 图算法：
+   - 最短路径算法（如Dijkstra算法、Bellman-Ford算法）
+   - 最小生成树算法（如Prim算法、Kruskal算法）
+   - 拓扑排序算法
+   - 图遍历算法（如深度优先搜索、广度优先搜索）
+
+4. 动态规划算法：
+   - 背包问题（Knapsack Problem）
+   - 最长公共子序列（Longest Common Subsequence）
+   - 最短路径问题（如Floyd-Warshall算法）
+
+5. 字符串匹配算法：
+   - 暴力匹配算法
+   - KMP算法
+   - Boyer-Moore算法
+   - Rabin-Karp算法
+
+6. 图像处理算法：
+   - 图像滤波算法（如均值滤波、高斯滤波）
+   - 图像分割算法（如K-Means聚类、分水岭算法）
+   - 图像压缩算法（如JPEG、PNG压缩算法）
+
+7. 机器学习算法：
+   - 线性回归（Linear Regression）
+   - 逻辑回归（Logistic Regression）
+   - 决策树（Decision Tree）
+   - 支持向量机（Support Vector Machine，SVM）
+   - K近邻算法（K-Nearest Neighbors，KNN）
+   - 随机森林（Random Forest）
+   - 神经网络算法（如深度学习中的卷积神经网络、循环神经网络）
