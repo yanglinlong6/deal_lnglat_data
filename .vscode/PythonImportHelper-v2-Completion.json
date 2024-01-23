@@ -1,5 +1,198 @@
 [
     {
+        "label": "AssistantAgent",
+        "importPath": "autogen",
+        "description": "autogen",
+        "isExtraImport": true,
+        "detail": "autogen",
+        "documentation": {}
+    },
+    {
+        "label": "UserProxyAgent",
+        "importPath": "autogen",
+        "description": "autogen",
+        "isExtraImport": true,
+        "detail": "autogen",
+        "documentation": {}
+    },
+    {
+        "label": "config_list_from_json",
+        "importPath": "autogen",
+        "description": "autogen",
+        "isExtraImport": true,
+        "detail": "autogen",
+        "documentation": {}
+    },
+    {
+        "label": "UserProxyAgent",
+        "importPath": "autogen",
+        "description": "autogen",
+        "isExtraImport": true,
+        "detail": "autogen",
+        "documentation": {}
+    },
+    {
+        "label": "ConversableAgent",
+        "importPath": "autogen",
+        "description": "autogen",
+        "isExtraImport": true,
+        "detail": "autogen",
+        "documentation": {}
+    },
+    {
+        "label": "config_list_from_json",
+        "importPath": "autogen",
+        "description": "autogen",
+        "isExtraImport": true,
+        "detail": "autogen",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForSequenceClassification",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "MsDataset",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForSequenceClassification",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForCausalLM",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "snapshot_download",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForSequenceClassification",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "MsDataset",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForSequenceClassification",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "default_data_collator",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "PerceiverTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "PerceiverForMaskedLM",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
         "label": "PerceiverTokenizer",
         "importPath": "transformers",
         "description": "transformers",
@@ -32,6 +225,191 @@
         "documentation": {}
     },
     {
+        "label": "default_data_collator",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingArguments",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingArguments",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoraConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "read_config",
+        "importPath": "modelscope.utils.hub",
+        "description": "modelscope.utils.hub",
+        "isExtraImport": true,
+        "detail": "modelscope.utils.hub",
+        "documentation": {}
+    },
+    {
+        "label": "MsDataset",
+        "importPath": "modelscope.msdatasets",
+        "description": "modelscope.msdatasets",
+        "isExtraImport": true,
+        "detail": "modelscope.msdatasets",
+        "documentation": {}
+    },
+    {
+        "label": "build_trainer",
+        "importPath": "modelscope.trainers",
+        "description": "modelscope.trainers",
+        "isExtraImport": true,
+        "detail": "modelscope.trainers",
+        "documentation": {}
+    },
+    {
+        "label": "build_trainer",
+        "importPath": "modelscope.trainers",
+        "description": "modelscope.trainers",
+        "isExtraImport": true,
+        "detail": "modelscope.trainers",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "Trainers",
+        "importPath": "modelscope.metainfo",
+        "description": "modelscope.metainfo",
+        "isExtraImport": true,
+        "detail": "modelscope.metainfo",
+        "documentation": {}
+    },
+    {
         "label": "torch",
         "kind": 6,
         "isExtraImport": true,
@@ -41,12 +419,95 @@
         "documentation": {}
     },
     {
-        "label": "os",
+        "label": "torch.nn",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Linear",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "CrossEntropyLoss",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "AdamW",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "StepLR",
+        "importPath": "torch.optim.lr_scheduler",
+        "description": "torch.optim.lr_scheduler",
+        "isExtraImport": true,
+        "detail": "torch.optim.lr_scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "default_collate",
+        "importPath": "torch.utils.data.dataloader",
+        "description": "torch.utils.data.dataloader",
+        "isExtraImport": true,
+        "detail": "torch.utils.data.dataloader",
         "documentation": {}
     },
     {
@@ -1143,15 +1604,6 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
         "label": "ChatOpenAI",
         "importPath": "langchain.chat_models",
         "description": "langchain.chat_models",
@@ -1240,11 +1692,75 @@
         "documentation": {}
     },
     {
-        "label": "snapshot_download",
-        "importPath": "modelscope",
-        "description": "modelscope",
+        "label": "DatasetName",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
         "isExtraImport": true,
-        "detail": "modelscope",
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "ModelType",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "SftArguments",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "sft_main",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "ModelType",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "get_vllm_engine",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "get_default_template_type",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "get_template",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
+        "documentation": {}
+    },
+    {
+        "label": "inference_vllm",
+        "importPath": "swift.llm",
+        "description": "swift.llm",
+        "isExtraImport": true,
+        "detail": "swift.llm",
         "documentation": {}
     },
     {
@@ -1323,6 +1839,30 @@
         "documentation": {}
     },
     {
+        "label": "SbertForSequenceClassification",
+        "importPath": "modelscope.models.nlp",
+        "description": "modelscope.models.nlp",
+        "isExtraImport": true,
+        "detail": "modelscope.models.nlp",
+        "documentation": {}
+    },
+    {
+        "label": "SbertConfig",
+        "importPath": "modelscope.models.nlp.structbert",
+        "description": "modelscope.models.nlp.structbert",
+        "isExtraImport": true,
+        "detail": "modelscope.models.nlp.structbert",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift.tuners",
+        "description": "swift.tuners",
+        "isExtraImport": true,
+        "detail": "swift.tuners",
+        "documentation": {}
+    },
+    {
         "label": "print_function",
         "importPath": "__future__",
         "description": "__future__",
@@ -1378,6 +1918,14 @@
         "description": "paddleocr",
         "isExtraImport": true,
         "detail": "paddleocr",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
         "documentation": {}
     },
     {
@@ -1498,6 +2046,708 @@
         "documentation": {}
     },
     {
+        "label": "config_list",
+        "kind": 5,
+        "importPath": "autogen.test01",
+        "description": "autogen.test01",
+        "peekOfCode": "config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n# You can also set config_list directly as a list, for example, config_list = [{'model': 'gpt-4', 'api_key': '<your OpenAI API key here>'},]\nassistant = AssistantAgent(\"assistant\", llm_config={\"config_list\": config_list})\nuser_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \"coding\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
+        "detail": "autogen.test01",
+        "documentation": {}
+    },
+    {
+        "label": "assistant",
+        "kind": 5,
+        "importPath": "autogen.test01",
+        "description": "autogen.test01",
+        "peekOfCode": "assistant = AssistantAgent(\"assistant\", llm_config={\"config_list\": config_list})\nuser_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \"coding\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
+        "detail": "autogen.test01",
+        "documentation": {}
+    },
+    {
+        "label": "user_proxy",
+        "kind": 5,
+        "importPath": "autogen.test01",
+        "description": "autogen.test01",
+        "peekOfCode": "user_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \"coding\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
+        "detail": "autogen.test01",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "autogen.test02",
+        "description": "autogen.test02",
+        "peekOfCode": "def main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST.json\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\"agent\", llm_config={\"config_list\": config_list})\n    # Create the agent that represents the user in the conversation.\n    user_proxy = UserProxyAgent(\"user\", code_execution_config=False)",
+        "detail": "autogen.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "autogen.test02",
+        "description": "autogen.test02",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\ndef main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST.json\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\"agent\", llm_config={\"config_list\": config_list})\n    # Create the agent that represents the user in the conversation.",
+        "detail": "autogen.test02",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize_function",
+        "kind": 2,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "def tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",\n        truncation=True,\n        max_length=128,\n    )\ntrain_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "model = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "lora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "model = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "train_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))\n)",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "val_dataset",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "val_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))\n)\ndef tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "train_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)\narguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "val_dataset",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "val_dataset = val_dataset.map(tokenize_function)\narguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "arguments",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "arguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,\n    data_collator=default_data_collator,",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "huggingface.test03",
+        "description": "huggingface.test03",
+        "peekOfCode": "trainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,\n    data_collator=default_data_collator,\n)\ntrainer.train()",
+        "detail": "huggingface.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "model = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "lora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test04",
+        "description": "huggingface.test04",
+        "peekOfCode": "model = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "huggingface.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)\n# 直接更新其中的参数",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "train_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)\n# 直接更新其中的参数\ncfg.train.max_epochs = 5\ncfg.preprocessor.train[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "eval_dataset",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "eval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)\n# 直接更新其中的参数\ncfg.train.max_epochs = 5\ncfg.preprocessor.train[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "model_id",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "model_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)\n# 直接更新其中的参数\ncfg.train.max_epochs = 5\ncfg.preprocessor.train[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "cfg",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "cfg = read_config(model_id)\n# 直接更新其中的参数\ncfg.train.max_epochs = 5\ncfg.preprocessor.train[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer\ncfg.dump(cfg_file)\nkwargs = dict(",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "cfg.train.max_epochs",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "cfg.train.max_epochs = 5\ncfg.preprocessor.train[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer\ncfg.dump(cfg_file)\nkwargs = dict(\n    model=model_id,\n    train_dataset=train_dataset,",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "cfg.preprocessor.train[\"label2id\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "cfg.preprocessor.train[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer\ncfg.dump(cfg_file)\nkwargs = dict(\n    model=model_id,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset,",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "cfg.preprocessor.val[\"label2id\"]",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "cfg.preprocessor.val[\"label2id\"] = {\"0\": 0, \"1\": 1}\ncfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer\ncfg.dump(cfg_file)\nkwargs = dict(\n    model=model_id,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset,\n    cfg_file=cfg_file,",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "cfg.train.work_dir",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "cfg.train.work_dir = \"/tmp\"\ncfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer\ncfg.dump(cfg_file)\nkwargs = dict(\n    model=model_id,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset,\n    cfg_file=cfg_file,\n)",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "cfg_file",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "cfg_file = os.path.join(\"/tmp\", \"config.json\")\n# 将参数写入新的配置文件并传入trainer\ncfg.dump(cfg_file)\nkwargs = dict(\n    model=model_id,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset,\n    cfg_file=cfg_file,\n)\ntrainer = build_trainer(default_args=kwargs)",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "kwargs",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "kwargs = dict(\n    model=model_id,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset,\n    cfg_file=cfg_file,\n)\ntrainer = build_trainer(default_args=kwargs)\ntrainer.train()",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "huggingface.test05",
+        "description": "huggingface.test05",
+        "peekOfCode": "trainer = build_trainer(default_args=kwargs)\ntrainer.train()",
+        "detail": "huggingface.test05",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "def main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")\n    def concat_answer_context(dataset):\n        dataset[\"src_txt\"] = (\n            dataset[\"answers\"][\"text\"][0] + \"[SEP]\" + dataset[\"context\"]\n        )\n        return dataset\n    train_dataset = dataset_dict[\"train\"].map(concat_answer_context)",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")\n    def concat_answer_context(dataset):",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test06",
+        "description": "huggingface.test06",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")\n    def concat_answer_context(dataset):\n        dataset[\"src_txt\"] = (",
+        "detail": "huggingface.test06",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "huggingface.test07",
+        "description": "huggingface.test07",
+        "peekOfCode": "a = torch.tensor([1.0], requires_grad=True)\nb = torch.tensor([2.0], requires_grad=True)\nc = a * b\n# 计算梯度\nc.backward()\nprint(a.grad, b.grad)\n# tensor([2.]) tensor([1.])",
+        "detail": "huggingface.test07",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "huggingface.test07",
+        "description": "huggingface.test07",
+        "peekOfCode": "b = torch.tensor([2.0], requires_grad=True)\nc = a * b\n# 计算梯度\nc.backward()\nprint(a.grad, b.grad)\n# tensor([2.]) tensor([1.])",
+        "detail": "huggingface.test07",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "huggingface.test07",
+        "description": "huggingface.test07",
+        "peekOfCode": "c = a * b\n# 计算梯度\nc.backward()\nprint(a.grad, b.grad)\n# tensor([2.]) tensor([1.])",
+        "detail": "huggingface.test07",
+        "documentation": {}
+    },
+    {
+        "label": "SubModule",
+        "kind": 6,
+        "importPath": "huggingface.test08",
+        "description": "huggingface.test08",
+        "peekOfCode": "class SubModule(torch.nn.Module):\n    def __init__(self):\n        super().__init__()\n        # 有时候会传入一个config，下面的Linear就变成：\n        # self.a = Linear(config.hidden_size, config.hidden_size)\n        self.a = Linear(4, 4)\nclass Module(torch.nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.sub = SubModule()",
+        "detail": "huggingface.test08",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "kind": 6,
+        "importPath": "huggingface.test08",
+        "description": "huggingface.test08",
+        "peekOfCode": "class Module(torch.nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.sub = SubModule()\nmodule = Module()\nstate_dict = module.state_dict()  # 实际上是一个key value对\n# OrderedDict([('sub.a.weight', tensor([[-0.4148, -0.2303, -0.3650, -0.4019],\n#        [-0.2495,  0.1113,  0.3846,  0.3645],\n#        [ 0.0395, -0.0490, -0.1738,  0.0820],\n#        [ 0.4187,  0.4697, -0.4100, -0.4685]])), ('sub.a.bias', tensor([ 0.4756, -0.4298, -0.4380,  0.3344]))])",
+        "detail": "huggingface.test08",
+        "documentation": {}
+    },
+    {
+        "label": "module",
+        "kind": 5,
+        "importPath": "huggingface.test08",
+        "description": "huggingface.test08",
+        "peekOfCode": "module = Module()\nstate_dict = module.state_dict()  # 实际上是一个key value对\n# OrderedDict([('sub.a.weight', tensor([[-0.4148, -0.2303, -0.3650, -0.4019],\n#        [-0.2495,  0.1113,  0.3846,  0.3645],\n#        [ 0.0395, -0.0490, -0.1738,  0.0820],\n#        [ 0.4187,  0.4697, -0.4100, -0.4685]])), ('sub.a.bias', tensor([ 0.4756, -0.4298, -0.4380,  0.3344]))])\n# 如果我想把SubModule替换为别的结构能不能做呢？\nsetattr(module, \"sub\", Linear(4, 4))\n# 这样模型的结构就被动态的改变了\n# 这个就是轻量调优生效的基本原理：新增或改变原有的模型结构，具体可以查看选型或训练章节",
+        "detail": "huggingface.test08",
+        "documentation": {}
+    },
+    {
+        "label": "state_dict",
+        "kind": 5,
+        "importPath": "huggingface.test08",
+        "description": "huggingface.test08",
+        "peekOfCode": "state_dict = module.state_dict()  # 实际上是一个key value对\n# OrderedDict([('sub.a.weight', tensor([[-0.4148, -0.2303, -0.3650, -0.4019],\n#        [-0.2495,  0.1113,  0.3846,  0.3645],\n#        [ 0.0395, -0.0490, -0.1738,  0.0820],\n#        [ 0.4187,  0.4697, -0.4100, -0.4685]])), ('sub.a.bias', tensor([ 0.4756, -0.4298, -0.4380,  0.3344]))])\n# 如果我想把SubModule替换为别的结构能不能做呢？\nsetattr(module, \"sub\", Linear(4, 4))\n# 这样模型的结构就被动态的改变了\n# 这个就是轻量调优生效的基本原理：新增或改变原有的模型结构，具体可以查看选型或训练章节",
+        "detail": "huggingface.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以\na = torch.tensor([1.0])",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以\na = torch.tensor([1.0])\na = a.to(0)",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "model = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以\na = torch.tensor([1.0])\na = a.to(0)\n# 注意！model.to操作不需要承接返回值，这是因为torch.nn.Module(模型基类)的这个操作是in-place(替换)的\n# 而tensor的操作不是in-place的，需要承接返回值",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "a = torch.tensor([1.0])\na = a.to(0)\n# 注意！model.to操作不需要承接返回值，这是因为torch.nn.Module(模型基类)的这个操作是in-place(替换)的\n# 而tensor的操作不是in-place的，需要承接返回值",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "huggingface.test09",
+        "description": "huggingface.test09",
+        "peekOfCode": "a = a.to(0)\n# 注意！model.to操作不需要承接返回值，这是因为torch.nn.Module(模型基类)的这个操作是in-place(替换)的\n# 而tensor的操作不是in-place的，需要承接返回值",
+        "detail": "huggingface.test09",
+        "documentation": {}
+    },
+    {
         "label": "device",
         "kind": 5,
         "importPath": "huggingface.test1",
@@ -1576,6 +2826,411 @@
         "description": "huggingface.test1",
         "peekOfCode": "masked_tokens_predictions = logits[0, 51:61].argmax(dim=-1)\nprint(tokenizer.decode(masked_tokens_predictions))\n# >>> should print \" missing.\"",
         "detail": "huggingface.test1",
+        "documentation": {}
+    },
+    {
+        "label": "MyModule",
+        "kind": 6,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "class MyModule(torch.nn.Module):\n    def __init__(self, n_classes=2):\n        # 优先调用基类构造\n        super().__init__()\n        # 单个神经元，一个linear加上一个relu激活\n        self.linear = torch.nn.Linear(16, n_classes)\n        self.relu = torch.nn.ReLU()\n    def forward(self, tensor, label):\n        # 前向过程\n        output = {\"logits\": self.relu(self.linear(tensor))}",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "MyDataset",
+        "kind": 6,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "class MyDataset(Dataset):\n    # 长度是5\n    def __len__(self):\n        return 5\n    # 如何根据index取得数据集的数据\n    def __getitem__(self, index):\n        return {\"tensor\": torch.rand(16), \"label\": torch.tensor(1)}\n# 构造模型\nmodel = MyModule()\n# 构造数据集",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader\nfrom torch.utils.data.dataloader import default_collate",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader\nfrom torch.utils.data.dataloader import default_collate\nfrom torch.nn import CrossEntropyLoss",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader\nfrom torch.utils.data.dataloader import default_collate\nfrom torch.nn import CrossEntropyLoss\nseed = 42",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "seed",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "seed = 42\n# 随机种子，影响训练的随机数逻辑，如果随机种子确定，每次训练的结果是一样的\ntorch.manual_seed(seed)\nnp.random.seed(seed)\nrandom.seed(seed)\n# 确定化cuda、cublas、cudnn的底层随机逻辑\n# 否则CUDA会提前优化一些算子，产生不确定性\n# 这些处理在训练时也可以不使用\nos.environ[\"CUDA_LAUNCH_BLOCKING\"] = \"1\"\nos.environ[\"CUBLAS_WORKSPACE_CONFIG\"] = \":16:8\"",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_LAUNCH_BLOCKING\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"CUDA_LAUNCH_BLOCKING\"] = \"1\"\nos.environ[\"CUBLAS_WORKSPACE_CONFIG\"] = \":16:8\"\ntorch.use_deterministic_algorithms(True)\n# Enable CUDNN deterministic mode\ntorch.backends.cudnn.deterministic = True\ntorch.backends.cudnn.benchmark = False\n# torch模型都继承于torch.nn.Module\nclass MyModule(torch.nn.Module):\n    def __init__(self, n_classes=2):\n        # 优先调用基类构造",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUBLAS_WORKSPACE_CONFIG\"]",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "os.environ[\"CUBLAS_WORKSPACE_CONFIG\"] = \":16:8\"\ntorch.use_deterministic_algorithms(True)\n# Enable CUDNN deterministic mode\ntorch.backends.cudnn.deterministic = True\ntorch.backends.cudnn.benchmark = False\n# torch模型都继承于torch.nn.Module\nclass MyModule(torch.nn.Module):\n    def __init__(self, n_classes=2):\n        # 优先调用基类构造\n        super().__init__()",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn.deterministic",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "torch.backends.cudnn.deterministic = True\ntorch.backends.cudnn.benchmark = False\n# torch模型都继承于torch.nn.Module\nclass MyModule(torch.nn.Module):\n    def __init__(self, n_classes=2):\n        # 优先调用基类构造\n        super().__init__()\n        # 单个神经元，一个linear加上一个relu激活\n        self.linear = torch.nn.Linear(16, n_classes)\n        self.relu = torch.nn.ReLU()",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn.benchmark",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "torch.backends.cudnn.benchmark = False\n# torch模型都继承于torch.nn.Module\nclass MyModule(torch.nn.Module):\n    def __init__(self, n_classes=2):\n        # 优先调用基类构造\n        super().__init__()\n        # 单个神经元，一个linear加上一个relu激活\n        self.linear = torch.nn.Linear(16, n_classes)\n        self.relu = torch.nn.ReLU()\n    def forward(self, tensor, label):",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "model = MyModule()\n# 构造数据集\ndataset = MyDataset()\n# 构造dataloader， dataloader会负责从数据集中按照batch_size批量取数，这个batch_size参数就是设置给它的\n# collate_fn会负责将batch中单行的数据进行padding\ndataloader = DataLoader(dataset, batch_size=4, collate_fn=default_collate)\n# optimizer，负责将梯度累加回原来的parameters\n# lr就是设置到这里的\noptimizer = AdamW(model.parameters(), lr=5e-4)\n# lr_scheduler， 负责对learning_rate进行调整",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "dataset = MyDataset()\n# 构造dataloader， dataloader会负责从数据集中按照batch_size批量取数，这个batch_size参数就是设置给它的\n# collate_fn会负责将batch中单行的数据进行padding\ndataloader = DataLoader(dataset, batch_size=4, collate_fn=default_collate)\n# optimizer，负责将梯度累加回原来的parameters\n# lr就是设置到这里的\noptimizer = AdamW(model.parameters(), lr=5e-4)\n# lr_scheduler， 负责对learning_rate进行调整\nlr_scheduler = StepLR(optimizer, 2)\n# 3个epoch，表示对数据集训练三次",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "dataloader",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "dataloader = DataLoader(dataset, batch_size=4, collate_fn=default_collate)\n# optimizer，负责将梯度累加回原来的parameters\n# lr就是设置到这里的\noptimizer = AdamW(model.parameters(), lr=5e-4)\n# lr_scheduler， 负责对learning_rate进行调整\nlr_scheduler = StepLR(optimizer, 2)\n# 3个epoch，表示对数据集训练三次\nfor i in range(3):\n    # 从dataloader取数\n    for batch in dataloader:",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "optimizer = AdamW(model.parameters(), lr=5e-4)\n# lr_scheduler， 负责对learning_rate进行调整\nlr_scheduler = StepLR(optimizer, 2)\n# 3个epoch，表示对数据集训练三次\nfor i in range(3):\n    # 从dataloader取数\n    for batch in dataloader:\n        # 进行模型forward和loss计算\n        output = model(**batch)\n        # backward过程会对每个可训练的parameters产生梯度",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "lr_scheduler",
+        "kind": 5,
+        "importPath": "huggingface.test10",
+        "description": "huggingface.test10",
+        "peekOfCode": "lr_scheduler = StepLR(optimizer, 2)\n# 3个epoch，表示对数据集训练三次\nfor i in range(3):\n    # 从dataloader取数\n    for batch in dataloader:\n        # 进行模型forward和loss计算\n        output = model(**batch)\n        # backward过程会对每个可训练的parameters产生梯度\n        output[\"loss\"].backward()\n        # 建议此时看下model中linear的grad值",
+        "detail": "huggingface.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()\n# response, history = model.chat(tokenizer, \"你好\", history=[])",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()\n# response, history = model.chat(tokenizer, \"你好\", history=[])\n# print(response)",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()\n# response, history = model.chat(tokenizer, \"你好\", history=[])\n# print(response)\n# response, history = model.chat(tokenizer, \"晚上睡不着应该怎么办\", history=history)",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm-6b\", trust_remote_code=True)\nmodel = (\n    AutoModel.from_pretrained(\"THUDM/chatglm-6b\", trust_remote_code=True).half().cuda()\n)\nmodel = model.eval()\nresponse, history = model.chat(tokenizer, \"你好\", history=[])\nprint(response)\n# 👋!我是人工智能助手 ChatGLM-6B,很高兴见到你,欢迎问我任何问题。\nresponse, history = model.chat(tokenizer, \"晚上睡不着应该怎么办\", history=history)\nprint(response)",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "model = (\n    AutoModel.from_pretrained(\"THUDM/chatglm-6b\", trust_remote_code=True).half().cuda()\n)\nmodel = model.eval()\nresponse, history = model.chat(tokenizer, \"你好\", history=[])\nprint(response)\n# 👋!我是人工智能助手 ChatGLM-6B,很高兴见到你,欢迎问我任何问题。\nresponse, history = model.chat(tokenizer, \"晚上睡不着应该怎么办\", history=history)\nprint(response)",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test11",
+        "description": "huggingface.test11",
+        "peekOfCode": "model = model.eval()\nresponse, history = model.chat(tokenizer, \"你好\", history=[])\nprint(response)\n# 👋!我是人工智能助手 ChatGLM-6B,很高兴见到你,欢迎问我任何问题。\nresponse, history = model.chat(tokenizer, \"晚上睡不着应该怎么办\", history=history)\nprint(response)",
+        "detail": "huggingface.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ntokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ntokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")\nmodel = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ntokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")\nmodel = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")\ntext = \"This is an incomplete sentence where some words are missing.\"",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom transformers import PerceiverTokenizer, PerceiverForMaskedLM\n# 创建一个名为 device 的设备对象，表示使用 CPU\ndevice = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ntokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")\nmodel = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")\ntext = \"This is an incomplete sentence where some words are missing.\"\n# prepare input",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "device = torch.device(\"cpu\")\n# 创建一个名为 device 的设备对象，表示使用 GPU（如果可用）\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ntokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")\nmodel = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")\ntext = \"This is an incomplete sentence where some words are missing.\"\n# prepare input\nencoding = tokenizer(text, padding=\"max_length\", return_tensors=\"pt\")\n# mask \" missing.\". Note that the model performs much better if the masked span starts with a space.\nencoding.input_ids[0, 52:61] = tokenizer.mask_token_id",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ntokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")\nmodel = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")\ntext = \"This is an incomplete sentence where some words are missing.\"\n# prepare input\nencoding = tokenizer(text, padding=\"max_length\", return_tensors=\"pt\")\n# mask \" missing.\". Note that the model performs much better if the masked span starts with a space.\nencoding.input_ids[0, 52:61] = tokenizer.mask_token_id\ninputs, input_mask = encoding.input_ids.to(device), encoding.attention_mask.to(device)\n# forward pass",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "tokenizer = PerceiverTokenizer.from_pretrained(\"deepmind/language-perceiver\")\nmodel = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")\ntext = \"This is an incomplete sentence where some words are missing.\"\n# prepare input\nencoding = tokenizer(text, padding=\"max_length\", return_tensors=\"pt\")\n# mask \" missing.\". Note that the model performs much better if the masked span starts with a space.\nencoding.input_ids[0, 52:61] = tokenizer.mask_token_id\ninputs, input_mask = encoding.input_ids.to(device), encoding.attention_mask.to(device)\n# forward pass\noutputs = model(inputs=inputs, attention_mask=input_mask)",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "model = PerceiverForMaskedLM.from_pretrained(\"deepmind/language-perceiver\")\ntext = \"This is an incomplete sentence where some words are missing.\"\n# prepare input\nencoding = tokenizer(text, padding=\"max_length\", return_tensors=\"pt\")\n# mask \" missing.\". Note that the model performs much better if the masked span starts with a space.\nencoding.input_ids[0, 52:61] = tokenizer.mask_token_id\ninputs, input_mask = encoding.input_ids.to(device), encoding.attention_mask.to(device)\n# forward pass\noutputs = model(inputs=inputs, attention_mask=input_mask)\nlogits = outputs.logits",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "text = \"This is an incomplete sentence where some words are missing.\"\n# prepare input\nencoding = tokenizer(text, padding=\"max_length\", return_tensors=\"pt\")\n# mask \" missing.\". Note that the model performs much better if the masked span starts with a space.\nencoding.input_ids[0, 52:61] = tokenizer.mask_token_id\ninputs, input_mask = encoding.input_ids.to(device), encoding.attention_mask.to(device)\n# forward pass\noutputs = model(inputs=inputs, attention_mask=input_mask)\nlogits = outputs.logits\nmasked_tokens_predictions = logits[0, 51:61].argmax(dim=-1)",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "encoding",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "encoding = tokenizer(text, padding=\"max_length\", return_tensors=\"pt\")\n# mask \" missing.\". Note that the model performs much better if the masked span starts with a space.\nencoding.input_ids[0, 52:61] = tokenizer.mask_token_id\ninputs, input_mask = encoding.input_ids.to(device), encoding.attention_mask.to(device)\n# forward pass\noutputs = model(inputs=inputs, attention_mask=input_mask)\nlogits = outputs.logits\nmasked_tokens_predictions = logits[0, 51:61].argmax(dim=-1)\nprint(tokenizer.decode(masked_tokens_predictions))\n# >>> should print \" missing.\"",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "outputs",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "outputs = model(inputs=inputs, attention_mask=input_mask)\nlogits = outputs.logits\nmasked_tokens_predictions = logits[0, 51:61].argmax(dim=-1)\nprint(tokenizer.decode(masked_tokens_predictions))\n# >>> should print \" missing.\"",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "logits",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "logits = outputs.logits\nmasked_tokens_predictions = logits[0, 51:61].argmax(dim=-1)\nprint(tokenizer.decode(masked_tokens_predictions))\n# >>> should print \" missing.\"",
+        "detail": "huggingface.test2",
+        "documentation": {}
+    },
+    {
+        "label": "masked_tokens_predictions",
+        "kind": 5,
+        "importPath": "huggingface.test2",
+        "description": "huggingface.test2",
+        "peekOfCode": "masked_tokens_predictions = logits[0, 51:61].argmax(dim=-1)\nprint(tokenizer.decode(masked_tokens_predictions))\n# >>> should print \" missing.\"",
+        "detail": "huggingface.test2",
         "documentation": {}
     },
     {
@@ -3352,6 +5007,105 @@
         "documentation": {}
     },
     {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,\n    batch_size=16,",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,\n    batch_size=16,\n    logging_steps=20,",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "sft_args",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "sft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,\n    batch_size=16,\n    logging_steps=20,\n    num_train_epochs=40,\n    learning_rate=1e-4,",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "output = sft_main(sft_args)\nbest_model_checkpoint = output[\"best_model_checkpoint\"]\nprint(f\"best_model_checkpoint: {best_model_checkpoint}\")",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
+        "label": "best_model_checkpoint",
+        "kind": 5,
+        "importPath": "modelScope.qwen_14b_sft",
+        "description": "modelScope.qwen_14b_sft",
+        "peekOfCode": "best_model_checkpoint = output[\"best_model_checkpoint\"]\nprint(f\"best_model_checkpoint: {best_model_checkpoint}\")",
+        "detail": "modelScope.qwen_14b_sft",
+        "documentation": {}
+    },
+    {
         "label": "model_dir",
         "kind": 5,
         "importPath": "modelScope.test",
@@ -3595,6 +5349,555 @@
         "documentation": {}
     },
     {
+        "label": "tokenize_function",
+        "kind": 2,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "def tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",\n        truncation=True,\n        max_length=128,\n    )\ntrain_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "model = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "lora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "model = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "train_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))\n)",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "val_dataset",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "val_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))\n)\ndef tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "train_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)\narguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "val_dataset",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "val_dataset = val_dataset.map(tokenize_function)\narguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "arguments",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "arguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,\n    data_collator=default_data_collator,",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "modelScope.test06",
+        "description": "modelScope.test06",
+        "peekOfCode": "trainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,\n    data_collator=default_data_collator,\n)\ntrainer.train()",
+        "detail": "modelScope.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "model = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(\"start\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(\"start\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))\noutputs = model(\n    **tokenizer(\"This is an example sentence for classification.\", return_tensors=\"pt\")\n)",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "lora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(\"start\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))\noutputs = model(\n    **tokenizer(\"This is an example sentence for classification.\", return_tensors=\"pt\")\n)\nlogits = outputs.logits\nprobabilities = logits.softmax(dim=1)\nprint(probabilities)",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "model = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(\"start\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))\noutputs = model(\n    **tokenizer(\"This is an example sentence for classification.\", return_tensors=\"pt\")\n)\nlogits = outputs.logits\nprobabilities = logits.softmax(dim=1)\nprint(probabilities)\npredicted_class_index = probabilities.argmax(dim=1)",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "outputs",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "outputs = model(\n    **tokenizer(\"This is an example sentence for classification.\", return_tensors=\"pt\")\n)\nlogits = outputs.logits\nprobabilities = logits.softmax(dim=1)\nprint(probabilities)\npredicted_class_index = probabilities.argmax(dim=1)\nprint(predicted_class_index)\npredicted_label = tokenizer.decode(predicted_class_index)\nprint(f\"Predicted label: {predicted_label}\")",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "logits",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "logits = outputs.logits\nprobabilities = logits.softmax(dim=1)\nprint(probabilities)\npredicted_class_index = probabilities.argmax(dim=1)\nprint(predicted_class_index)\npredicted_label = tokenizer.decode(predicted_class_index)\nprint(f\"Predicted label: {predicted_label}\")\nprint(\"end\")",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "probabilities",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "probabilities = logits.softmax(dim=1)\nprint(probabilities)\npredicted_class_index = probabilities.argmax(dim=1)\nprint(predicted_class_index)\npredicted_label = tokenizer.decode(predicted_class_index)\nprint(f\"Predicted label: {predicted_label}\")\nprint(\"end\")",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "predicted_class_index",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "predicted_class_index = probabilities.argmax(dim=1)\nprint(predicted_class_index)\npredicted_label = tokenizer.decode(predicted_class_index)\nprint(f\"Predicted label: {predicted_label}\")\nprint(\"end\")",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "predicted_label",
+        "kind": 5,
+        "importPath": "modelScope.test07",
+        "description": "modelScope.test07",
+        "peekOfCode": "predicted_label = tokenizer.decode(predicted_class_index)\nprint(f\"Predicted label: {predicted_label}\")\nprint(\"end\")",
+        "detail": "modelScope.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "model = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "lora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "modelScope.test08",
+        "description": "modelScope.test08",
+        "peekOfCode": "model = Swift.prepare_model(model, lora_config)",
+        "detail": "modelScope.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HF_HOME\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat\ntemplate_type = get_default_template_type(model_type)",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['CUDA_VISIBLE_DEVICES']",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "os.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat\ntemplate_type = get_default_template_type(model_type)\nllm_engine = get_vllm_engine(model_type, model_dir=model_dir)",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "model_dir",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "model_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat\ntemplate_type = get_default_template_type(model_type)\nllm_engine = get_vllm_engine(model_type, model_dir=model_dir)\ntokenizer = llm_engine.tokenizer\ntemplate = get_template(template_type, tokenizer)\nquery = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "model_type",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "model_type = ModelType.qwen_7b_chat\ntemplate_type = get_default_template_type(model_type)\nllm_engine = get_vllm_engine(model_type, model_dir=model_dir)\ntokenizer = llm_engine.tokenizer\ntemplate = get_template(template_type, tokenizer)\nquery = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "template_type",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "template_type = get_default_template_type(model_type)\nllm_engine = get_vllm_engine(model_type, model_dir=model_dir)\ntokenizer = llm_engine.tokenizer\ntemplate = get_template(template_type, tokenizer)\nquery = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "llm_engine",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "llm_engine = get_vllm_engine(model_type, model_dir=model_dir)\ntokenizer = llm_engine.tokenizer\ntemplate = get_template(template_type, tokenizer)\nquery = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "tokenizer = llm_engine.tokenizer\ntemplate = get_template(template_type, tokenizer)\nquery = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "template = get_template(template_type, tokenizer)\nquery = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "query",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "query = '你好'\nresp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": "modelScope.test09",
+        "description": "modelScope.test09",
+        "peekOfCode": "resp = inference_vllm(llm_engine, template, [{'query': query}])[0]\nprint(f\"response: {resp['response']}\")\nprint(f\"history: {resp['history']}\")",
+        "detail": "modelScope.test09",
+        "documentation": {}
+    },
+    {
         "label": "MySQL",
         "kind": 6,
         "importPath": "my_utils.MysqlUtility",
@@ -3727,6 +6030,78 @@
         "description": "suanfa.mian03",
         "peekOfCode": "result = ocr.ocr(img_path, cls=True)\nfor line in result:\n    print(line)\n    print(line[0][1][0])\n# 注：\n# result是一个list，每个item包含了文本框，文字和识别置信度\n# line的格式为：\n# [[[3.0, 149.0], [43.0, 149.0], [43.0, 163.0], [3.0, 163.0]], ('人心安', 0.6762619018554688)]\n# 文字框 boxes = line[0]，包含文字框的四个角的(x,y)坐标\n# 文字 txts = line[1][0]",
         "detail": "suanfa.mian03",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "model = models.resnet18(pretrained=True)\n# 修改模型的输出层\nnum_classes = 10  # 替换为目标任务的类别数\nnum_features = model.fc.in_features\nmodel.fc = nn.Linear(num_features, num_classes)\n# 定义损失函数和优化器\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n# 加载数据集并进行训练\ntrain_loader = \"\"  # 替换为训练集的数据加载器",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "num_classes",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "num_classes = 10  # 替换为目标任务的类别数\nnum_features = model.fc.in_features\nmodel.fc = nn.Linear(num_features, num_classes)\n# 定义损失函数和优化器\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n# 加载数据集并进行训练\ntrain_loader = \"\"  # 替换为训练集的数据加载器\nnum_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "num_features",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "num_features = model.fc.in_features\nmodel.fc = nn.Linear(num_features, num_classes)\n# 定义损失函数和优化器\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n# 加载数据集并进行训练\ntrain_loader = \"\"  # 替换为训练集的数据加载器\nnum_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):\n    for images, labels in train_loader:",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.fc",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "model.fc = nn.Linear(num_features, num_classes)\n# 定义损失函数和优化器\ncriterion = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n# 加载数据集并进行训练\ntrain_loader = \"\"  # 替换为训练集的数据加载器\nnum_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):\n    for images, labels in train_loader:\n        optimizer.zero_grad()",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "criterion",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "criterion = nn.CrossEntropyLoss()\noptimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n# 加载数据集并进行训练\ntrain_loader = \"\"  # 替换为训练集的数据加载器\nnum_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):\n    for images, labels in train_loader:\n        optimizer.zero_grad()\n        # 前向传播\n        outputs = model(images)",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n# 加载数据集并进行训练\ntrain_loader = \"\"  # 替换为训练集的数据加载器\nnum_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):\n    for images, labels in train_loader:\n        optimizer.zero_grad()\n        # 前向传播\n        outputs = model(images)\n        loss = criterion(outputs, labels)",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "train_loader",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "train_loader = \"\"  # 替换为训练集的数据加载器\nnum_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):\n    for images, labels in train_loader:\n        optimizer.zero_grad()\n        # 前向传播\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        # 反向传播和优化\n        loss.backward()",
+        "detail": "weitiao.test01",
+        "documentation": {}
+    },
+    {
+        "label": "num_epochs",
+        "kind": 5,
+        "importPath": "weitiao.test01",
+        "description": "weitiao.test01",
+        "peekOfCode": "num_epochs = 10  # 迭代次数\nfor epoch in range(num_epochs):\n    for images, labels in train_loader:\n        optimizer.zero_grad()\n        # 前向传播\n        outputs = model(images)\n        loss = criterion(outputs, labels)\n        # 反向传播和优化\n        loss.backward()\n        optimizer.step()",
+        "detail": "weitiao.test01",
         "documentation": {}
     },
     {
