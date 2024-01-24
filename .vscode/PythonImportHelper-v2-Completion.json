@@ -57,6 +57,254 @@
         "documentation": {}
     },
     {
+        "label": "TextLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "TextLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain.embeddings.openai",
+        "description": "langchain.embeddings.openai",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings.openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain.embeddings.openai",
+        "description": "langchain.embeddings.openai",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings.openai",
+        "documentation": {}
+    },
+    {
+        "label": "DeepLake",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "DeepLake",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationalRetrievalChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "APIChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMBashChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMCheckerChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMRequestsChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMSummarizationCheckerChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMSummarizationCheckerChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMSummarizationCheckerChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIModerationChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "SequentialChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleSequentialChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "RetrievalQA",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
         "label": "AutoModelForSequenceClassification",
         "importPath": "modelscope",
         "description": "modelscope",
@@ -1313,147 +1561,11 @@
         "documentation": {}
     },
     {
-        "label": "FAISS",
-        "importPath": "langchain.vectorstores",
-        "description": "langchain.vectorstores",
-        "isExtraImport": true,
-        "detail": "langchain.vectorstores",
-        "documentation": {}
-    },
-    {
         "label": "API_RESPONSE_PROMPT",
         "importPath": "langchain.chains.api.prompt",
         "description": "langchain.chains.api.prompt",
         "isExtraImport": true,
         "detail": "langchain.chains.api.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "APIChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMBashChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMCheckerChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMRequestsChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMSummarizationCheckerChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMSummarizationCheckerChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMSummarizationCheckerChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "OpenAIModerationChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "SequentialChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "SimpleSequentialChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "RetrievalQA",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "LLMChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
-        "documentation": {}
-    },
-    {
-        "label": "ConversationChain",
-        "importPath": "langchain.chains",
-        "description": "langchain.chains",
-        "isExtraImport": true,
-        "detail": "langchain.chains",
         "documentation": {}
     },
     {
@@ -1555,14 +1667,6 @@
         "documentation": {}
     },
     {
-        "label": "TextLoader",
-        "importPath": "langchain.document_loaders",
-        "description": "langchain.document_loaders",
-        "isExtraImport": true,
-        "detail": "langchain.document_loaders",
-        "documentation": {}
-    },
-    {
         "label": "VectorstoreIndexCreator",
         "importPath": "langchain.indexes",
         "description": "langchain.indexes",
@@ -1601,46 +1705,6 @@
         "description": "config",
         "isExtraImport": true,
         "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "ChatOpenAI",
-        "importPath": "langchain.chat_models",
-        "description": "langchain.chat_models",
-        "isExtraImport": true,
-        "detail": "langchain.chat_models",
-        "documentation": {}
-    },
-    {
-        "label": "ChatOpenAI",
-        "importPath": "langchain.chat_models",
-        "description": "langchain.chat_models",
-        "isExtraImport": true,
-        "detail": "langchain.chat_models",
-        "documentation": {}
-    },
-    {
-        "label": "ChatOpenAI",
-        "importPath": "langchain.chat_models",
-        "description": "langchain.chat_models",
-        "isExtraImport": true,
-        "detail": "langchain.chat_models",
-        "documentation": {}
-    },
-    {
-        "label": "ChatOpenAI",
-        "importPath": "langchain.chat_models",
-        "description": "langchain.chat_models",
-        "isExtraImport": true,
-        "detail": "langchain.chat_models",
-        "documentation": {}
-    },
-    {
-        "label": "ChatOpenAI",
-        "importPath": "langchain.chat_models",
-        "description": "langchain.chat_models",
-        "isExtraImport": true,
-        "detail": "langchain.chat_models",
         "documentation": {}
     },
     {
@@ -2088,6 +2152,249 @@
         "description": "autogen.test02",
         "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\ndef main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST.json\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\"agent\", llm_config={\"config_list\": config_list})\n    # Create the agent that represents the user in the conversation.",
         "detail": "autogen.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"ACTIVELOOP_TOKEN\"\n] = \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTcwNjA4Mjc0NywiZXhwIjoxNzM4MzA5OTM0fQ.eyJpZCI6InlhbmdsaW5sb25nNiJ9.SNbGhqyihTBsiGhk6SOobDtvWwl0mxW-8YIokUGlvZdu2Z4-db4bnMWK_LIexTwZHHQeYmdHNlqE3gulUULTeg\"\n# Please manually enter OpenAI Key\nfrom langchain.document_loaders import TextLoader\n# root_dir = \"../\"\nroot_dir = \"H:\\\\WorkSpaces\\\\temp\\\\develop\\\\car-service-ordercenter\"",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"ACTIVELOOP_TOKEN\"\n] = \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTcwNjA4Mjc0NywiZXhwIjoxNzM4MzA5OTM0fQ.eyJpZCI6InlhbmdsaW5sb25nNiJ9.SNbGhqyihTBsiGhk6SOobDtvWwl0mxW-8YIokUGlvZdu2Z4-db4bnMWK_LIexTwZHHQeYmdHNlqE3gulUULTeg\"\n# Please manually enter OpenAI Key\nfrom langchain.document_loaders import TextLoader\n# root_dir = \"../\"\nroot_dir = \"H:\\\\WorkSpaces\\\\temp\\\\develop\\\\car-service-ordercenter\"\ndocs = []\nfor dirpath, dirnames, filenames in os.walk(root_dir):",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "]",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "] = \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTcwNjA4Mjc0NywiZXhwIjoxNzM4MzA5OTM0fQ.eyJpZCI6InlhbmdsaW5sb25nNiJ9.SNbGhqyihTBsiGhk6SOobDtvWwl0mxW-8YIokUGlvZdu2Z4-db4bnMWK_LIexTwZHHQeYmdHNlqE3gulUULTeg\"\n# Please manually enter OpenAI Key\nfrom langchain.document_loaders import TextLoader\n# root_dir = \"../\"\nroot_dir = \"H:\\\\WorkSpaces\\\\temp\\\\develop\\\\car-service-ordercenter\"\ndocs = []\nfor dirpath, dirnames, filenames in os.walk(root_dir):\n    print(\"filenames\", filenames)\n    for file in filenames:\n        # if file.endswith(\".py\") and \"/.venv/\" not in dirpath:",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "root_dir",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "root_dir = \"H:\\\\WorkSpaces\\\\temp\\\\develop\\\\car-service-ordercenter\"\ndocs = []\nfor dirpath, dirnames, filenames in os.walk(root_dir):\n    print(\"filenames\", filenames)\n    for file in filenames:\n        # if file.endswith(\".py\") and \"/.venv/\" not in dirpath:\n        if (\n            file.endswith(\".java\")\n            or file.endswith(\".xml\")\n            or file.endswith(\".properties\")",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "docs",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "docs = []\nfor dirpath, dirnames, filenames in os.walk(root_dir):\n    print(\"filenames\", filenames)\n    for file in filenames:\n        # if file.endswith(\".py\") and \"/.venv/\" not in dirpath:\n        if (\n            file.endswith(\".java\")\n            or file.endswith(\".xml\")\n            or file.endswith(\".properties\")\n            and \"/.venv/\" not in dirpath",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "text_splitter",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\ntexts = text_splitter.split_documents(docs)\nprint(f\"{len(texts)}\")\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nembeddings = OpenAIEmbeddings()\nfrom langchain.vectorstores import DeepLake\ndb = DeepLake.from_documents(\n    # texts, embeddings, dataset_path=f\"hub://yanglinlong6/my-code\"\n    texts,\n    embeddings,",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "texts",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "texts = text_splitter.split_documents(docs)\nprint(f\"{len(texts)}\")\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nembeddings = OpenAIEmbeddings()\nfrom langchain.vectorstores import DeepLake\ndb = DeepLake.from_documents(\n    # texts, embeddings, dataset_path=f\"hub://yanglinlong6/my-code\"\n    texts,\n    embeddings,\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "embeddings = OpenAIEmbeddings()\nfrom langchain.vectorstores import DeepLake\ndb = DeepLake.from_documents(\n    # texts, embeddings, dataset_path=f\"hub://yanglinlong6/my-code\"\n    texts,\n    embeddings,\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",\n)\nprint(db)",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "deeplake.test01",
+        "description": "deeplake.test01",
+        "peekOfCode": "db = DeepLake.from_documents(\n    # texts, embeddings, dataset_path=f\"hub://yanglinlong6/my-code\"\n    texts,\n    embeddings,\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",\n)\nprint(db)",
+        "detail": "deeplake.test01",
+        "documentation": {}
+    },
+    {
+        "label": "filter",
+        "kind": 2,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "def filter(x):\n    # filter based on source code\n    if \"something\" in x[\"text\"].data()[\"value\"]:\n        return False\n    # filter based on path e.g. extension\n    metadata = x[\"metadata\"].data()[\"value\"]\n    return \"only_this\" in metadata[\"source\"] or \"also_that\" in metadata[\"source\"]\n### turn on below for custom filtering\n# retriever.search_kwargs['filter'] = filter\nfrom langchain.chains import ConversationalRetrievalChain",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"ACTIVELOOP_TOKEN\"\n] = \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTcwNjA4Mjc0NywiZXhwIjoxNzM4MzA5OTM0fQ.eyJpZCI6InlhbmdsaW5sb25nNiJ9.SNbGhqyihTBsiGhk6SOobDtvWwl0mxW-8YIokUGlvZdu2Z4-db4bnMWK_LIexTwZHHQeYmdHNlqE3gulUULTeg\"\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nfrom langchain.vectorstores import DeepLake\nembeddings = OpenAIEmbeddings()\ndb = DeepLake(",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"ACTIVELOOP_TOKEN\"\n] = \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTcwNjA4Mjc0NywiZXhwIjoxNzM4MzA5OTM0fQ.eyJpZCI6InlhbmdsaW5sb25nNiJ9.SNbGhqyihTBsiGhk6SOobDtvWwl0mxW-8YIokUGlvZdu2Z4-db4bnMWK_LIexTwZHHQeYmdHNlqE3gulUULTeg\"\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nfrom langchain.vectorstores import DeepLake\nembeddings = OpenAIEmbeddings()\ndb = DeepLake(\n    # dataset_path=f\"hub://yanglinlong6/my-code\",\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "] = \"eyJhbGciOiJIUzUxMiIsImlhdCI6MTcwNjA4Mjc0NywiZXhwIjoxNzM4MzA5OTM0fQ.eyJpZCI6InlhbmdsaW5sb25nNiJ9.SNbGhqyihTBsiGhk6SOobDtvWwl0mxW-8YIokUGlvZdu2Z4-db4bnMWK_LIexTwZHHQeYmdHNlqE3gulUULTeg\"\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nfrom langchain.vectorstores import DeepLake\nembeddings = OpenAIEmbeddings()\ndb = DeepLake(\n    # dataset_path=f\"hub://yanglinlong6/my-code\",\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",\n    read_only=True,\n    embedding_function=embeddings,\n)",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "embeddings = OpenAIEmbeddings()\ndb = DeepLake(\n    # dataset_path=f\"hub://yanglinlong6/my-code\",\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",\n    read_only=True,\n    embedding_function=embeddings,\n)\nprint(\"db\", db)\n# Dataset(\n#     path=\"hub://yanglinlong6/langchain-code\",",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "db = DeepLake(\n    # dataset_path=f\"hub://yanglinlong6/my-code\",\n    dataset_path=f\"hub://yanglinlong6/car-service-ordercenter\",\n    read_only=True,\n    embedding_function=embeddings,\n)\nprint(\"db\", db)\n# Dataset(\n#     path=\"hub://yanglinlong6/langchain-code\",\n#     read_only=True,",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "retriever",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "retriever = db.as_retriever()\nretriever.search_kwargs[\"distance_metric\"] = \"cos\"\nretriever.search_kwargs[\"fetch_k\"] = 20\nretriever.search_kwargs[\"maximal_marginal_relevance\"] = True\nretriever.search_kwargs[\"k\"] = 20\ndef filter(x):\n    # filter based on source code\n    if \"something\" in x[\"text\"].data()[\"value\"]:\n        return False\n    # filter based on path e.g. extension",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "retriever.search_kwargs[\"distance_metric\"]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "retriever.search_kwargs[\"distance_metric\"] = \"cos\"\nretriever.search_kwargs[\"fetch_k\"] = 20\nretriever.search_kwargs[\"maximal_marginal_relevance\"] = True\nretriever.search_kwargs[\"k\"] = 20\ndef filter(x):\n    # filter based on source code\n    if \"something\" in x[\"text\"].data()[\"value\"]:\n        return False\n    # filter based on path e.g. extension\n    metadata = x[\"metadata\"].data()[\"value\"]",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "retriever.search_kwargs[\"fetch_k\"]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "retriever.search_kwargs[\"fetch_k\"] = 20\nretriever.search_kwargs[\"maximal_marginal_relevance\"] = True\nretriever.search_kwargs[\"k\"] = 20\ndef filter(x):\n    # filter based on source code\n    if \"something\" in x[\"text\"].data()[\"value\"]:\n        return False\n    # filter based on path e.g. extension\n    metadata = x[\"metadata\"].data()[\"value\"]\n    return \"only_this\" in metadata[\"source\"] or \"also_that\" in metadata[\"source\"]",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "retriever.search_kwargs[\"maximal_marginal_relevance\"]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "retriever.search_kwargs[\"maximal_marginal_relevance\"] = True\nretriever.search_kwargs[\"k\"] = 20\ndef filter(x):\n    # filter based on source code\n    if \"something\" in x[\"text\"].data()[\"value\"]:\n        return False\n    # filter based on path e.g. extension\n    metadata = x[\"metadata\"].data()[\"value\"]\n    return \"only_this\" in metadata[\"source\"] or \"also_that\" in metadata[\"source\"]\n### turn on below for custom filtering",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "retriever.search_kwargs[\"k\"]",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "retriever.search_kwargs[\"k\"] = 20\ndef filter(x):\n    # filter based on source code\n    if \"something\" in x[\"text\"].data()[\"value\"]:\n        return False\n    # filter based on path e.g. extension\n    metadata = x[\"metadata\"].data()[\"value\"]\n    return \"only_this\" in metadata[\"source\"] or \"also_that\" in metadata[\"source\"]\n### turn on below for custom filtering\n# retriever.search_kwargs['filter'] = filter",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "model = ChatOpenAI(model_name=\"gpt-4\")  # 'ada' 'gpt-3.5-turbo' 'gpt-4',\nqa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "qa",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "qa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "questions",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "questions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]\nchat_history = [(\"项目\", \" 总结\")]",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "chat_history",
+        "kind": 5,
+        "importPath": "deeplake.test02",
+        "description": "deeplake.test02",
+        "peekOfCode": "chat_history = [(\"项目\", \" 总结\")]\nfor question in questions:\n    result = qa({\"question\": question, \"chat_history\": chat_history})\n    # result = qa({\"question\": question})\n    chat_history.append((question, result[\"answer\"]))\n    print(f\"-> \\*\\*Question\\*\\*: {question} \")\n    print(f\"\\*\\*Answer\\*\\*: {result['answer']} \")",
+        "detail": "deeplake.test02",
+        "documentation": {}
+    },
+    {
+        "label": "get_files_in_directory",
+        "kind": 2,
+        "importPath": "deeplake.test03",
+        "description": "deeplake.test03",
+        "peekOfCode": "def get_files_in_directory(directory):\n    file_paths = []\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            file_path = os.path.join(root, file)\n            file_paths.append(file_path)\n    return file_paths\ndirectory_path = \"H:\\\\WorkSpaces\\\\temp\\\\develop\\\\car-service-ordercenter\"\nfiles = get_files_in_directory(directory_path)\n# 打印文件路径",
+        "detail": "deeplake.test03",
+        "documentation": {}
+    },
+    {
+        "label": "directory_path",
+        "kind": 5,
+        "importPath": "deeplake.test03",
+        "description": "deeplake.test03",
+        "peekOfCode": "directory_path = \"H:\\\\WorkSpaces\\\\temp\\\\develop\\\\car-service-ordercenter\"\nfiles = get_files_in_directory(directory_path)\n# 打印文件路径\nfor file in files:\n    print(file)",
+        "detail": "deeplake.test03",
+        "documentation": {}
+    },
+    {
+        "label": "files",
+        "kind": 5,
+        "importPath": "deeplake.test03",
+        "description": "deeplake.test03",
+        "peekOfCode": "files = get_files_in_directory(directory_path)\n# 打印文件路径\nfor file in files:\n    print(file)",
+        "detail": "deeplake.test03",
         "documentation": {}
     },
     {
