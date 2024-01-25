@@ -5590,16 +5590,7 @@
         "kind": 5,
         "importPath": "langgraph.test041",
         "description": "langgraph.test041",
-        "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)\n    print(\"\\n---\\n\")\ninputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.astream_log(inputs, include_types=[\"llm\"]):",
-        "detail": "langgraph.test041",
-        "documentation": {}
-    },
-    {
-        "label": "inputs",
-        "kind": 5,
-        "importPath": "langgraph.test041",
-        "description": "langgraph.test041",
-        "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.astream_log(inputs, include_types=[\"llm\"]):\n    # astream_log() yields the requested logs (here LLMs) in JSONPatch format\n    for op in output.ops:\n        if op[\"path\"] == \"/streamed_output/-\":\n            # this is the output from .stream()\n            ...\n        elif op[\"path\"].startswith(\"/logs/\") and op[\"path\"].endswith(\n            \"/streamed_output/-\"\n        ):",
+        "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)\n    print(\"\\n---\\n\")\n# inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\n# for output in app.astream_log(inputs, include_types=[\"llm\"]):",
         "detail": "langgraph.test041",
         "documentation": {}
     },

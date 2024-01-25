@@ -135,15 +135,15 @@ for output in app.stream(inputs):
     print("\n---\n")
 
 
-inputs = {"messages": [HumanMessage(content="what is the weather in sf")]}
-for output in app.astream_log(inputs, include_types=["llm"]):
-    # astream_log() yields the requested logs (here LLMs) in JSONPatch format
-    for op in output.ops:
-        if op["path"] == "/streamed_output/-":
-            # this is the output from .stream()
-            ...
-        elif op["path"].startswith("/logs/") and op["path"].endswith(
-            "/streamed_output/-"
-        ):
-            # because we chose to only include LLMs, these are LLM tokens
-            print(op["value"])
+# inputs = {"messages": [HumanMessage(content="what is the weather in sf")]}
+# for output in app.astream_log(inputs, include_types=["llm"]):
+#     # astream_log() yields the requested logs (here LLMs) in JSONPatch format
+#     for op in output.ops:
+#         if op["path"] == "/streamed_output/-":
+#             # this is the output from .stream()
+#             ...
+#         elif op["path"].startswith("/logs/") and op["path"].endswith(
+#             "/streamed_output/-"
+#         ):
+#             # because we chose to only include LLMs, these are LLM tokens
+#             print(op["value"])
