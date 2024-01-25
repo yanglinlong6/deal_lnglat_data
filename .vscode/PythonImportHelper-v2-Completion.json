@@ -2339,7 +2339,7 @@
         "kind": 5,
         "importPath": "deeplake.test02",
         "description": "deeplake.test02",
-        "peekOfCode": "model = ChatOpenAI(model_name=\"gpt-4\")  # 'ada' 'gpt-3.5-turbo' 'gpt-4',\nqa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",",
+        "peekOfCode": "model = ChatOpenAI(model_name=\"gpt-4\")  # 'ada' 'gpt-3.5-turbo' 'gpt-4',\nqa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    # \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",",
         "detail": "deeplake.test02",
         "documentation": {}
     },
@@ -2348,7 +2348,7 @@
         "kind": 5,
         "importPath": "deeplake.test02",
         "description": "deeplake.test02",
-        "peekOfCode": "qa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]",
+        "peekOfCode": "qa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    # \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]",
         "detail": "deeplake.test02",
         "documentation": {}
     },
@@ -2357,7 +2357,7 @@
         "kind": 5,
         "importPath": "deeplake.test02",
         "description": "deeplake.test02",
-        "peekOfCode": "questions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]\nchat_history = [(\"项目\", \" 总结\")]",
+        "peekOfCode": "questions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    # \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]\nchat_history = [(\"项目\", \" 总结\")]",
         "detail": "deeplake.test02",
         "documentation": {}
     },
