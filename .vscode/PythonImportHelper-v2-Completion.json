@@ -1376,6 +1376,30 @@
         "documentation": {}
     },
     {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "AgentAction",
         "importPath": "langchain.schema",
         "description": "langchain.schema",
@@ -1756,6 +1780,104 @@
         "documentation": {}
     },
     {
+        "label": "TavilySearchResults",
+        "importPath": "langchain_community.tools.tavily_search",
+        "description": "langchain_community.tools.tavily_search",
+        "isExtraImport": true,
+        "detail": "langchain_community.tools.tavily_search",
+        "documentation": {}
+    },
+    {
+        "label": "ToolExecutor",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "ToolInvocation",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "format_tool_to_openai_function",
+        "importPath": "langchain.tools.render",
+        "description": "langchain.tools.render",
+        "isExtraImport": true,
+        "detail": "langchain.tools.render",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
         "label": "DatasetName",
         "importPath": "swift.llm",
         "description": "swift.llm",
@@ -1944,6 +2066,30 @@
         "documentation": {}
     },
     {
+        "label": "ASRExecutor",
+        "importPath": "paddlespeech.cli.asr.infer",
+        "description": "paddlespeech.cli.asr.infer",
+        "isExtraImport": true,
+        "detail": "paddlespeech.cli.asr.infer",
+        "documentation": {}
+    },
+    {
+        "label": "TTSExecutor",
+        "importPath": "paddlespeech.cli.tts",
+        "description": "paddlespeech.cli.tts",
+        "isExtraImport": true,
+        "detail": "paddlespeech.cli.tts",
+        "documentation": {}
+    },
+    {
+        "label": "AudioExecutor",
+        "importPath": "paddlespeech.cli.audio",
+        "description": "paddlespeech.cli.audio",
+        "isExtraImport": true,
+        "detail": "paddlespeech.cli.audio",
+        "documentation": {}
+    },
+    {
         "label": "easyocr",
         "kind": 6,
         "isExtraImport": true,
@@ -2063,15 +2209,6 @@
         "description": "pymysql.converters",
         "isExtraImport": true,
         "detail": "pymysql.converters",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
         "documentation": {}
     },
     {
@@ -5314,6 +5451,159 @@
         "documentation": {}
     },
     {
+        "label": "AgentState",
+        "kind": 6,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "class AgentState(TypedDict):\n    messages: Annotated[Sequence[BaseMessage], operator.add]\nfrom langgraph.prebuilt import ToolInvocation\nimport json\nfrom langchain_core.messages import FunctionMessage\n# Define the function that determines whether to continue or not\ndef should_continue(state):\n    messages = state[\"messages\"]\n    last_message = messages[-1]\n    # If there is no function call, then we finish",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "should_continue",
+        "kind": 2,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "def should_continue(state):\n    messages = state[\"messages\"]\n    last_message = messages[-1]\n    # If there is no function call, then we finish\n    if \"function_call\" not in last_message.additional_kwargs:\n        return \"end\"\n    # Otherwise if there is, we continue\n    else:\n        return \"continue\"\n# Define the function that calls the model",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "call_model",
+        "kind": 2,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "def call_model(state):\n    messages = state[\"messages\"]\n    response = model.invoke(messages)\n    # We return a list, because this will get added to the existing list\n    return {\"messages\": [response]}\n# Define the function to execute tools\ndef call_tool(state):\n    messages = state[\"messages\"]\n    # Based on the continue condition\n    # we know the last message involves a function call",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "call_tool",
+        "kind": 2,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "def call_tool(state):\n    messages = state[\"messages\"]\n    # Based on the continue condition\n    # we know the last message involves a function call\n    last_message = messages[-1]\n    # We construct an ToolInvocation from the function_call\n    action = ToolInvocation(\n        tool=last_message.additional_kwargs[\"function_call\"][\"name\"],\n        tool_input=json.loads(\n            last_message.additional_kwargs[\"function_call\"][\"arguments\"]",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"TAVILY_API_KEY\"] = \"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\"\nfrom langchain_community.tools.tavily_search import TavilySearchResults\ntools = [TavilySearchResults(max_results=1)]\nfrom langgraph.prebuilt import ToolExecutor\ntool_executor = ToolExecutor(tools)\nfrom langchain_openai import ChatOpenAI\n# We will set streaming=True so that we can stream tokens\n# See the streaming section for more information on this.",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"TAVILY_API_KEY\"] = \"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\"\nfrom langchain_community.tools.tavily_search import TavilySearchResults\ntools = [TavilySearchResults(max_results=1)]\nfrom langgraph.prebuilt import ToolExecutor\ntool_executor = ToolExecutor(tools)\nfrom langchain_openai import ChatOpenAI\n# We will set streaming=True so that we can stream tokens\n# See the streaming section for more information on this.\nmodel = ChatOpenAI(temperature=0, streaming=True)",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TAVILY_API_KEY\"]",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "os.environ[\"TAVILY_API_KEY\"] = \"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\"\nfrom langchain_community.tools.tavily_search import TavilySearchResults\ntools = [TavilySearchResults(max_results=1)]\nfrom langgraph.prebuilt import ToolExecutor\ntool_executor = ToolExecutor(tools)\nfrom langchain_openai import ChatOpenAI\n# We will set streaming=True so that we can stream tokens\n# See the streaming section for more information on this.\nmodel = ChatOpenAI(temperature=0, streaming=True)\nfrom langchain.tools.render import format_tool_to_openai_function",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "tools = [TavilySearchResults(max_results=1)]\nfrom langgraph.prebuilt import ToolExecutor\ntool_executor = ToolExecutor(tools)\nfrom langchain_openai import ChatOpenAI\n# We will set streaming=True so that we can stream tokens\n# See the streaming section for more information on this.\nmodel = ChatOpenAI(temperature=0, streaming=True)\nfrom langchain.tools.render import format_tool_to_openai_function\nfunctions = [format_tool_to_openai_function(t) for t in tools]\nmodel = model.bind_functions(functions)",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "tool_executor",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "tool_executor = ToolExecutor(tools)\nfrom langchain_openai import ChatOpenAI\n# We will set streaming=True so that we can stream tokens\n# See the streaming section for more information on this.\nmodel = ChatOpenAI(temperature=0, streaming=True)\nfrom langchain.tools.render import format_tool_to_openai_function\nfunctions = [format_tool_to_openai_function(t) for t in tools]\nmodel = model.bind_functions(functions)\nfrom typing import TypedDict, Annotated, Sequence\nimport operator",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "model = ChatOpenAI(temperature=0, streaming=True)\nfrom langchain.tools.render import format_tool_to_openai_function\nfunctions = [format_tool_to_openai_function(t) for t in tools]\nmodel = model.bind_functions(functions)\nfrom typing import TypedDict, Annotated, Sequence\nimport operator\nfrom langchain_core.messages import BaseMessage\nclass AgentState(TypedDict):\n    messages: Annotated[Sequence[BaseMessage], operator.add]\nfrom langgraph.prebuilt import ToolInvocation",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "functions = [format_tool_to_openai_function(t) for t in tools]\nmodel = model.bind_functions(functions)\nfrom typing import TypedDict, Annotated, Sequence\nimport operator\nfrom langchain_core.messages import BaseMessage\nclass AgentState(TypedDict):\n    messages: Annotated[Sequence[BaseMessage], operator.add]\nfrom langgraph.prebuilt import ToolInvocation\nimport json\nfrom langchain_core.messages import FunctionMessage",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "model = model.bind_functions(functions)\nfrom typing import TypedDict, Annotated, Sequence\nimport operator\nfrom langchain_core.messages import BaseMessage\nclass AgentState(TypedDict):\n    messages: Annotated[Sequence[BaseMessage], operator.add]\nfrom langgraph.prebuilt import ToolInvocation\nimport json\nfrom langchain_core.messages import FunctionMessage\n# Define the function that determines whether to continue or not",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "workflow",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "workflow = StateGraph(AgentState)\n# Define the two nodes we will cycle between\nworkflow.add_node(\"agent\", call_model)\nworkflow.add_node(\"action\", call_tool)\n# Set the entrypoint as `agent`\n# This means that this node is the first one called\nworkflow.set_entry_point(\"agent\")\n# We now add a conditional edge\nworkflow.add_conditional_edges(\n    # First, we define the start node. We use `agent`.",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "app = workflow.compile()\nfrom langchain_core.messages import HumanMessage\ninputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\napp.invoke(inputs)\ninputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\napp.invoke(inputs)\ninputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)\n    print(\"\\n---\\n\")",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)\n    print(\"\\n---\\n\")\ninputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.astream_log(inputs, include_types=[\"llm\"]):",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 5,
+        "importPath": "langgraph.test041",
+        "description": "langgraph.test041",
+        "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.astream_log(inputs, include_types=[\"llm\"]):\n    # astream_log() yields the requested logs (here LLMs) in JSONPatch format\n    for op in output.ops:\n        if op[\"path\"] == \"/streamed_output/-\":\n            # this is the output from .stream()\n            ...\n        elif op[\"path\"].startswith(\"/logs/\") and op[\"path\"].endswith(\n            \"/streamed_output/-\"\n        ):",
+        "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
         "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
         "kind": 5,
         "importPath": "modelScope.qwen_14b_sft",
@@ -6229,6 +6519,51 @@
         "description": "my_utils.MysqlUtility",
         "peekOfCode": "def paddnum(numx, default='NULL'):\n    return default if numx == None else str(numx)\nclass MySQL:\n    u'''对MySQLdb常用函数进行封装的类'''\n    error_code = ''  # MySQL错误号码\n    _instance = None  # 本类的实例\n    _conn = None  # 数据库conn\n    _cur = None  # 游标\n    _TIMEOUT = 30  # 默认超时30秒\n    _timecount = 0",
         "detail": "my_utils.MysqlUtility",
+        "documentation": {}
+    },
+    {
+        "label": "audio",
+        "kind": 5,
+        "importPath": "paddlespeech.test01",
+        "description": "paddlespeech.test01",
+        "peekOfCode": "audio = \"zh.wav\"\nasr = ASRExecutor()\nresult = asr(audio_file=audio, model=\"conformer_online_wenetspeech\")\nprint(result)",
+        "detail": "paddlespeech.test01",
+        "documentation": {}
+    },
+    {
+        "label": "asr",
+        "kind": 5,
+        "importPath": "paddlespeech.test01",
+        "description": "paddlespeech.test01",
+        "peekOfCode": "asr = ASRExecutor()\nresult = asr(audio_file=audio, model=\"conformer_online_wenetspeech\")\nprint(result)",
+        "detail": "paddlespeech.test01",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "paddlespeech.test01",
+        "description": "paddlespeech.test01",
+        "peekOfCode": "result = asr(audio_file=audio, model=\"conformer_online_wenetspeech\")\nprint(result)",
+        "detail": "paddlespeech.test01",
+        "documentation": {}
+    },
+    {
+        "label": "tts_executor",
+        "kind": 5,
+        "importPath": "paddlespeech.test02",
+        "description": "paddlespeech.test02",
+        "peekOfCode": "tts_executor = TTSExecutor()\ntts_executor(text=\"你好，世界！\", output=\"output.wav\")\nfrom paddlespeech.cli.audio import AudioExecutor\naudio_executor = AudioExecutor()\naudio_executor(input=\"output.wav\", output=\"output01.wav\", effect=\"pitch\")",
+        "detail": "paddlespeech.test02",
+        "documentation": {}
+    },
+    {
+        "label": "audio_executor",
+        "kind": 5,
+        "importPath": "paddlespeech.test02",
+        "description": "paddlespeech.test02",
+        "peekOfCode": "audio_executor = AudioExecutor()\naudio_executor(input=\"output.wav\", output=\"output01.wav\", effect=\"pitch\")",
+        "detail": "paddlespeech.test02",
         "documentation": {}
     },
     {
