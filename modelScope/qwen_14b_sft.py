@@ -1,16 +1,16 @@
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-os.environ["HF_DATASETS_CACHE"] = "G:\huggingface"
-os.environ["HF_HOME"] = "G:\huggingface"
-os.environ["HUGGINGFACE_HUB_CACHE"] = "G:\huggingface"
-os.environ["TRANSFORMERS_CACHE"] = "G:\huggingface"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["HF_DATASETS_CACHE"] = "G:\huggingface"
+# os.environ["HF_HOME"] = "G:\huggingface"
+# os.environ["HUGGINGFACE_HUB_CACHE"] = "G:\huggingface"
+# os.environ["TRANSFORMERS_CACHE"] = "G:\huggingface"
 
 
-os.environ["MODELSCOPE_CACHE"] = "G:\modelscope"
-os.environ["MODELSCOPE_MODULES_CACHE"] = "G:\modelscope"
+# os.environ["MODELSCOPE_CACHE"] = "G:\modelscope"
+# os.environ["MODELSCOPE_MODULES_CACHE"] = "G:\modelscope"
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6,7"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6,7"
 
 from swift.llm import DatasetName, ModelType, SftArguments, sft_main
 
