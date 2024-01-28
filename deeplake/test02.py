@@ -56,8 +56,8 @@ qa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)
 questions = [
     # "What is the class hierarchy?",
     # "简要总结一下这个项目"
-    "简要总结一下这个项目每个模块,总结文字尽量在100字以内"
-    # "简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内"
+    # "简要总结一下这个项目每个模块,总结文字尽量在100字以内"
+    "简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内"
     # "What classes are derived from the Chain class?",
     # "What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?",
     # "What one improvement do you propose in code in relation to the class herarchy for the Chain class?",
