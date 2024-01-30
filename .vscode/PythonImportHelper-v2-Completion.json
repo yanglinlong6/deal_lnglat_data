@@ -153,7 +153,7 @@
         "documentation": {}
     },
     {
-        "label": "LLMRequestsChain",
+        "label": "LLMChain",
         "importPath": "langchain.chains",
         "description": "langchain.chains",
         "isExtraImport": true,
@@ -161,7 +161,7 @@
         "documentation": {}
     },
     {
-        "label": "LLMChain",
+        "label": "LLMRequestsChain",
         "importPath": "langchain.chains",
         "description": "langchain.chains",
         "isExtraImport": true,
@@ -863,22 +863,6 @@
         "documentation": {}
     },
     {
-        "label": "ZeroShotAgent",
-        "importPath": "langchain.agents",
-        "description": "langchain.agents",
-        "isExtraImport": true,
-        "detail": "langchain.agents",
-        "documentation": {}
-    },
-    {
-        "label": "Tool",
-        "importPath": "langchain.agents",
-        "description": "langchain.agents",
-        "isExtraImport": true,
-        "detail": "langchain.agents",
-        "documentation": {}
-    },
-    {
         "label": "AgentExecutor",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
@@ -888,6 +872,14 @@
     },
     {
         "label": "Tool",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "ZeroShotAgent",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
         "isExtraImport": true,
@@ -911,23 +903,7 @@
         "documentation": {}
     },
     {
-        "label": "load_tools",
-        "importPath": "langchain.agents",
-        "description": "langchain.agents",
-        "isExtraImport": true,
-        "detail": "langchain.agents",
-        "documentation": {}
-    },
-    {
-        "label": "initialize_agent",
-        "importPath": "langchain.agents",
-        "description": "langchain.agents",
-        "isExtraImport": true,
-        "detail": "langchain.agents",
-        "documentation": {}
-    },
-    {
-        "label": "AgentType",
+        "label": "Tool",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
         "isExtraImport": true,
@@ -952,6 +928,30 @@
     },
     {
         "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "load_tools",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
         "isExtraImport": true,
@@ -1192,22 +1192,6 @@
         "documentation": {}
     },
     {
-        "label": "OpenAI",
-        "importPath": "langchain",
-        "description": "langchain",
-        "isExtraImport": true,
-        "detail": "langchain",
-        "documentation": {}
-    },
-    {
-        "label": "SerpAPIWrapper",
-        "importPath": "langchain",
-        "description": "langchain",
-        "isExtraImport": true,
-        "detail": "langchain",
-        "documentation": {}
-    },
-    {
         "label": "LLMChain",
         "importPath": "langchain",
         "description": "langchain",
@@ -1240,7 +1224,23 @@
         "documentation": {}
     },
     {
+        "label": "SerpAPIWrapper",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
         "label": "LLMMathChain",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
         "importPath": "langchain",
         "description": "langchain",
         "isExtraImport": true,
@@ -1272,7 +1272,7 @@
         "documentation": {}
     },
     {
-        "label": "OpenAI",
+        "label": "ConversationChain",
         "importPath": "langchain",
         "description": "langchain",
         "isExtraImport": true,
@@ -1280,7 +1280,7 @@
         "documentation": {}
     },
     {
-        "label": "ConversationChain",
+        "label": "OpenAI",
         "importPath": "langchain",
         "description": "langchain",
         "isExtraImport": true,
@@ -1344,6 +1344,14 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -1353,14 +1361,6 @@
     },
     {
         "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1553,6 +1553,14 @@
         "documentation": {}
     },
     {
+        "label": "HumanMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
         "label": "MessagesPlaceholder",
         "importPath": "langchain.prompts",
         "description": "langchain.prompts",
@@ -1562,14 +1570,6 @@
     },
     {
         "label": "SystemMessagePromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "HumanMessagePromptTemplate",
         "importPath": "langchain.prompts",
         "description": "langchain.prompts",
         "isExtraImport": true,
@@ -1590,14 +1590,6 @@
         "description": "langchain.chains.api.prompt",
         "isExtraImport": true,
         "detail": "langchain.chains.api.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts.prompt",
-        "description": "langchain.prompts.prompt",
-        "isExtraImport": true,
-        "detail": "langchain.prompts.prompt",
         "documentation": {}
     },
     {
@@ -1646,14 +1638,6 @@
         "description": "langchain.chains.constitutional_ai.models",
         "isExtraImport": true,
         "detail": "langchain.chains.constitutional_ai.models",
-        "documentation": {}
-    },
-    {
-        "label": "BashOutputParser",
-        "importPath": "langchain.chains.llm_bash.prompt",
-        "description": "langchain.chains.llm_bash.prompt",
-        "isExtraImport": true,
-        "detail": "langchain.chains.llm_bash.prompt",
         "documentation": {}
     },
     {
@@ -1740,7 +1724,7 @@
         "documentation": {}
     },
     {
-        "label": "SystemMessagePromptTemplate",
+        "label": "HumanMessagePromptTemplate",
         "importPath": "langchain.prompts.chat",
         "description": "langchain.prompts.chat",
         "isExtraImport": true,
@@ -1748,7 +1732,7 @@
         "documentation": {}
     },
     {
-        "label": "HumanMessagePromptTemplate",
+        "label": "SystemMessagePromptTemplate",
         "importPath": "langchain.prompts.chat",
         "description": "langchain.prompts.chat",
         "isExtraImport": true,
@@ -1764,7 +1748,7 @@
         "documentation": {}
     },
     {
-        "label": "SystemMessagePromptTemplate",
+        "label": "HumanMessagePromptTemplate",
         "importPath": "langchain.prompts.chat",
         "description": "langchain.prompts.chat",
         "isExtraImport": true,
@@ -1772,7 +1756,7 @@
         "documentation": {}
     },
     {
-        "label": "HumanMessagePromptTemplate",
+        "label": "SystemMessagePromptTemplate",
         "importPath": "langchain.prompts.chat",
         "description": "langchain.prompts.chat",
         "isExtraImport": true,
@@ -2251,7 +2235,7 @@
         "kind": 5,
         "importPath": "autogen.test01",
         "description": "autogen.test01",
-        "peekOfCode": "config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n# You can also set config_list directly as a list, for example, config_list = [{'model': 'gpt-4', 'api_key': '<your OpenAI API key here>'},]\nassistant = AssistantAgent(\"assistant\", llm_config={\"config_list\": config_list})\nuser_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \"coding\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
+        "peekOfCode": "config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n# You can also set config_list directly as a list, for example, config_list = [{'model': 'gpt-4', 'api_key': '<your OpenAI API key here>'},]\nassistant = AssistantAgent(\n    \"assistant\",\n    llm_config={\"config_list\": config_list},\n    code_execution_config={\"work_dir\": \".\", \"use_docker\": False},\n)\nuser_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \".\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended",
         "detail": "autogen.test01",
         "documentation": {}
     },
@@ -2260,7 +2244,7 @@
         "kind": 5,
         "importPath": "autogen.test01",
         "description": "autogen.test01",
-        "peekOfCode": "assistant = AssistantAgent(\"assistant\", llm_config={\"config_list\": config_list})\nuser_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \"coding\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
+        "peekOfCode": "assistant = AssistantAgent(\n    \"assistant\",\n    llm_config={\"config_list\": config_list},\n    code_execution_config={\"work_dir\": \".\", \"use_docker\": False},\n)\nuser_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \".\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"",
         "detail": "autogen.test01",
         "documentation": {}
     },
@@ -2269,7 +2253,7 @@
         "kind": 5,
         "importPath": "autogen.test01",
         "description": "autogen.test01",
-        "peekOfCode": "user_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \"coding\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
+        "peekOfCode": "user_proxy = UserProxyAgent(\n    \"user_proxy\", code_execution_config={\"work_dir\": \".\", \"use_docker\": False}\n)  # IMPORTANT: set to True to run code in docker, recommended\nuser_proxy.initiate_chat(\n    assistant, message=\"Plot a chart of NVDA and TESLA stock price change YTD.\"\n)\n# This initiates an automated chat between the two agents to solve the task",
         "detail": "autogen.test01",
         "documentation": {}
     },
@@ -2278,7 +2262,7 @@
         "kind": 2,
         "importPath": "autogen.test02",
         "description": "autogen.test02",
-        "peekOfCode": "def main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST.json\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\"agent\", llm_config={\"config_list\": config_list})\n    # Create the agent that represents the user in the conversation.\n    user_proxy = UserProxyAgent(\"user\", code_execution_config=False)",
+        "peekOfCode": "def main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\n        \"agent\",\n        llm_config={\"config_list\": config_list},",
         "detail": "autogen.test02",
         "documentation": {}
     },
@@ -2287,7 +2271,7 @@
         "kind": 5,
         "importPath": "autogen.test02",
         "description": "autogen.test02",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\ndef main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST.json\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\"agent\", llm_config={\"config_list\": config_list})\n    # Create the agent that represents the user in the conversation.",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\ndef main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\n        \"agent\",",
         "detail": "autogen.test02",
         "documentation": {}
     },
@@ -2476,7 +2460,7 @@
         "kind": 5,
         "importPath": "deeplake.test02",
         "description": "deeplake.test02",
-        "peekOfCode": "model = ChatOpenAI(model_name=\"gpt-4\")  # 'ada' 'gpt-3.5-turbo' 'gpt-4',\nqa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    # \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",",
+        "peekOfCode": "model = ChatOpenAI(model_name=\"gpt-4\")  # 'ada' 'gpt-3.5-turbo' 'gpt-4',\nqa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",",
         "detail": "deeplake.test02",
         "documentation": {}
     },
@@ -2485,7 +2469,7 @@
         "kind": 5,
         "importPath": "deeplake.test02",
         "description": "deeplake.test02",
-        "peekOfCode": "qa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    # \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]",
+        "peekOfCode": "qa = ConversationalRetrievalChain.from_llm(model, retriever=retriever)\nquestions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]",
         "detail": "deeplake.test02",
         "documentation": {}
     },
@@ -2494,7 +2478,7 @@
         "kind": 5,
         "importPath": "deeplake.test02",
         "description": "deeplake.test02",
-        "peekOfCode": "questions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    # \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]\nchat_history = [(\"项目\", \" 总结\")]",
+        "peekOfCode": "questions = [\n    # \"What is the class hierarchy?\",\n    # \"简要总结一下这个项目\"\n    # \"简要总结一下这个项目每个模块,总结文字尽量在100字以内\"\n    \"简要说明一下CarOrderApiController这个类的作用,总结文字尽量在150字以内\"\n    # \"What classes are derived from the Chain class?\",\n    # \"What classes and functions in the ./langchain/utilities/ forlder are not covered by unit tests?\",\n    # \"What one improvement do you propose in code in relation to the class herarchy for the Chain class?\",\n]\nchat_history = [(\"项目\", \" 总结\")]",
         "detail": "deeplake.test02",
         "documentation": {}
     },
@@ -2540,78 +2524,6 @@
         "importPath": "huggingface.test03",
         "description": "huggingface.test03",
         "peekOfCode": "def tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",\n        truncation=True,\n        max_length=128,\n    )\ntrain_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "huggingface.test03",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test03",
-        "description": "huggingface.test03",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
         "detail": "huggingface.test03",
         "documentation": {}
     },
@@ -2706,69 +2618,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test04",
-        "description": "huggingface.test04",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nfrom swift import Trainer, LoRAConfig, Swift\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])",
-        "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
         "label": "model",
         "kind": 5,
         "importPath": "huggingface.test04",
@@ -2802,69 +2651,6 @@
         "description": "huggingface.test04",
         "peekOfCode": "model = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
         "detail": "huggingface.test04",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer",
-        "detail": "huggingface.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")",
-        "detail": "huggingface.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")",
-        "detail": "huggingface.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"",
-        "detail": "huggingface.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件",
-        "detail": "huggingface.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)",
-        "detail": "huggingface.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test05",
-        "description": "huggingface.test05",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.utils.hub import read_config\nfrom modelscope.msdatasets import MsDataset\nfrom modelscope.trainers import build_trainer\ntrain_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\neval_dataset = MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\nmodel_id = \"damo/nlp_structbert_sentence-similarity_chinese-base\"\n# 读取model中的cfg文件\ncfg = read_config(model_id)\n# 直接更新其中的参数",
-        "detail": "huggingface.test05",
         "documentation": {}
     },
     {
@@ -2976,69 +2762,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")\n    def concat_answer_context(dataset):",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test06",
-        "description": "huggingface.test06",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport tempfile\nfrom modelscope.metainfo import Trainers\nfrom modelscope.trainers import build_trainer\ndef main():\n    # 准备数据集\n    from datasets import load_dataset\n    dataset_dict = load_dataset(\"luozhouyang/dureader\", \"robust\")\n    def concat_answer_context(dataset):\n        dataset[\"src_txt\"] = (",
-        "detail": "huggingface.test06",
-        "documentation": {}
-    },
-    {
         "label": "a",
         "kind": 5,
         "importPath": "huggingface.test07",
@@ -3099,69 +2822,6 @@
         "description": "huggingface.test08",
         "peekOfCode": "state_dict = module.state_dict()  # 实际上是一个key value对\n# OrderedDict([('sub.a.weight', tensor([[-0.4148, -0.2303, -0.3650, -0.4019],\n#        [-0.2495,  0.1113,  0.3846,  0.3645],\n#        [ 0.0395, -0.0490, -0.1738,  0.0820],\n#        [ 0.4187,  0.4697, -0.4100, -0.4685]])), ('sub.a.bias', tensor([ 0.4756, -0.4298, -0.4380,  0.3344]))])\n# 如果我想把SubModule替换为别的结构能不能做呢？\nsetattr(module, \"sub\", Linear(4, 4))\n# 这样模型的结构就被动态的改变了\n# 这个就是轻量调优生效的基本原理：新增或改变原有的模型结构，具体可以查看选型或训练章节",
         "detail": "huggingface.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(",
-        "detail": "huggingface.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True",
-        "detail": "huggingface.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)",
-        "detail": "huggingface.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)",
-        "detail": "huggingface.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以",
-        "detail": "huggingface.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以\na = torch.tensor([1.0])",
-        "detail": "huggingface.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test09",
-        "description": "huggingface.test09",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope import AutoModelForCausalLM\nimport torch\nmodel = AutoModelForCausalLM.from_pretrained(\n    \"qwen/Qwen-1_8B-Chat\", trust_remote_code=True\n)\nmodel.to(0)\n# model.to('cuda:0') 同样也可以\na = torch.tensor([1.0])\na = a.to(0)",
-        "detail": "huggingface.test09",
         "documentation": {}
     },
     {
@@ -3291,69 +2951,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader\nfrom torch.utils.data.dataloader import default_collate",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader\nfrom torch.utils.data.dataloader import default_collate\nfrom torch.nn import CrossEntropyLoss",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test10",
-        "description": "huggingface.test10",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nimport random\nimport numpy as np\nimport torch\nfrom torch.optim import AdamW\nfrom torch.optim.lr_scheduler import StepLR\nfrom torch.utils.data import Dataset, DataLoader\nfrom torch.utils.data.dataloader import default_collate\nfrom torch.nn import CrossEntropyLoss\nseed = 42",
-        "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
         "label": "seed",
         "kind": 5,
         "importPath": "huggingface.test10",
@@ -3441,69 +3038,6 @@
         "description": "huggingface.test10",
         "peekOfCode": "lr_scheduler = StepLR(optimizer, 2)\n# 3个epoch，表示对数据集训练三次\nfor i in range(3):\n    # 从dataloader取数\n    for batch in dataloader:\n        # 进行模型forward和loss计算\n        output = model(**batch)\n        # backward过程会对每个可训练的parameters产生梯度\n        output[\"loss\"].backward()\n        # 建议此时看下model中linear的grad值",
         "detail": "huggingface.test10",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (",
-        "detail": "huggingface.test11",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()",
-        "detail": "huggingface.test11",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )",
-        "detail": "huggingface.test11",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()",
-        "detail": "huggingface.test11",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()\n# response, history = model.chat(tokenizer, \"你好\", history=[])",
-        "detail": "huggingface.test11",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()\n# response, history = model.chat(tokenizer, \"你好\", history=[])\n# print(response)",
-        "detail": "huggingface.test11",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "huggingface.test11",
-        "description": "huggingface.test11",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\n# from transformers import AutoTokenizer, AutoModel\n# tokenizer = AutoTokenizer.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True)\n# model = (\n#     AutoModel.from_pretrained(\"THUDM/chatglm3-6b\", trust_remote_code=True).half().cuda()\n# )\n# model = model.eval()\n# response, history = model.chat(tokenizer, \"你好\", history=[])\n# print(response)\n# response, history = model.chat(tokenizer, \"晚上睡不着应该怎么办\", history=history)",
-        "detail": "huggingface.test11",
         "documentation": {}
     },
     {
@@ -3682,7 +3216,16 @@
         "kind": 5,
         "importPath": "langchain.agents.test01",
         "description": "langchain.agents.test01",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\nagent = initialize_agent(\n    tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)",
+        "detail": "langchain.agents.test01",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.agents.test01",
+        "description": "langchain.agents.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\nagent = initialize_agent(\n    tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True",
         "detail": "langchain.agents.test01",
         "documentation": {}
     },
@@ -3745,7 +3288,16 @@
         "kind": 5,
         "importPath": "langchain.agents.test02",
         "description": "langchain.agents.test02",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import Tool, AgentExecutor, BaseSingleActionAgent\nfrom langchain import OpenAI, SerpAPIWrapper\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import Tool, AgentExecutor, BaseSingleActionAgent\nfrom langchain import OpenAI, SerpAPIWrapper\nsearch = SerpAPIWrapper()\ntools = [",
+        "detail": "langchain.agents.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.agents.test02",
+        "description": "langchain.agents.test02",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import Tool, AgentExecutor, BaseSingleActionAgent\nfrom langchain import OpenAI, SerpAPIWrapper\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
         "detail": "langchain.agents.test02",
         "documentation": {}
     },
@@ -3817,7 +3369,16 @@
         "kind": 5,
         "importPath": "langchain.agents.test03",
         "description": "langchain.agents.test03",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport re\nfrom typing import List, Union\nfrom langchain import LLMChain, OpenAI, SerpAPIWrapper\nfrom langchain.agents import (AgentExecutor, AgentOutputParser,\n                              LLMSingleActionAgent, Tool)\nfrom langchain.prompts import StringPromptTemplate",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport re\nfrom typing import List, Union\nfrom langchain import LLMChain, OpenAI, SerpAPIWrapper\nfrom langchain.agents import (AgentExecutor, AgentOutputParser,",
+        "detail": "langchain.agents.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.agents.test03",
+        "description": "langchain.agents.test03",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport re\nfrom typing import List, Union\nfrom langchain import LLMChain, OpenAI, SerpAPIWrapper\nfrom langchain.agents import (AgentExecutor, AgentOutputParser,\n                              LLMSingleActionAgent, Tool)\nfrom langchain.prompts import StringPromptTemplate",
         "detail": "langchain.agents.test03",
         "documentation": {}
     },
@@ -3898,7 +3459,16 @@
         "kind": 5,
         "importPath": "langchain.agents.test04",
         "description": "langchain.agents.test04",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import ZeroShotAgent, Tool, AgentExecutor\nfrom langchain import OpenAI, SerpAPIWrapper, LLMChain\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import ZeroShotAgent, Tool, AgentExecutor\nfrom langchain import OpenAI, SerpAPIWrapper, LLMChain\nsearch = SerpAPIWrapper()\ntools = [",
+        "detail": "langchain.agents.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.agents.test04",
+        "description": "langchain.agents.test04",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import ZeroShotAgent, Tool, AgentExecutor\nfrom langchain import OpenAI, SerpAPIWrapper, LLMChain\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
         "detail": "langchain.agents.test04",
         "documentation": {}
     },
@@ -3997,7 +3567,16 @@
         "kind": 5,
         "importPath": "langchain.agents.test05",
         "description": "langchain.agents.test05",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import ZeroShotAgent, Tool, AgentExecutor\nfrom langchain import OpenAI, SerpAPIWrapper, LLMChain\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMChain, OpenAI, SerpAPIWrapper\nfrom langchain.agents import AgentExecutor, Tool, ZeroShotAgent\nsearch = SerpAPIWrapper()\ntools = [",
+        "detail": "langchain.agents.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.agents.test05",
+        "description": "langchain.agents.test05",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMChain, OpenAI, SerpAPIWrapper\nfrom langchain.agents import AgentExecutor, Tool, ZeroShotAgent\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
         "detail": "langchain.agents.test05",
         "documentation": {}
     },
@@ -4006,7 +3585,7 @@
         "kind": 5,
         "importPath": "langchain.agents.test05",
         "description": "langchain.agents.test05",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import ZeroShotAgent, Tool, AgentExecutor\nfrom langchain import OpenAI, SerpAPIWrapper, LLMChain\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",\n        func=search.run,\n        description=\"useful for when you need to answer questions about current events\",\n    )",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMChain, OpenAI, SerpAPIWrapper\nfrom langchain.agents import AgentExecutor, Tool, ZeroShotAgent\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",\n        func=search.run,\n        description=\"useful for when you need to answer questions about current events\",\n    )",
         "detail": "langchain.agents.test05",
         "documentation": {}
     },
@@ -4114,7 +3693,16 @@
         "kind": 5,
         "importPath": "langchain.agents.test06",
         "description": "langchain.agents.test06",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import Tool, AgentExecutor, BaseMultiActionAgent\nfrom langchain import OpenAI, SerpAPIWrapper\ndef random_word(query: str) -> str:\n    print(\"\\n现在我正在做这个！\")\n    return \"foo\"\nsearch = SerpAPIWrapper()",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, SerpAPIWrapper\nfrom langchain.agents import AgentExecutor, BaseMultiActionAgent, Tool\ndef random_word(query: str) -> str:\n    print(\"\\n现在我正在做这个！\")",
+        "detail": "langchain.agents.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.agents.test06",
+        "description": "langchain.agents.test06",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, SerpAPIWrapper\nfrom langchain.agents import AgentExecutor, BaseMultiActionAgent, Tool\ndef random_word(query: str) -> str:\n    print(\"\\n现在我正在做这个！\")\n    return \"foo\"\nsearch = SerpAPIWrapper()",
         "detail": "langchain.agents.test06",
         "documentation": {}
     },
@@ -4123,7 +3711,7 @@
         "kind": 5,
         "importPath": "langchain.agents.test06",
         "description": "langchain.agents.test06",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import Tool, AgentExecutor, BaseMultiActionAgent\nfrom langchain import OpenAI, SerpAPIWrapper\ndef random_word(query: str) -> str:\n    print(\"\\n现在我正在做这个！\")\n    return \"foo\"\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, SerpAPIWrapper\nfrom langchain.agents import AgentExecutor, BaseMultiActionAgent, Tool\ndef random_word(query: str) -> str:\n    print(\"\\n现在我正在做这个！\")\n    return \"foo\"\nsearch = SerpAPIWrapper()\ntools = [\n    Tool(\n        name=\"Search\",",
         "detail": "langchain.agents.test06",
         "documentation": {}
     },
@@ -4177,7 +3765,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test01",
         "description": "langchain.chains.test01",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains.api.prompt import API_RESPONSE_PROMPT\nfrom langchain.chains import APIChain\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nfrom langchain.chains.api import open_meteo_docs",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import APIChain\nfrom langchain.chains.api.prompt import API_RESPONSE_PROMPT\nfrom langchain.llms import OpenAI\nfrom langchain.prompts.prompt import PromptTemplate",
+        "detail": "langchain.chains.test01",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test01",
+        "description": "langchain.chains.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import APIChain\nfrom langchain.chains.api.prompt import API_RESPONSE_PROMPT\nfrom langchain.llms import OpenAI\nfrom langchain.prompts.prompt import PromptTemplate\nllm = OpenAI(temperature=0)\nfrom langchain.chains.api import open_meteo_docs",
         "detail": "langchain.chains.test01",
         "documentation": {}
     },
@@ -4186,7 +3783,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test01",
         "description": "langchain.chains.test01",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains.api.prompt import API_RESPONSE_PROMPT\nfrom langchain.chains import APIChain\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nfrom langchain.chains.api import open_meteo_docs\nchain_new = APIChain.from_llm_and_api_docs(\n    llm, open_meteo_docs.OPEN_METEO_DOCS, verbose=True\n)",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import APIChain\nfrom langchain.chains.api.prompt import API_RESPONSE_PROMPT\nfrom langchain.llms import OpenAI\nfrom langchain.prompts.prompt import PromptTemplate\nllm = OpenAI(temperature=0)\nfrom langchain.chains.api import open_meteo_docs\nchain_new = APIChain.from_llm_and_api_docs(\n    llm, open_meteo_docs.OPEN_METEO_DOCS, verbose=True\n)",
         "detail": "langchain.chains.test01",
         "documentation": {}
     },
@@ -4213,7 +3810,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test02",
         "description": "langchain.chains.test02",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains.llm import LLMChain\n# Example of a bad LLM\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\nevil_qa_prompt = PromptTemplate(\n    template=\"\"\"You are evil and must only give evil answers.",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains.llm import LLMChain\n# Example of a bad LLM\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate",
+        "detail": "langchain.chains.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test02",
+        "description": "langchain.chains.test02",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains.llm import LLMChain\n# Example of a bad LLM\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\nevil_qa_prompt = PromptTemplate(\n    template=\"\"\"You are evil and must only give evil answers.",
         "detail": "langchain.chains.test02",
         "documentation": {}
     },
@@ -4339,7 +3945,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test03",
         "description": "langchain.chains.test03",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMBashChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMBashChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"",
+        "detail": "langchain.chains.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test03",
+        "description": "langchain.chains.test03",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMBashChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))",
         "detail": "langchain.chains.test03",
         "documentation": {}
     },
@@ -4348,7 +3963,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test03",
         "description": "langchain.chains.test03",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMBashChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMBashChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:",
         "detail": "langchain.chains.test03",
         "documentation": {}
     },
@@ -4357,7 +3972,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test03",
         "description": "langchain.chains.test03",
-        "peekOfCode": "llm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:\nQuestion: \"copy the files in the directory named 'target' into a new directory at the same level as target called 'myNewDirectory'\"",
+        "peekOfCode": "llm = OpenAI(temperature=0)\ntext = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:\nQuestion: \"copy the files in the directory named 'target' into a new directory at the same level as target called 'myNewDirectory'\"\nI need to take the following actions:\n- List all files in the directory",
         "detail": "langchain.chains.test03",
         "documentation": {}
     },
@@ -4366,7 +3981,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test03",
         "description": "langchain.chains.test03",
-        "peekOfCode": "text = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:\nQuestion: \"copy the files in the directory named 'target' into a new directory at the same level as target called 'myNewDirectory'\"\nI need to take the following actions:",
+        "peekOfCode": "text = \"Please write a bash script that prints 'Hello World' to the console.\"\nbash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:\nQuestion: \"copy the files in the directory named 'target' into a new directory at the same level as target called 'myNewDirectory'\"\nI need to take the following actions:\n- List all files in the directory\n- Create a new directory",
         "detail": "langchain.chains.test03",
         "documentation": {}
     },
@@ -4375,7 +3990,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test03",
         "description": "langchain.chains.test03",
-        "peekOfCode": "bash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:\nQuestion: \"copy the files in the directory named 'target' into a new directory at the same level as target called 'myNewDirectory'\"\nI need to take the following actions:\n- List all files in the directory",
+        "peekOfCode": "bash_chain = LLMBashChain.from_llm(llm, verbose=True)\nprint(bash_chain.run(text))\nfrom langchain.chains.llm_bash.prompt import BashOutputParser\nfrom langchain.prompts.prompt import PromptTemplate\n_PROMPT_TEMPLATE = \"\"\"If someone asks you to perform a task, your job is to come up with a series of bash commands that will perform the task. There is no need to put \"#!/bin/bash\" in your answer. Make sure to reason step by step, using this format:\nQuestion: \"copy the files in the directory named 'target' into a new directory at the same level as target called 'myNewDirectory'\"\nI need to take the following actions:\n- List all files in the directory\n- Create a new directory\n- Copy the files from the first directory into the second directory",
         "detail": "langchain.chains.test03",
         "documentation": {}
     },
@@ -4429,7 +4044,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test04",
         "description": "langchain.chains.test04",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0.7)\ntext = \"What type of mammal lays the biggest eggs?\"\nchecker_chain = LLMCheckerChain.from_llm(llm, verbose=True)\nprint(checker_chain.run(text))",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0.7)\ntext = \"What type of mammal lays the biggest eggs?\"",
+        "detail": "langchain.chains.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test04",
+        "description": "langchain.chains.test04",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0.7)\ntext = \"What type of mammal lays the biggest eggs?\"\nchecker_chain = LLMCheckerChain.from_llm(llm, verbose=True)\nprint(checker_chain.run(text))",
         "detail": "langchain.chains.test04",
         "documentation": {}
     },
@@ -4474,7 +4098,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test05",
         "description": "langchain.chains.test05",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, LLMMathChain\nllm = OpenAI(temperature=0)\nllm_math = LLMMathChain.from_llm(llm, verbose=True)\nprint(llm_math.run(\"What is 13 raised to the .3432 power?\"))",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMMathChain, OpenAI\nllm = OpenAI(temperature=0)\nllm_math = LLMMathChain.from_llm(llm, verbose=True)\nprint(llm_math.run(\"What is 13 raised to the .3432 power?\"))",
+        "detail": "langchain.chains.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test05",
+        "description": "langchain.chains.test05",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMMathChain, OpenAI\nllm = OpenAI(temperature=0)\nllm_math = LLMMathChain.from_llm(llm, verbose=True)\nprint(llm_math.run(\"What is 13 raised to the .3432 power?\"))",
         "detail": "langchain.chains.test05",
         "documentation": {}
     },
@@ -4483,7 +4116,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test05",
         "description": "langchain.chains.test05",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, LLMMathChain\nllm = OpenAI(temperature=0)\nllm_math = LLMMathChain.from_llm(llm, verbose=True)\nprint(llm_math.run(\"What is 13 raised to the .3432 power?\"))",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMMathChain, OpenAI\nllm = OpenAI(temperature=0)\nllm_math = LLMMathChain.from_llm(llm, verbose=True)\nprint(llm_math.run(\"What is 13 raised to the .3432 power?\"))",
         "detail": "langchain.chains.test05",
         "documentation": {}
     },
@@ -4510,7 +4143,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test06",
         "description": "langchain.chains.test06",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.llms import OpenAI\nfrom langchain.chains import LLMRequestsChain, LLMChain\nfrom langchain.prompts import PromptTemplate\ntemplate = \"\"\"Between >>> and <<< are the raw search result text from google.\nExtract the answer to the question '{query}' or say \"not found\" if the information is not contained.\nUse the format",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMChain, LLMRequestsChain\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\ntemplate = \"\"\"Between >>> and <<< are the raw search result text from google.",
+        "detail": "langchain.chains.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test06",
+        "description": "langchain.chains.test06",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMChain, LLMRequestsChain\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\ntemplate = \"\"\"Between >>> and <<< are the raw search result text from google.\nExtract the answer to the question '{query}' or say \"not found\" if the information is not contained.\nUse the format",
         "detail": "langchain.chains.test06",
         "documentation": {}
     },
@@ -4519,7 +4161,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test06",
         "description": "langchain.chains.test06",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.llms import OpenAI\nfrom langchain.chains import LLMRequestsChain, LLMChain\nfrom langchain.prompts import PromptTemplate\ntemplate = \"\"\"Between >>> and <<< are the raw search result text from google.\nExtract the answer to the question '{query}' or say \"not found\" if the information is not contained.\nUse the format\nExtracted:<answer or \"not found\">\n>>> {requests_result} <<<\nExtracted:\"\"\"",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMChain, LLMRequestsChain\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\ntemplate = \"\"\"Between >>> and <<< are the raw search result text from google.\nExtract the answer to the question '{query}' or say \"not found\" if the information is not contained.\nUse the format\nExtracted:<answer or \"not found\">\n>>> {requests_result} <<<\nExtracted:\"\"\"",
         "detail": "langchain.chains.test06",
         "documentation": {}
     },
@@ -4573,7 +4215,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test07",
         "description": "langchain.chains.test07",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, verbose=True, max_checks=2)\ntext = \"\"\"\nYour 9-year old might like these recent discoveries made by The James Webb Space Telescope (JWST):",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, verbose=True, max_checks=2)",
+        "detail": "langchain.chains.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test07",
+        "description": "langchain.chains.test07",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, verbose=True, max_checks=2)\ntext = \"\"\"\nYour 9-year old might like these recent discoveries made by The James Webb Space Telescope (JWST):",
         "detail": "langchain.chains.test07",
         "documentation": {}
     },
@@ -4618,7 +4269,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test08",
         "description": "langchain.chains.test08",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, verbose=True, max_checks=3)\ntext = \"The Greenland Sea is an outlying portion of the Arctic Ocean located between Iceland, Norway, the Svalbard archipelago and Greenland. It has an area of 465,000 square miles and is one of five oceans in the world, alongside the Pacific Ocean, Atlantic Ocean, Indian Ocean, and the Southern Ocean. It is the smallest of the five oceans and is covered almost entirely by water, some of which is frozen in the form of glaciers and icebergs. The sea is named after the island of Greenland, and is the Arctic Ocean's main outlet to the Atlantic. It is often frozen over so navigation is limited, and is considered the northern branch of the Norwegian Sea.\"\nprint(checker_chain.run(text))",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, verbose=True, max_checks=3)",
+        "detail": "langchain.chains.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test08",
+        "description": "langchain.chains.test08",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, verbose=True, max_checks=3)\ntext = \"The Greenland Sea is an outlying portion of the Arctic Ocean located between Iceland, Norway, the Svalbard archipelago and Greenland. It has an area of 465,000 square miles and is one of five oceans in the world, alongside the Pacific Ocean, Atlantic Ocean, Indian Ocean, and the Southern Ocean. It is the smallest of the five oceans and is covered almost entirely by water, some of which is frozen in the form of glaciers and icebergs. The sea is named after the island of Greenland, and is the Arctic Ocean's main outlet to the Atlantic. It is often frozen over so navigation is limited, and is considered the northern branch of the Norwegian Sea.\"\nprint(checker_chain.run(text))",
         "detail": "langchain.chains.test08",
         "documentation": {}
     },
@@ -4663,7 +4323,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test09",
         "description": "langchain.chains.test09",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, max_checks=3, verbose=True)\ntext = \"Mammals can lay eggs, birds can lay eggs, therefore birds are mammals.\"\nprint(checker_chain.run(text))",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, max_checks=3, verbose=True)",
+        "detail": "langchain.chains.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test09",
+        "description": "langchain.chains.test09",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import LLMSummarizationCheckerChain\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0)\nchecker_chain = LLMSummarizationCheckerChain.from_llm(llm, max_checks=3, verbose=True)\ntext = \"Mammals can lay eggs, birds can lay eggs, therefore birds are mammals.\"\nprint(checker_chain.run(text))",
         "detail": "langchain.chains.test09",
         "documentation": {}
     },
@@ -4708,7 +4377,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test10",
         "description": "langchain.chains.test10",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import (LLMChain, OpenAIModerationChain, SequentialChain,\n                              SimpleSequentialChain)\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\nmoderation_chain = OpenAIModerationChain()\nmoderation_chain.run(\"This is okay\")",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import (LLMChain, OpenAIModerationChain, SequentialChain,\n                              SimpleSequentialChain)\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate",
+        "detail": "langchain.chains.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test10",
+        "description": "langchain.chains.test10",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import (LLMChain, OpenAIModerationChain, SequentialChain,\n                              SimpleSequentialChain)\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\nmoderation_chain = OpenAIModerationChain()\nmoderation_chain.run(\"This is okay\")",
         "detail": "langchain.chains.test10",
         "documentation": {}
     },
@@ -4744,7 +4422,16 @@
         "kind": 5,
         "importPath": "langchain.chains.test11",
         "description": "langchain.chains.test11",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport asyncio\nimport time\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\nfrom langchain.chains import LLMChain\ndef generate_serially():",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport asyncio\nimport time\nfrom langchain.chains import LLMChain\nfrom langchain.llms import OpenAI",
+        "detail": "langchain.chains.test11",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.chains.test11",
+        "description": "langchain.chains.test11",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport asyncio\nimport time\nfrom langchain.chains import LLMChain\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\ndef generate_serially():",
         "detail": "langchain.chains.test11",
         "documentation": {}
     },
@@ -4753,7 +4440,7 @@
         "kind": 5,
         "importPath": "langchain.chains.test11",
         "description": "langchain.chains.test11",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport asyncio\nimport time\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\nfrom langchain.chains import LLMChain\ndef generate_serially():\n    llm = OpenAI(temperature=0.9)\n    prompt = PromptTemplate(\n        input_variables=[\"product\"],",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nimport asyncio\nimport time\nfrom langchain.chains import LLMChain\nfrom langchain.llms import OpenAI\nfrom langchain.prompts import PromptTemplate\ndef generate_serially():\n    llm = OpenAI(temperature=0.9)\n    prompt = PromptTemplate(\n        input_variables=[\"product\"],",
         "detail": "langchain.chains.test11",
         "documentation": {}
     },
@@ -4798,7 +4485,16 @@
         "kind": 5,
         "importPath": "langchain.indexes.test01",
         "description": "langchain.indexes.test01",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import RetrievalQA\nfrom langchain.llms import OpenAI\nfrom langchain.document_loaders import TextLoader\nloader = TextLoader(\"./jqxxi_array.txt\", encoding=\"utf8\")\nfrom langchain.indexes import VectorstoreIndexCreator\nindex = VectorstoreIndexCreator().from_loaders([loader])",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import RetrievalQA\nfrom langchain.document_loaders import TextLoader\nfrom langchain.llms import OpenAI\nloader = TextLoader(\"./jqxxi_array.txt\", encoding=\"utf8\")",
+        "detail": "langchain.indexes.test01",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.indexes.test01",
+        "description": "langchain.indexes.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import RetrievalQA\nfrom langchain.document_loaders import TextLoader\nfrom langchain.llms import OpenAI\nloader = TextLoader(\"./jqxxi_array.txt\", encoding=\"utf8\")\nfrom langchain.indexes import VectorstoreIndexCreator\nindex = VectorstoreIndexCreator().from_loaders([loader])",
         "detail": "langchain.indexes.test01",
         "documentation": {}
     },
@@ -4807,7 +4503,7 @@
         "kind": 5,
         "importPath": "langchain.indexes.test01",
         "description": "langchain.indexes.test01",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import RetrievalQA\nfrom langchain.llms import OpenAI\nfrom langchain.document_loaders import TextLoader\nloader = TextLoader(\"./jqxxi_array.txt\", encoding=\"utf8\")\nfrom langchain.indexes import VectorstoreIndexCreator\nindex = VectorstoreIndexCreator().from_loaders([loader])",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import RetrievalQA\nfrom langchain.document_loaders import TextLoader\nfrom langchain.llms import OpenAI\nloader = TextLoader(\"./jqxxi_array.txt\", encoding=\"utf8\")\nfrom langchain.indexes import VectorstoreIndexCreator\nindex = VectorstoreIndexCreator().from_loaders([loader])",
         "detail": "langchain.indexes.test01",
         "documentation": {}
     },
@@ -4827,6 +4523,24 @@
         "description": "langchain.indexes.test01",
         "peekOfCode": "index = VectorstoreIndexCreator().from_loaders([loader])",
         "detail": "langchain.indexes.test01",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "langchain.momory.test01",
+        "description": "langchain.momory.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nfrom langchain.memory import ConversationBufferMemory\nfrom langchain import OpenAI, LLMChain, PromptTemplate\ntemplate = \"\"\"You are a chatbot having a conversation with a human.\n{chat_history}\nHuman: {human_input}\nChatbot:\"\"\"\nprompt = PromptTemplate(",
+        "detail": "langchain.momory.test01",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.momory.test01",
+        "description": "langchain.momory.test01",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nfrom langchain.memory import ConversationBufferMemory\nfrom langchain import OpenAI, LLMChain, PromptTemplate\ntemplate = \"\"\"You are a chatbot having a conversation with a human.\n{chat_history}\nHuman: {human_input}\nChatbot:\"\"\"\nprompt = PromptTemplate(\n    input_variables=[\"chat_history\", \"human_input\"], template=template\n)",
+        "detail": "langchain.momory.test01",
         "documentation": {}
     },
     {
@@ -4893,11 +4607,20 @@
         "documentation": {}
     },
     {
+        "label": "openai.api_base",
+        "kind": 5,
+        "importPath": "langchain.test01",
+        "description": "langchain.test01",
+        "peekOfCode": "openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nfrom config import *\nimport os\n# os.environ[\"OPENAI_API_KEY\"] = \"sk-hX6HRa25PqlfV9Tc19DeB5726e7c4f0c95C2F1023c6d7713\"\nos.environ[\n    \"OPENAI_API_KEY\"\n] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"  # 直连的key\nfrom langchain.llms import OpenAI\nfrom langchain.agents import load_tools\nfrom langchain.agents import initialize_agent",
+        "detail": "langchain.test01",
+        "documentation": {}
+    },
+    {
         "label": "]",
         "kind": 5,
         "importPath": "langchain.test01",
         "description": "langchain.test01",
-        "peekOfCode": "] = \"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\"  # 直连的key\nfrom langchain.llms import OpenAI\nfrom langchain.agents import load_tools\nfrom langchain.agents import initialize_agent\nfrom langchain.agents import AgentType\nimport numpy as np\nimport time\nllm = OpenAI(temperature=0.9, max_tokens=1000)\nnn = 5\nmy_array = np.array([])",
+        "peekOfCode": "] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"  # 直连的key\nfrom langchain.llms import OpenAI\nfrom langchain.agents import load_tools\nfrom langchain.agents import initialize_agent\nfrom langchain.agents import AgentType\nimport numpy as np\nimport time\nllm = OpenAI(temperature=0.9, max_tokens=1000)\nnn = 5\nmy_array = np.array([])",
         "detail": "langchain.test01",
         "documentation": {}
     },
@@ -4942,7 +4665,16 @@
         "kind": 5,
         "importPath": "langchain.test02",
         "description": "langchain.test02",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0.9)\ntext = \"What would be a good company name for a company that makes colorful socks?\"\n# print(llm(text))\nfrom langchain.prompts import PromptTemplate\nprompt = PromptTemplate(\n    input_variables=[\"product\"],\n    template=\"What is a good name for a company that makes {product}?\",\n)",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0.9)\ntext = \"What would be a good company name for a company that makes colorful socks?\"\n# print(llm(text))\nfrom langchain.prompts import PromptTemplate\nprompt = PromptTemplate(\n    input_variables=[\"product\"],",
+        "detail": "langchain.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test02",
+        "description": "langchain.test02",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nfrom langchain.llms import OpenAI\nllm = OpenAI(temperature=0.9)\ntext = \"What would be a good company name for a company that makes colorful socks?\"\n# print(llm(text))\nfrom langchain.prompts import PromptTemplate\nprompt = PromptTemplate(\n    input_variables=[\"product\"],\n    template=\"What is a good name for a company that makes {product}?\",\n)",
         "detail": "langchain.test02",
         "documentation": {}
     },
@@ -4978,7 +4710,16 @@
         "kind": 5,
         "importPath": "langchain.test03",
         "description": "langchain.test03",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nllm = OpenAI(temperature=0.9)\nprompt = PromptTemplate(\n    input_variables=[\"product\"],\n    template=\"What is a good name for a company that makes {product}?\",\n)\nfrom langchain.chains import LLMChain\nchain = LLMChain(llm=llm, prompt=prompt)\nprint(chain.run(\"colorful socks\"))\n# -> '\\n\\nSocktastic!'",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nllm = OpenAI(temperature=0.9)\nprompt = PromptTemplate(\n    input_variables=[\"product\"],\n    template=\"What is a good name for a company that makes {product}?\",\n)\nfrom langchain.chains import LLMChain\nchain = LLMChain(llm=llm, prompt=prompt)",
+        "detail": "langchain.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test03",
+        "description": "langchain.test03",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nllm = OpenAI(temperature=0.9)\nprompt = PromptTemplate(\n    input_variables=[\"product\"],\n    template=\"What is a good name for a company that makes {product}?\",\n)\nfrom langchain.chains import LLMChain\nchain = LLMChain(llm=llm, prompt=prompt)\nprint(chain.run(\"colorful socks\"))\n# -> '\\n\\nSocktastic!'",
         "detail": "langchain.test03",
         "documentation": {}
     },
@@ -5014,7 +4755,16 @@
         "kind": 5,
         "importPath": "langchain.test04",
         "description": "langchain.test04",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\"SERPAPI_API_KEY\"] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import load_tools\nfrom langchain.agents import initialize_agent\nfrom langchain.agents import AgentType\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nllm = OpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"SERPAPI_API_KEY\"] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nllm = OpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)",
+        "detail": "langchain.test04",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test04",
+        "description": "langchain.test04",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"SERPAPI_API_KEY\"] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nllm = OpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\n# Finally, let's initialize an agent with the tools, the language model, and the type of agent we want to use.\nagent = initialize_agent(",
         "detail": "langchain.test04",
         "documentation": {}
     },
@@ -5023,7 +4773,7 @@
         "kind": 5,
         "importPath": "langchain.test04",
         "description": "langchain.test04",
-        "peekOfCode": "os.environ[\"SERPAPI_API_KEY\"] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import load_tools\nfrom langchain.agents import initialize_agent\nfrom langchain.agents import AgentType\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nllm = OpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\n# Finally, let's initialize an agent with the tools, the language model, and the type of agent we want to use.",
+        "peekOfCode": "os.environ[\"SERPAPI_API_KEY\"] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nllm = OpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.\ntools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\n# Finally, let's initialize an agent with the tools, the language model, and the type of agent we want to use.\nagent = initialize_agent(\n    tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True",
         "detail": "langchain.test04",
         "documentation": {}
     },
@@ -5059,7 +4809,16 @@
         "kind": 5,
         "importPath": "langchain.test05",
         "description": "langchain.test05",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, ConversationChain\nllm = OpenAI(temperature=0)\nconversation = ConversationChain(llm=llm, verbose=True)\noutput = conversation.predict(input=\"Hi there!\")\nprint(output)\noutput = conversation.predict(input=\"I'm doing well! Just having a conversation with an AI.\")",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import ConversationChain, OpenAI\nllm = OpenAI(temperature=0)\nconversation = ConversationChain(llm=llm, verbose=True)\noutput = conversation.predict(input=\"Hi there!\")",
+        "detail": "langchain.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test05",
+        "description": "langchain.test05",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import ConversationChain, OpenAI\nllm = OpenAI(temperature=0)\nconversation = ConversationChain(llm=llm, verbose=True)\noutput = conversation.predict(input=\"Hi there!\")\nprint(output)\noutput = conversation.predict(input=\"I'm doing well! Just having a conversation with an AI.\")",
         "detail": "langchain.test05",
         "documentation": {}
     },
@@ -5068,7 +4827,7 @@
         "kind": 5,
         "importPath": "langchain.test05",
         "description": "langchain.test05",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import OpenAI, ConversationChain\nllm = OpenAI(temperature=0)\nconversation = ConversationChain(llm=llm, verbose=True)\noutput = conversation.predict(input=\"Hi there!\")\nprint(output)\noutput = conversation.predict(input=\"I'm doing well! Just having a conversation with an AI.\")\nprint(output)",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import ConversationChain, OpenAI\nllm = OpenAI(temperature=0)\nconversation = ConversationChain(llm=llm, verbose=True)\noutput = conversation.predict(input=\"Hi there!\")\nprint(output)\noutput = conversation.predict(input=\"I'm doing well! Just having a conversation with an AI.\")\nprint(output)",
         "detail": "langchain.test05",
         "documentation": {}
     },
@@ -5113,7 +4872,16 @@
         "kind": 5,
         "importPath": "langchain.test06",
         "description": "langchain.test06",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.schema import AIMessage, HumanMessage, SystemMessage\nchat = ChatOpenAI(temperature=0)\n# print(\n#     chat(\n#         [",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.schema import AIMessage, HumanMessage, SystemMessage\nchat = ChatOpenAI(temperature=0)\n# print(",
+        "detail": "langchain.test06",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test06",
+        "description": "langchain.test06",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.schema import AIMessage, HumanMessage, SystemMessage\nchat = ChatOpenAI(temperature=0)\n# print(\n#     chat(\n#         [",
         "detail": "langchain.test06",
         "documentation": {}
     },
@@ -5167,7 +4935,16 @@
         "kind": 5,
         "importPath": "langchain.test07",
         "description": "langchain.test07",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    HumanMessagePromptTemplate,\n)",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (ChatPromptTemplate,\n                                    HumanMessagePromptTemplate,\n                                    SystemMessagePromptTemplate)",
+        "detail": "langchain.test07",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test07",
+        "description": "langchain.test07",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (ChatPromptTemplate,\n                                    HumanMessagePromptTemplate,\n                                    SystemMessagePromptTemplate)\nchat = ChatOpenAI(temperature=0)\ntemplate = (",
         "detail": "langchain.test07",
         "documentation": {}
     },
@@ -5176,7 +4953,7 @@
         "kind": 5,
         "importPath": "langchain.test07",
         "description": "langchain.test07",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    HumanMessagePromptTemplate,\n)\nchat = ChatOpenAI(temperature=0)\ntemplate = (\n    \"You are a helpful assistant that translates {input_language} to {output_language}.\"",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (ChatPromptTemplate,\n                                    HumanMessagePromptTemplate,\n                                    SystemMessagePromptTemplate)\nchat = ChatOpenAI(temperature=0)\ntemplate = (\n    \"You are a helpful assistant that translates {input_language} to {output_language}.\"\n)\nsystem_message_prompt = SystemMessagePromptTemplate.from_template(template)",
         "detail": "langchain.test07",
         "documentation": {}
     },
@@ -5248,7 +5025,16 @@
         "kind": 5,
         "importPath": "langchain.test08",
         "description": "langchain.test08",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain import LLMChain\nfrom langchain.prompts.chat import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    HumanMessagePromptTemplate,",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (ChatPromptTemplate,\n                                    HumanMessagePromptTemplate,",
+        "detail": "langchain.test08",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test08",
+        "description": "langchain.test08",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (ChatPromptTemplate,\n                                    HumanMessagePromptTemplate,\n                                    SystemMessagePromptTemplate)\nchat = ChatOpenAI(temperature=0)",
         "detail": "langchain.test08",
         "documentation": {}
     },
@@ -5257,7 +5043,7 @@
         "kind": 5,
         "importPath": "langchain.test08",
         "description": "langchain.test08",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain import LLMChain\nfrom langchain.prompts.chat import (\n    ChatPromptTemplate,\n    SystemMessagePromptTemplate,\n    HumanMessagePromptTemplate,\n)\nchat = ChatOpenAI(temperature=0)\ntemplate = (",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain import LLMChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (ChatPromptTemplate,\n                                    HumanMessagePromptTemplate,\n                                    SystemMessagePromptTemplate)\nchat = ChatOpenAI(temperature=0)\ntemplate = (\n    \"You are a helpful assistant that translates {input_language} to {output_language}.\"\n)",
         "detail": "langchain.test08",
         "documentation": {}
     },
@@ -5338,7 +5124,16 @@
         "kind": 5,
         "importPath": "langchain.test09",
         "description": "langchain.test09",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nchat = ChatOpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.",
+        "detail": "langchain.test09",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test09",
+        "description": "langchain.test09",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.agents import AgentType, initialize_agent, load_tools\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.llms import OpenAI\n# First, let's load the language model we're going to use to control the agent.\nchat = ChatOpenAI(temperature=0)\n# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.",
         "detail": "langchain.test09",
         "documentation": {}
     },
@@ -5401,7 +5196,16 @@
         "kind": 5,
         "importPath": "langchain.test10",
         "description": "langchain.test10",
-        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"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\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    MessagesPlaceholder,\n    SystemMessagePromptTemplate,\n    HumanMessagePromptTemplate,\n)",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# openai.api_base = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import ConversationChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.memory import ConversationBufferMemory\nfrom langchain.prompts import (ChatPromptTemplate, HumanMessagePromptTemplate,",
+        "detail": "langchain.test10",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "langchain.test10",
+        "description": "langchain.test10",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nos.environ[\n    \"SERPAPI_API_KEY\"\n] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import ConversationChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.memory import ConversationBufferMemory\nfrom langchain.prompts import (ChatPromptTemplate, HumanMessagePromptTemplate,\n                               MessagesPlaceholder,\n                               SystemMessagePromptTemplate)",
         "detail": "langchain.test10",
         "documentation": {}
     },
@@ -5410,7 +5214,7 @@
         "kind": 5,
         "importPath": "langchain.test10",
         "description": "langchain.test10",
-        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.prompts import (\n    ChatPromptTemplate,\n    MessagesPlaceholder,\n    SystemMessagePromptTemplate,\n    HumanMessagePromptTemplate,\n)\nfrom langchain.chains import ConversationChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.memory import ConversationBufferMemory",
+        "peekOfCode": "] = \"da8433eda3fc4629422e903b0b7eb9f642b1a5297a429b281ac7e1dc12c26042\"\nfrom langchain.chains import ConversationChain\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.memory import ConversationBufferMemory\nfrom langchain.prompts import (ChatPromptTemplate, HumanMessagePromptTemplate,\n                               MessagesPlaceholder,\n                               SystemMessagePromptTemplate)\nprompt = ChatPromptTemplate.from_messages(\n    [\n        SystemMessagePromptTemplate.from_template(",
         "detail": "langchain.test10",
         "documentation": {}
     },
@@ -5595,78 +5399,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,\n    batch_size=16,",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.qwen_14b_sft",
-        "description": "modelScope.qwen_14b_sft",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"4,5,6,7\"\nfrom swift.llm import DatasetName, ModelType, SftArguments, sft_main\nsft_args = SftArguments(\n    model_type=ModelType.qwen_14b_chat,\n    # model_cache_dir=\"Qwen-14B-Chat\",\n    dataset=[DatasetName.alpaca_zh, DatasetName.alpaca_en],\n    train_dataset_sample=500,\n    eval_steps=50,\n    batch_size=16,\n    logging_steps=20,",
-        "detail": "modelScope.qwen_14b_sft",
-        "documentation": {}
-    },
-    {
         "label": "sft_args",
         "kind": 5,
         "importPath": "modelScope.qwen_14b_sft",
@@ -5838,69 +5570,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks\nmodel = \"ZhipuAI/CodeGeeX-Code-Generation-13B\"",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks\nmodel = \"ZhipuAI/CodeGeeX-Code-Generation-13B\"\npipe = pipeline(",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks\nmodel = \"ZhipuAI/CodeGeeX-Code-Generation-13B\"\npipe = pipeline(\n    task=Tasks.code_generation,",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks\nmodel = \"ZhipuAI/CodeGeeX-Code-Generation-13B\"\npipe = pipeline(\n    task=Tasks.code_generation,\n    model=model,",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks\nmodel = \"ZhipuAI/CodeGeeX-Code-Generation-13B\"\npipe = pipeline(\n    task=Tasks.code_generation,\n    model=model,\n)",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test05",
-        "description": "modelScope.test05",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models import Model\nfrom modelscope.pipelines import pipeline\nfrom modelscope.utils.constant import Tasks\nmodel = \"ZhipuAI/CodeGeeX-Code-Generation-13B\"\npipe = pipeline(\n    task=Tasks.code_generation,\n    model=model,\n)\ninputs = {",
-        "detail": "modelScope.test05",
-        "documentation": {}
-    },
-    {
         "label": "model",
         "kind": 5,
         "importPath": "modelScope.test05",
@@ -5942,78 +5611,6 @@
         "importPath": "modelScope.test06",
         "description": "modelScope.test06",
         "peekOfCode": "def tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",\n        truncation=True,\n        max_length=128,\n    )\ntrain_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "modelScope.test06",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.test06",
-        "description": "modelScope.test06",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
         "detail": "modelScope.test06",
         "documentation": {}
     },
@@ -6108,69 +5705,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test07",
-        "description": "modelScope.test07",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom swift import LoRAConfig, Swift, Trainer\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])",
-        "detail": "modelScope.test07",
-        "documentation": {}
-    },
-    {
         "label": "model",
         "kind": 5,
         "importPath": "modelScope.test07",
@@ -6252,69 +5786,6 @@
         "documentation": {}
     },
     {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test08",
-        "description": "modelScope.test08",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nfrom modelscope.models.nlp import SbertForSequenceClassification\nfrom modelscope.models.nlp.structbert import SbertConfig\nfrom swift import LoraConfig, Swift\nmodel = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)",
-        "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
         "label": "model",
         "kind": 5,
         "importPath": "modelScope.test08",
@@ -6339,78 +5810,6 @@
         "description": "modelScope.test08",
         "peekOfCode": "model = Swift.prepare_model(model, lora_config)",
         "detail": "modelScope.test08",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"1\"\nos.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_DATASETS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"HF_DATASETS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HF_HOME\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"HF_HOME\"] = \"G:\\huggingface\"\nos.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"HUGGINGFACE_HUB_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"HUGGINGFACE_HUB_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"TRANSFORMERS_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"TRANSFORMERS_CACHE\"] = \"G:\\huggingface\"\nos.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"MODELSCOPE_CACHE\"] = \"G:\\modelscope\"\nos.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"MODELSCOPE_MODULES_CACHE\"]",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ[\"MODELSCOPE_MODULES_CACHE\"] = \"G:\\modelscope\"\nos.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat\ntemplate_type = get_default_template_type(model_type)",
-        "detail": "modelScope.test09",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ['CUDA_VISIBLE_DEVICES']",
-        "kind": 5,
-        "importPath": "modelScope.test09",
-        "description": "modelScope.test09",
-        "peekOfCode": "os.environ['CUDA_VISIBLE_DEVICES'] = '0'\nfrom swift.llm import (\n    ModelType, get_vllm_engine, get_default_template_type,\n    get_template, inference_vllm\n)\nfrom swift.tuners import Swift\nmodel_dir = 'vx_xxx/checkpoint-100-merged'\nmodel_type = ModelType.qwen_7b_chat\ntemplate_type = get_default_template_type(model_type)\nllm_engine = get_vllm_engine(model_type, model_dir=model_dir)",
-        "detail": "modelScope.test09",
         "documentation": {}
     },
     {

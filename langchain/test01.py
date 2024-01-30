@@ -1,14 +1,14 @@
 import langchain
 import openai
 
-# openai.api_base = "https://oneapi.365jpshop.com/v1"
+openai.api_base = "https://oneapi.365jpshop.com/v1"
 from config import *
 import os
 
 # os.environ["OPENAI_API_KEY"] = "sk-hX6HRa25PqlfV9Tc19DeB5726e7c4f0c95C2F1023c6d7713"
 os.environ[
     "OPENAI_API_KEY"
-] = "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"  # 直连的key
+] = "sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102"  # 直连的key
 from langchain.llms import OpenAI
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent
