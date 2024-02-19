@@ -73,7 +73,23 @@
         "documentation": {}
     },
     {
+        "label": "OnlinePDFLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
         "label": "CharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
         "importPath": "langchain.text_splitter",
         "description": "langchain.text_splitter",
         "isExtraImport": true,
@@ -114,6 +130,14 @@
     },
     {
         "label": "FAISS",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
         "importPath": "langchain.vectorstores",
         "description": "langchain.vectorstores",
         "isExtraImport": true,
@@ -250,6 +274,14 @@
     },
     {
         "label": "ConversationChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "RetrievalQA",
         "importPath": "langchain.chains",
         "description": "langchain.chains",
         "isExtraImport": true,
@@ -983,11 +1015,51 @@
         "documentation": {}
     },
     {
-        "label": "OpenAI",
-        "importPath": "langchain.llms",
-        "description": "langchain.llms",
+        "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
         "isExtraImport": true,
-        "detail": "langchain.llms",
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "load_tools",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "load_tools",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
         "documentation": {}
     },
     {
@@ -1112,6 +1184,30 @@
     },
     {
         "label": "OpenAI",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "Ollama",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "Ollama",
         "importPath": "langchain.llms",
         "description": "langchain.llms",
         "isExtraImport": true,
@@ -1289,6 +1385,14 @@
     },
     {
         "label": "LLMChain",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
         "importPath": "langchain",
         "description": "langchain",
         "isExtraImport": true,
@@ -1585,6 +1689,14 @@
         "documentation": {}
     },
     {
+        "label": "GPT4AllEmbeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
         "label": "API_RESPONSE_PROMPT",
         "importPath": "langchain.chains.api.prompt",
         "description": "langchain.chains.api.prompt",
@@ -1708,6 +1820,22 @@
         "documentation": {}
     },
     {
+        "label": "AzureOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "AzureOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
         "label": "*",
         "importPath": "config",
         "description": "config",
@@ -1785,6 +1913,22 @@
         "description": "langgraph.prebuilt",
         "isExtraImport": true,
         "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
         "documentation": {}
     },
     {
@@ -2050,6 +2194,88 @@
         "documentation": {}
     },
     {
+        "label": "CallbackManager",
+        "importPath": "langchain.callbacks.manager",
+        "description": "langchain.callbacks.manager",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks.manager",
+        "documentation": {}
+    },
+    {
+        "label": "CallbackManager",
+        "importPath": "langchain.callbacks.manager",
+        "description": "langchain.callbacks.manager",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks.manager",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingStdOutCallbackHandler",
+        "importPath": "langchain.callbacks.streaming_stdout",
+        "description": "langchain.callbacks.streaming_stdout",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks.streaming_stdout",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingStdOutCallbackHandler",
+        "importPath": "langchain.callbacks.streaming_stdout",
+        "description": "langchain.callbacks.streaming_stdout",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks.streaming_stdout",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIChat",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
         "label": "ASRExecutor",
         "importPath": "paddlespeech.cli.asr.infer",
         "description": "paddlespeech.cli.asr.infer",
@@ -2148,14 +2374,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "Decimal",
         "importPath": "decimal",
         "description": "decimal",
@@ -2219,15 +2437,6 @@
         "importPath": "itchat.",
         "description": "itchat.",
         "detail": "itchat.",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
         "documentation": {}
     },
     {
@@ -5909,6 +6118,447 @@
         "description": "my_utils.MysqlUtility",
         "peekOfCode": "def paddnum(numx, default='NULL'):\n    return default if numx == None else str(numx)\nclass MySQL:\n    u'''对MySQLdb常用函数进行封装的类'''\n    error_code = ''  # MySQL错误号码\n    _instance = None  # 本类的实例\n    _conn = None  # 数据库conn\n    _cur = None  # 游标\n    _TIMEOUT = 30  # 默认超时30秒\n    _timecount = 0",
         "detail": "my_utils.MysqlUtility",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_host",
+        "kind": 5,
+        "importPath": "ollama.test01",
+        "description": "ollama.test01",
+        "peekOfCode": "ollama_host = \"localhost\"\n# 设置Ollama的端口\nollama_port = 11434\n# 设置Ollama的模型\nollama_model = \"llama2\"\nfrom langchain.llms import Ollama\nfrom langchain.callbacks.manager import CallbackManager\nfrom langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler\nif __name__ == \"__main__\":\n    # 通过API的方式调用Ollama",
+        "detail": "ollama.test01",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_port",
+        "kind": 5,
+        "importPath": "ollama.test01",
+        "description": "ollama.test01",
+        "peekOfCode": "ollama_port = 11434\n# 设置Ollama的模型\nollama_model = \"llama2\"\nfrom langchain.llms import Ollama\nfrom langchain.callbacks.manager import CallbackManager\nfrom langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler\nif __name__ == \"__main__\":\n    # 通过API的方式调用Ollama\n    # StreamingStdOutCallbackHandler 使用流式输出结果\n    llm = Ollama(",
+        "detail": "ollama.test01",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_model",
+        "kind": 5,
+        "importPath": "ollama.test01",
+        "description": "ollama.test01",
+        "peekOfCode": "ollama_model = \"llama2\"\nfrom langchain.llms import Ollama\nfrom langchain.callbacks.manager import CallbackManager\nfrom langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler\nif __name__ == \"__main__\":\n    # 通过API的方式调用Ollama\n    # StreamingStdOutCallbackHandler 使用流式输出结果\n    llm = Ollama(\n        base_url=f\"http://{ollama_host}:{ollama_port}\",\n        model=ollama_model,",
+        "detail": "ollama.test01",
+        "documentation": {}
+    },
+    {
+        "label": "SuppressStdout",
+        "kind": 6,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "class SuppressStdout:\n    # __enter__ 最先开始的时候会执行一次\n    def __enter__(self):\n        self._original_stdout = sys.stdout\n        self._original_stderr = sys.stderr\n        sys.stdout = open(os.devnull, \"w\")\n        sys.stderr = open(os.devnull, \"w\")\n    # __exit__ 最后执行一次\n    def __exit__(self, exc_type, exc_val, exc_tb):\n        sys.stdout.close()",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_host",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "ollama_host = \"localhost\"\n# 设置Ollama的端口\nollama_port = 11434\n# 设置Ollama的模型\nollama_model = \"llama2\"\nfrom langchain.document_loaders import OnlinePDFLoader\nfrom langchain.vectorstores import Chroma\nfrom langchain.embeddings import GPT4AllEmbeddings\nfrom langchain import PromptTemplate\nfrom langchain.llms import Ollama",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_port",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "ollama_port = 11434\n# 设置Ollama的模型\nollama_model = \"llama2\"\nfrom langchain.document_loaders import OnlinePDFLoader\nfrom langchain.vectorstores import Chroma\nfrom langchain.embeddings import GPT4AllEmbeddings\nfrom langchain import PromptTemplate\nfrom langchain.llms import Ollama\nfrom langchain.callbacks.manager import CallbackManager\nfrom langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_model",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "ollama_model = \"llama2\"\nfrom langchain.document_loaders import OnlinePDFLoader\nfrom langchain.vectorstores import Chroma\nfrom langchain.embeddings import GPT4AllEmbeddings\nfrom langchain import PromptTemplate\nfrom langchain.llms import Ollama\nfrom langchain.callbacks.manager import CallbackManager\nfrom langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler\nfrom langchain.chains import RetrievalQA\nimport sys",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "loader = OnlinePDFLoader(\n    \"https://d18rn0p25nwr6d.cloudfront.net/CIK-0001813756/975b3e9b-268e-4798-a9e4-2a9a7c92dc10.pdf\"\n)\ndata = loader.load()\n# RecursiveCharacterTextSplitter是一个基于递归的字符级别的分词器。它可以将文本逐个字符地拆分，并且可以递归地处理包含其他词汇的字符，例如中文中的词语或日语中的汉字。\nfrom langchain.text_splitter import RecursiveCharacterTextSplitter\n# chunk_size 设置为分割块的大小\n# chunk_overlap 设置每个分割块之间重叠的字符数。\ntext_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)\nall_splits = text_splitter.split_documents(data)",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "data = loader.load()\n# RecursiveCharacterTextSplitter是一个基于递归的字符级别的分词器。它可以将文本逐个字符地拆分，并且可以递归地处理包含其他词汇的字符，例如中文中的词语或日语中的汉字。\nfrom langchain.text_splitter import RecursiveCharacterTextSplitter\n# chunk_size 设置为分割块的大小\n# chunk_overlap 设置每个分割块之间重叠的字符数。\ntext_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)\nall_splits = text_splitter.split_documents(data)\n# 使用Chroma数据库进行存储所有的分片，使用的分片方式是GPT4ALL\nwith SuppressStdout():\n    vectorstore = Chroma.from_documents(",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "text_splitter",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)\nall_splits = text_splitter.split_documents(data)\n# 使用Chroma数据库进行存储所有的分片，使用的分片方式是GPT4ALL\nwith SuppressStdout():\n    vectorstore = Chroma.from_documents(\n        documents=all_splits, embedding=GPT4AllEmbeddings()\n    )\nwhile True:\n    query = input(\"\\nQuery: \")\n    # 退出设置",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "all_splits",
+        "kind": 5,
+        "importPath": "ollama.test02",
+        "description": "ollama.test02",
+        "peekOfCode": "all_splits = text_splitter.split_documents(data)\n# 使用Chroma数据库进行存储所有的分片，使用的分片方式是GPT4ALL\nwith SuppressStdout():\n    vectorstore = Chroma.from_documents(\n        documents=all_splits, embedding=GPT4AllEmbeddings()\n    )\nwhile True:\n    query = input(\"\\nQuery: \")\n    # 退出设置\n    if query == \"exit\":",
+        "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "openai.openai_1_3_7_azure_Test",
+        "description": "openai.openai_1_3_7_azure_Test",
+        "peekOfCode": "client = AzureOpenAI(\n    # https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#rest-api-versioning\n    api_version=\"2023-07-01-preview\",\n    # https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal#create-a-resource\n    azure_endpoint=\"https://glsk-openai-ce.openai.azure.com\",\n    api_key=\"8ba61036fe7847c7be4ebaaf58b85275\"\n)\ncompletion = client.chat.completions.create(\n    model=\"gpt-35-turbo-1106\",  # e.g. gpt-35-instant\n    messages=[",
+        "detail": "openai.openai_1_3_7_azure_Test",
+        "documentation": {}
+    },
+    {
+        "label": "completion",
+        "kind": 5,
+        "importPath": "openai.openai_1_3_7_azure_Test",
+        "description": "openai.openai_1_3_7_azure_Test",
+        "peekOfCode": "completion = client.chat.completions.create(\n    model=\"gpt-35-turbo-1106\",  # e.g. gpt-35-instant\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": \"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\",\n        },\n    ],\n)\nprint(completion.usage)",
+        "detail": "openai.openai_1_3_7_azure_Test",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "openai.test01",
+        "description": "openai.test01",
+        "peekOfCode": "client = AzureOpenAI(\n    # https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#rest-api-versioning\n    api_version=\"2023-07-01-preview\",\n    # https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal#create-a-resource\n    azure_endpoint=\"https://glsk-openai-ce.openai.azure.com\",\n    api_key=\"8ba61036fe7847c7be4ebaaf58b85275\",\n)\nprompt = \"写一个opencv代码，实现图片的旋转\"\ncompletion = client.chat.completions.create(\n    # model=\"gpt-35-turbo-1106\",  # e.g. gpt-35-instant",
+        "detail": "openai.test01",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "openai.test01",
+        "description": "openai.test01",
+        "peekOfCode": "prompt = \"写一个opencv代码，实现图片的旋转\"\ncompletion = client.chat.completions.create(\n    # model=\"gpt-35-turbo-1106\",  # e.g. gpt-35-instant\n    model=\"gpt-4-1106\",  # e.g. gpt-35-instant\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": prompt,\n        },\n    ],",
+        "detail": "openai.test01",
+        "documentation": {}
+    },
+    {
+        "label": "completion",
+        "kind": 5,
+        "importPath": "openai.test01",
+        "description": "openai.test01",
+        "peekOfCode": "completion = client.chat.completions.create(\n    # model=\"gpt-35-turbo-1106\",  # e.g. gpt-35-instant\n    model=\"gpt-4-1106\",  # e.g. gpt-35-instant\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": prompt,\n        },\n    ],\n)",
+        "detail": "openai.test01",
+        "documentation": {}
+    },
+    {
+        "label": "openai_api_key",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "openai_api_key = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\nopenai_api_base = \"https://oneapi.365jpshop.com/v1\"\n# Set up request parameters\nmodel_id = \"code-davinci-002\"\nprompt = \"Write a Python function to calculate the factorial of a number.\"\nmax_tokens = 100\ntemperature = 0.7\n# Construct request body\nheaders = {\n    \"Content-Type\": \"application/json\",",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "openai_api_base",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "openai_api_base = \"https://oneapi.365jpshop.com/v1\"\n# Set up request parameters\nmodel_id = \"code-davinci-002\"\nprompt = \"Write a Python function to calculate the factorial of a number.\"\nmax_tokens = 100\ntemperature = 0.7\n# Construct request body\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": f\"Bearer {openai_api_key}\",",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "model_id",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "model_id = \"code-davinci-002\"\nprompt = \"Write a Python function to calculate the factorial of a number.\"\nmax_tokens = 100\ntemperature = 0.7\n# Construct request body\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": f\"Bearer {openai_api_key}\",\n}\ndata = {",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "prompt = \"Write a Python function to calculate the factorial of a number.\"\nmax_tokens = 100\ntemperature = 0.7\n# Construct request body\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": f\"Bearer {openai_api_key}\",\n}\ndata = {\n    \"model\": model_id,",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "max_tokens",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "max_tokens = 100\ntemperature = 0.7\n# Construct request body\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": f\"Bearer {openai_api_key}\",\n}\ndata = {\n    \"model\": model_id,\n    \"prompt\": prompt,",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "temperature",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "temperature = 0.7\n# Construct request body\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": f\"Bearer {openai_api_key}\",\n}\ndata = {\n    \"model\": model_id,\n    \"prompt\": prompt,\n    \"max_tokens\": max_tokens,",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "headers = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": f\"Bearer {openai_api_key}\",\n}\ndata = {\n    \"model\": model_id,\n    \"prompt\": prompt,\n    \"max_tokens\": max_tokens,\n    \"temperature\": temperature,\n}",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "data = {\n    \"model\": model_id,\n    \"prompt\": prompt,\n    \"max_tokens\": max_tokens,\n    \"temperature\": temperature,\n}\n# Send request and handle response\nresponse = requests.post(openai_api_base + \"completions\", headers=headers, json=data)\nif response.status_code == 200:\n    result = response.json()",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "openai.test02",
+        "description": "openai.test02",
+        "peekOfCode": "response = requests.post(openai_api_base + \"completions\", headers=headers, json=data)\nif response.status_code == 200:\n    result = response.json()\n    print(result[\"choices\"][0][\"text\"])\nelse:\n    print(f\"Request failed with status code {response.status_code}\")",
+        "detail": "openai.test02",
+        "documentation": {}
+    },
+    {
+        "label": "tsc",
+        "kind": 2,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "def tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1\n        text = (\n            \"列举机器学习算法中10个关于\"\n            + inp\n            + \"的学术词，注意只输出十个学术词，用逗号隔开，不附带其他任何信息。必须只是中文。\"",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "tzh",
+        "kind": 2,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "def tzh():\n    text = \"列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。\"\n    response = llm.invoke(input=text)\n    array = np.array(response.content.split(\",\"))\n    print(array)\n    for key in array:\n        arr = tsc(key, 10)\n        arr = np.array(arr.split(\",\"))\n        global my_array\n        my_array = np.append(my_array, arr)",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "jiesh",
+        "kind": 2,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "def jiesh():\n    arr = tzh()\n    #     arr = np.array(arr.split(','))\n    for a in arr:\n        text = \"详细解释一下，什么是\" + a + \"。回复字数在200字左右，回复必须只是中文。\"\n        # llm = OpenAIChat(temperature=0.9, model_name=model)\n        llm = ChatOpenAI(temperature=0.9, model_name=model)\n        response = llm.invoke(input=text)\n        response_content = a + \"\\n\" + response.content\n        print(response_content)",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "openai.api_base",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "openai.api_base = \"https://oneapi.365jpshop.com/v1\"\n# from config import *\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# os.environ[\"OPENAI_API_KEY\"] = \"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\"#直连的key\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\nfrom datetime import datetime",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# os.environ[\"OPENAI_API_KEY\"] = \"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\"#直连的key\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\nfrom datetime import datetime\nimport numpy as np\n# from langchain.llms import OpenAI\n# from langchain_community.llms import OpenAIChat",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\nfrom datetime import datetime\nimport numpy as np\n# from langchain.llms import OpenAI\n# from langchain_community.llms import OpenAIChat\nfrom langchain_openai import ChatOpenAI\n# from langchain_community.chat_models import ChatOpenAI",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "model = \"gpt-4-1106-preview\"\n# llm = OpenAIChat(temperature=0.9, model_name=model)\nllm = ChatOpenAI(\n    temperature=0.9,\n    model_name=model,\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# client = OpenAIChat()\n# llm = OpenAI(temperature=0.9,max_tokens=1000)",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "llm = ChatOpenAI(\n    temperature=0.9,\n    model_name=model,\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# client = OpenAIChat()\n# llm = OpenAI(temperature=0.9,max_tokens=1000)\nnn = 5\nmy_array = np.array([])",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "nn = 5\nmy_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "my_array",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "my_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "jiesh_array",
+        "kind": 5,
+        "importPath": "openai.test03",
+        "description": "openai.test03",
+        "peekOfCode": "jiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1\n        text = (",
+        "detail": "openai.test03",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 5,
+        "importPath": "openai.test04",
+        "description": "openai.test04",
+        "peekOfCode": "chat = ChatOpenAI(\n    temperature=0.9,\n    model_name=\"gpt-4-1106-preview\",\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# Use the chat object to generate a response to a prompt\nresponse = chat.invoke(input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\")\nprint(response)",
+        "detail": "openai.test04",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "openai.test04",
+        "description": "openai.test04",
+        "peekOfCode": "response = chat.invoke(input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\")\nprint(response)",
+        "detail": "openai.test04",
+        "documentation": {}
+    },
+    {
+        "label": "tsc",
+        "kind": 2,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "def tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1\n        text = (\n            \"列举机器学习算法中10个关于\"\n            + inp\n            + \"的学术词，注意只输出十个学术词，用逗号隔开，不附带其他任何信息。必须只是中文。\"",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "tzh",
+        "kind": 2,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "def tzh():\n    text = \"列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。\"\n    response = llm(text)\n    array = np.array(response.split(\",\"))\n    print(array)\n    for key in array:\n        arr = tsc(key, 10)\n        arr = np.array(arr.split(\",\"))\n        global my_array\n        my_array = np.append(my_array, arr)",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "jiesh",
+        "kind": 2,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "def jiesh():\n    arr = tzh()\n    #     arr = np.array(arr.split(','))\n    for a in arr:\n        text = \"详细解释一下，什么是\" + a + \"。回复字数在200字左右，回复必须只是中文。\"\n        llm = OpenAIChat(temperature=0.9, model_name=model)\n        response = llm(text)\n        #         time.sleep(5)\n        con = response\n        response = a + \"\\n\" + response",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "openai.api_base",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "openai.api_base = \"https://oneapi.365jpshop.com/v1\"\n# from config import *\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# os.environ[\"OPENAI_API_KEY\"] = \"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\"#直连的key\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\n# import mysql.connector",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# os.environ[\"OPENAI_API_KEY\"] = \"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\"#直连的key\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\n# import mysql.connector\nfrom datetime import datetime\nimport numpy as np\n# from langchain.llms import OpenAI",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\n# import mysql.connector\nfrom datetime import datetime\nimport numpy as np\n# from langchain.llms import OpenAI\nfrom langchain_community.llms import OpenAIChat\n# from langchain_community.chat_models import ChatOpenAI",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "model = \"gpt-4-1106-preview\"\nllm = OpenAIChat(temperature=0.9, model_name=model)\n# client = OpenAIChat()\n# llm = OpenAI(temperature=0.9,max_tokens=1000)\nnn = 5\nmy_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "llm = OpenAIChat(temperature=0.9, model_name=model)\n# client = OpenAIChat()\n# llm = OpenAI(temperature=0.9,max_tokens=1000)\nnn = 5\nmy_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "nn = 5\nmy_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "my_array",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "my_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1",
+        "detail": "openai.zhishi",
+        "documentation": {}
+    },
+    {
+        "label": "jiesh_array",
+        "kind": 5,
+        "importPath": "openai.zhishi",
+        "description": "openai.zhishi",
+        "peekOfCode": "jiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1\n        text = (",
+        "detail": "openai.zhishi",
         "documentation": {}
     },
     {
