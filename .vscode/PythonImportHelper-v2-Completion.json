@@ -1063,6 +1063,30 @@
         "documentation": {}
     },
     {
+        "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "load_tools",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
         "label": "OpenAI",
         "importPath": "langchain.llms",
         "description": "langchain.llms",
@@ -1940,6 +1964,14 @@
         "documentation": {}
     },
     {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
         "label": "format_tool_to_openai_function",
         "importPath": "langchain.tools.render",
         "description": "langchain.tools.render",
@@ -2241,6 +2273,14 @@
         "importPath": "requests",
         "description": "requests",
         "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -6460,6 +6500,105 @@
         "description": "openai.test04",
         "peekOfCode": "response = chat.invoke(input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\")\nprint(response)",
         "detail": "openai.test04",
+        "documentation": {}
+    },
+    {
+        "label": "tsc",
+        "kind": 2,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "def tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1\n        text = (\n            \"列举机器学习算法中10个关于\"\n            + inp\n            + \"的学术词，注意只输出十个学术词，用逗号隔开，不附带其他任何信息。必须只是中文。\"",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "tzh",
+        "kind": 2,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "def tzh():\n    text = \"列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。\"\n    response = llm.invoke(input=text)\n    array = np.array(response.content.split(\",\"))\n    print(array)\n    for key in array:\n        arr = tsc(key, 10)\n        arr = np.array(arr.split(\",\"))\n        global my_array\n        my_array = np.append(my_array, arr)",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "jiesh",
+        "kind": 2,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "def jiesh():\n    arr = tzh()\n    #     arr = np.array(arr.split(','))\n    for a in arr:\n        text = \"详细解释一下，什么是\" + a + \"。回复字数在200字左右，回复必须只是中文。\"\n        # llm = OpenAIChat(temperature=0.9, model_name=model)\n        llm = ChatOpenAI(temperature=0.9, model_name=model)\n        response = llm.invoke(input=text)\n        response_content = a + \"\\n\" + response.content\n        print(response_content)",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "openai.api_base",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "openai.api_base = \"https://oneapi.365jpshop.com/v1\"\n# from config import *\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# os.environ[\"OPENAI_API_KEY\"] = \"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\"#直连的key\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\nfrom datetime import datetime",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_KEY\"]",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\n# os.environ[\"OPENAI_API_KEY\"] = \"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\"#直连的key\nos.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\nfrom datetime import datetime\nimport numpy as np\n# from langchain.llms import OpenAI\n# from langchain_community.llms import OpenAIChat",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"OPENAI_API_BASE\"]",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "os.environ[\"OPENAI_API_BASE\"] = \"https://oneapi.365jpshop.com/v1\"\nimport time\n# model = \"chatglm3\"\n# model = \"gemini-pro\"\nfrom datetime import datetime\nimport numpy as np\n# from langchain.llms import OpenAI\n# from langchain_community.llms import OpenAIChat\nfrom langchain_openai import ChatOpenAI\n# from langchain_community.chat_models import ChatOpenAI",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "model = \"gpt-4-1106-preview\"\n# llm = OpenAIChat(temperature=0.9, model_name=model)\nllm = ChatOpenAI(\n    temperature=0.9,\n    model_name=model,\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# client = OpenAIChat()\n# llm = OpenAI(temperature=0.9,max_tokens=1000)",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "llm = ChatOpenAI(\n    temperature=0.9,\n    model_name=model,\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# client = OpenAIChat()\n# llm = OpenAI(temperature=0.9,max_tokens=1000)\nnn = 5\nmy_array = np.array([])",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "nn = 5\nmy_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "my_array",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "my_array = np.array([])\njiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1",
+        "detail": "openai.test05",
+        "documentation": {}
+    },
+    {
+        "label": "jiesh_array",
+        "kind": 5,
+        "importPath": "openai.test05",
+        "description": "openai.test05",
+        "peekOfCode": "jiesh_array = np.array([])\n# 这个函数需要一个额外的参数nn，因为在递归的环境中，\n# 我们无法修改外部作用域的变量。\ndef tsc(inp: str, nn: int) -> str:\n    # 这是基线条件，当nn等于0时，函数返回my_array\n    if nn == 0:\n        return my_array\n    else:\n        nn -= 1\n        text = (",
+        "detail": "openai.test05",
         "documentation": {}
     },
     {
