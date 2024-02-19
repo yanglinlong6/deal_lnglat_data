@@ -49,3 +49,4 @@ modelScope/wandb/run-20240119_171911-9ufjgabx/files/wandb-metadata.json
 modelScope/wandb/run-20240119_171911-9ufjgabx/files/wandb-summary.json
 modelScope/wandb/run-20240119_171911-9ufjgabx/logs/debug-internal.log
 modelScope/wandb/run-20240119_171911-9ufjgabx/logs/debug.log
+.vscode/*
