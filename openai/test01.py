@@ -24,4 +24,4 @@ completion = client.chat.completions.create(
 print(completion.usage)
 print(completion.choices[0].message.content)
 print(completion.model_dump_json(indent=2))
-print(completion.choices.choices.mess)
+print(completion.choices[0].message.content)
