@@ -61,7 +61,8 @@ def tsc(inp: str, nn: int) -> str:
 
 
 def tzh():
-    text = "列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。"
+    # text = "列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。"
+    text = "列表一个商城项目的所有功能点,实现方案,用中文逗号隔开,附带主要技术实现方案，不附带其他任何信息。必须只是中文。"
     response = llm.invoke(input=text)
     array = np.array(response.content.split(","))
     print(array)
@@ -77,7 +78,7 @@ def jiesh():
     arr = tzh()
     #     arr = np.array(arr.split(','))
     for a in arr:
-        text = "详细解释一下，什么是" + a + "。回复字数在200字左右，回复必须只是中文。"
+        text = "详细解释一下，什么是" + a + "。回复字数在50字左右，回复必须只是中文。"
         # llm = OpenAIChat(temperature=0.9, model_name=model)
         llm = ChatOpenAI(temperature=0.9, model_name=model)
         response = llm.invoke(input=text)
