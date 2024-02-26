@@ -1,5 +1,22 @@
 [
     {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "hmm",
+        "importPath": "hmmlearn",
+        "description": "hmmlearn",
+        "isExtraImport": true,
+        "detail": "hmmlearn",
+        "documentation": {}
+    },
+    {
         "label": "AssistantAgent",
         "importPath": "autogen",
         "description": "autogen",
@@ -57,91 +74,11 @@
         "documentation": {}
     },
     {
-        "label": "TextLoader",
-        "importPath": "langchain.document_loaders",
-        "description": "langchain.document_loaders",
+        "label": "LLMChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
         "isExtraImport": true,
-        "detail": "langchain.document_loaders",
-        "documentation": {}
-    },
-    {
-        "label": "TextLoader",
-        "importPath": "langchain.document_loaders",
-        "description": "langchain.document_loaders",
-        "isExtraImport": true,
-        "detail": "langchain.document_loaders",
-        "documentation": {}
-    },
-    {
-        "label": "OnlinePDFLoader",
-        "importPath": "langchain.document_loaders",
-        "description": "langchain.document_loaders",
-        "isExtraImport": true,
-        "detail": "langchain.document_loaders",
-        "documentation": {}
-    },
-    {
-        "label": "CharacterTextSplitter",
-        "importPath": "langchain.text_splitter",
-        "description": "langchain.text_splitter",
-        "isExtraImport": true,
-        "detail": "langchain.text_splitter",
-        "documentation": {}
-    },
-    {
-        "label": "RecursiveCharacterTextSplitter",
-        "importPath": "langchain.text_splitter",
-        "description": "langchain.text_splitter",
-        "isExtraImport": true,
-        "detail": "langchain.text_splitter",
-        "documentation": {}
-    },
-    {
-        "label": "OpenAIEmbeddings",
-        "importPath": "langchain.embeddings.openai",
-        "description": "langchain.embeddings.openai",
-        "isExtraImport": true,
-        "detail": "langchain.embeddings.openai",
-        "documentation": {}
-    },
-    {
-        "label": "OpenAIEmbeddings",
-        "importPath": "langchain.embeddings.openai",
-        "description": "langchain.embeddings.openai",
-        "isExtraImport": true,
-        "detail": "langchain.embeddings.openai",
-        "documentation": {}
-    },
-    {
-        "label": "DeepLake",
-        "importPath": "langchain.vectorstores",
-        "description": "langchain.vectorstores",
-        "isExtraImport": true,
-        "detail": "langchain.vectorstores",
-        "documentation": {}
-    },
-    {
-        "label": "DeepLake",
-        "importPath": "langchain.vectorstores",
-        "description": "langchain.vectorstores",
-        "isExtraImport": true,
-        "detail": "langchain.vectorstores",
-        "documentation": {}
-    },
-    {
-        "label": "FAISS",
-        "importPath": "langchain.vectorstores",
-        "description": "langchain.vectorstores",
-        "isExtraImport": true,
-        "detail": "langchain.vectorstores",
-        "documentation": {}
-    },
-    {
-        "label": "Chroma",
-        "importPath": "langchain.vectorstores",
-        "description": "langchain.vectorstores",
-        "isExtraImport": true,
-        "detail": "langchain.vectorstores",
+        "detail": "langchain.chains",
         "documentation": {}
     },
     {
@@ -286,6 +223,222 @@
         "description": "langchain.chains",
         "isExtraImport": true,
         "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "StringPromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.schema.messages",
+        "description": "langchain.schema.messages",
+        "isExtraImport": true,
+        "detail": "langchain.schema.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGLM3",
+        "importPath": "langchain_community.llms.chatglm3",
+        "description": "langchain_community.llms.chatglm3",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms.chatglm3",
+        "documentation": {}
+    },
+    {
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
+        "isExtraImport": true,
+        "detail": "zhipuai",
+        "documentation": {}
+    },
+    {
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
+        "isExtraImport": true,
+        "detail": "zhipuai",
+        "documentation": {}
+    },
+    {
+        "label": "TextLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "TextLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "OnlinePDFLoader",
+        "importPath": "langchain.document_loaders",
+        "description": "langchain.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain.embeddings.openai",
+        "description": "langchain.embeddings.openai",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings.openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain.embeddings.openai",
+        "description": "langchain.embeddings.openai",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings.openai",
+        "documentation": {}
+    },
+    {
+        "label": "DeepLake",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "DeepLake",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
         "documentation": {}
     },
     {
@@ -730,15 +883,6 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
         "documentation": {}
     },
     {
@@ -1617,94 +1761,6 @@
         "documentation": {}
     },
     {
-        "label": "StringPromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "ChatPromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "HumanMessagePromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "MessagesPlaceholder",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
-        "label": "SystemMessagePromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
-        "isExtraImport": true,
-        "detail": "langchain.prompts",
-        "documentation": {}
-    },
-    {
         "label": "OpenAIEmbeddings",
         "importPath": "langchain.embeddings",
         "description": "langchain.embeddings",
@@ -2480,6 +2536,69 @@
         "documentation": {}
     },
     {
+        "label": "n_states",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "n_states = 2\nn_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "n_observations",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "n_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.startprob_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.transmat_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.emissionprob_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "观测序列",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
         "label": "config_list",
         "kind": 5,
         "importPath": "autogen.test01",
@@ -2522,6 +2641,105 @@
         "description": "autogen.test02",
         "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\ndef main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\n        \"agent\",",
         "detail": "autogen.test02",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "template = \"\"\"{question}\"\"\"\nprompt = PromptTemplate.from_template(template)\n# endpoint_url = \"http://127.0.0.1:8000/v1/chat/completions\"\nendpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "prompt = PromptTemplate.from_template(template)\n# endpoint_url = \"http://127.0.0.1:8000/v1/chat/completions\"\nendpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,\n    max_tokens=80000,",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "endpoint_url",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "endpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,\n    max_tokens=80000,\n    prefix_messages=messages,\n    top_p=0.9,",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "messages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,\n    max_tokens=80000,\n    prefix_messages=messages,\n    top_p=0.9,\n)",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "llm = ChatGLM3(\n    endpoint_url=endpoint_url,\n    max_tokens=80000,\n    prefix_messages=messages,\n    top_p=0.9,\n)\nllm_chain = LLMChain(prompt=prompt, llm=llm)\nquestion = \"北京和上海两座城市有什么不同？\"\nresult=llm_chain.run(question)\nprint(result)",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "llm_chain",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "llm_chain = LLMChain(prompt=prompt, llm=llm)\nquestion = \"北京和上海两座城市有什么不同？\"\nresult=llm_chain.run(question)\nprint(result)",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "question",
+        "kind": 5,
+        "importPath": "chatglm.test",
+        "description": "chatglm.test",
+        "peekOfCode": "question = \"北京和上海两座城市有什么不同？\"\nresult=llm_chain.run(question)\nprint(result)",
+        "detail": "chatglm.test",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "chatglm.test01",
+        "description": "chatglm.test01",
+        "peekOfCode": "client = ZhipuAI(\n    api_key=\"2544ea141595d420ca10f891833096ac.deW5ICKFVh4JivTN\"\n)  # 填写您自己的APIKey\nresponse = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": \"作为一名营销专家，请为我的产品创作一个吸引人的slogan\",\n        },",
+        "detail": "chatglm.test01",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "chatglm.test01",
+        "description": "chatglm.test01",
+        "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": \"作为一名营销专家，请为我的产品创作一个吸引人的slogan\",\n        },\n        {\n            \"role\": \"assistant\",\n            \"content\": \"当然，为了创作一个吸引人的slogan，请告诉我一些关于您产品的信息\",",
+        "detail": "chatglm.test01",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "chatglm.test02",
+        "description": "chatglm.test02",
+        "peekOfCode": "client = ZhipuAI(\n    api_key=\"2544ea141595d420ca10f891833096ac.deW5ICKFVh4JivTN\"\n)  # 请填写您自己的APIKey\nresponse = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\n            \"role\": \"system\",\n            \"content\": \"你是一个乐于解答各种问题的助手，你的任务是为用户提供专业、准确、有见地的建议。\",\n        },",
+        "detail": "chatglm.test02",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "chatglm.test02",
+        "description": "chatglm.test02",
+        "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\n            \"role\": \"system\",\n            \"content\": \"你是一个乐于解答各种问题的助手，你的任务是为用户提供专业、准确、有见地的建议。\",\n        },\n        {\n            \"role\": \"user\",\n            \"content\": \"我对太阳系的行星非常感兴趣，特别是土星。请提供关于土星的基本信息，包括其大小、组成、环系统和任何独特的天文现象。\",",
+        "detail": "chatglm.test02",
         "documentation": {}
     },
     {
@@ -6489,7 +6707,7 @@
         "kind": 5,
         "importPath": "openai.test04",
         "description": "openai.test04",
-        "peekOfCode": "chat = ChatOpenAI(\n    temperature=0.9,\n    model_name=\"gpt-4-1106-preview\",\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# Use the chat object to generate a response to a prompt\nresponse = chat.invoke(input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\")\nprint(response)",
+        "peekOfCode": "chat = ChatOpenAI(\n    temperature=0.9,\n    model_name=\"gpt-4-1106-preview\",\n    api_key=\"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\",\n    base_url=\"https://oneapi.365jpshop.com/v1\",\n)\n# Use the chat object to generate a response to a prompt\n# response = chat.invoke(input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\")\nresponse = chat.invoke(\n    input=\"列表一个商城项目的所有功能点,实现方案,用中文逗号隔开,附带主要技术实现方案，不附带其他任何信息。必须只是中文。\"",
         "detail": "openai.test04",
         "documentation": {}
     },
@@ -6498,7 +6716,7 @@
         "kind": 5,
         "importPath": "openai.test04",
         "description": "openai.test04",
-        "peekOfCode": "response = chat.invoke(input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\")\nprint(response)",
+        "peekOfCode": "response = chat.invoke(\n    input=\"列表一个商城项目的所有功能点,实现方案,用中文逗号隔开,附带主要技术实现方案，不附带其他任何信息。必须只是中文。\"\n    # input=\"给我一首歌的时间\"\n    # input=\"帮我生成2条续保营销文案，每条不超过12个字，输出json格式\"\n)\nprint(response.content)",
         "detail": "openai.test04",
         "documentation": {}
     },
@@ -6516,7 +6734,7 @@
         "kind": 2,
         "importPath": "openai.test05",
         "description": "openai.test05",
-        "peekOfCode": "def tzh():\n    text = \"列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。\"\n    response = llm.invoke(input=text)\n    array = np.array(response.content.split(\",\"))\n    print(array)\n    for key in array:\n        arr = tsc(key, 10)\n        arr = np.array(arr.split(\",\"))\n        global my_array\n        my_array = np.append(my_array, arr)",
+        "peekOfCode": "def tzh():\n    # text = \"列举20个机器学习算法中的学术词，注意只输出二十个学术词，用中文逗号隔开，不附带其他任何信息。必须只是中文。\"\n    text = \"列表一个商城项目的所有功能点,实现方案,用中文逗号隔开,附带主要技术实现方案，不附带其他任何信息。必须只是中文。\"\n    response = llm.invoke(input=text)\n    array = np.array(response.content.split(\",\"))\n    print(array)\n    for key in array:\n        arr = tsc(key, 10)\n        arr = np.array(arr.split(\",\"))\n        global my_array",
         "detail": "openai.test05",
         "documentation": {}
     },
@@ -6525,7 +6743,7 @@
         "kind": 2,
         "importPath": "openai.test05",
         "description": "openai.test05",
-        "peekOfCode": "def jiesh():\n    arr = tzh()\n    #     arr = np.array(arr.split(','))\n    for a in arr:\n        text = \"详细解释一下，什么是\" + a + \"。回复字数在200字左右，回复必须只是中文。\"\n        # llm = OpenAIChat(temperature=0.9, model_name=model)\n        llm = ChatOpenAI(temperature=0.9, model_name=model)\n        response = llm.invoke(input=text)\n        response_content = a + \"\\n\" + response.content\n        print(response_content)",
+        "peekOfCode": "def jiesh():\n    arr = tzh()\n    #     arr = np.array(arr.split(','))\n    for a in arr:\n        text = \"详细解释一下，什么是\" + a + \"。回复字数在50字左右，回复必须只是中文。\"\n        # llm = OpenAIChat(temperature=0.9, model_name=model)\n        llm = ChatOpenAI(temperature=0.9, model_name=model)\n        response = llm.invoke(input=text)\n        response_content = a + \"\\n\" + response.content\n        print(response_content)",
         "detail": "openai.test05",
         "documentation": {}
     },
