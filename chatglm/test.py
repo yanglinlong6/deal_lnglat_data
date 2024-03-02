@@ -1,12 +1,14 @@
+from langchain_community.llms.chatglm3 import ChatGLM3
+
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.schema.messages import AIMessage
-from langchain_community.llms.chatglm3 import ChatGLM3
 
 template = """{question}"""
 prompt = PromptTemplate.from_template(template)
 
 # endpoint_url = "http://127.0.0.1:8000/v1/chat/completions"
+# endpoint_url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 endpoint_url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 
 messages = [

@@ -74,6 +74,14 @@
         "documentation": {}
     },
     {
+        "label": "ChatGLM3",
+        "importPath": "langchain_community.llms.chatglm3",
+        "description": "langchain_community.llms.chatglm3",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms.chatglm3",
+        "documentation": {}
+    },
+    {
         "label": "LLMChain",
         "importPath": "langchain.chains",
         "description": "langchain.chains",
@@ -330,11 +338,27 @@
         "documentation": {}
     },
     {
-        "label": "ChatGLM3",
-        "importPath": "langchain_community.llms.chatglm3",
-        "description": "langchain_community.llms.chatglm3",
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
         "isExtraImport": true,
-        "detail": "langchain_community.llms.chatglm3",
+        "detail": "zhipuai",
+        "documentation": {}
+    },
+    {
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
+        "isExtraImport": true,
+        "detail": "zhipuai",
+        "documentation": {}
+    },
+    {
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
+        "isExtraImport": true,
+        "detail": "zhipuai",
         "documentation": {}
     },
     {
@@ -2648,7 +2672,7 @@
         "kind": 5,
         "importPath": "chatglm.test",
         "description": "chatglm.test",
-        "peekOfCode": "template = \"\"\"{question}\"\"\"\nprompt = PromptTemplate.from_template(template)\n# endpoint_url = \"http://127.0.0.1:8000/v1/chat/completions\"\nendpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,",
+        "peekOfCode": "template = \"\"\"{question}\"\"\"\nprompt = PromptTemplate.from_template(template)\n# endpoint_url = \"http://127.0.0.1:8000/v1/chat/completions\"\n# endpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nendpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(",
         "detail": "chatglm.test",
         "documentation": {}
     },
@@ -2657,7 +2681,7 @@
         "kind": 5,
         "importPath": "chatglm.test",
         "description": "chatglm.test",
-        "peekOfCode": "prompt = PromptTemplate.from_template(template)\n# endpoint_url = \"http://127.0.0.1:8000/v1/chat/completions\"\nendpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,\n    max_tokens=80000,",
+        "peekOfCode": "prompt = PromptTemplate.from_template(template)\n# endpoint_url = \"http://127.0.0.1:8000/v1/chat/completions\"\n# endpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nendpoint_url = \"https://open.bigmodel.cn/api/paas/v4/chat/completions\"\nmessages = [\n    AIMessage(content=\"我将从美国到中国来旅游，出行前希望了解中国的城市\"),\n    AIMessage(content=\"欢迎问我任何问题。\"),\n]\nllm = ChatGLM3(\n    endpoint_url=endpoint_url,",
         "detail": "chatglm.test",
         "documentation": {}
     },
@@ -2740,6 +2764,60 @@
         "description": "chatglm.test02",
         "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\n            \"role\": \"system\",\n            \"content\": \"你是一个乐于解答各种问题的助手，你的任务是为用户提供专业、准确、有见地的建议。\",\n        },\n        {\n            \"role\": \"user\",\n            \"content\": \"我对太阳系的行星非常感兴趣，特别是土星。请提供关于土星的基本信息，包括其大小、组成、环系统和任何独特的天文现象。\",",
         "detail": "chatglm.test02",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "chatglm.test03",
+        "description": "chatglm.test03",
+        "peekOfCode": "client = ZhipuAI(\n    api_key=\"2544ea141595d420ca10f891833096ac.deW5ICKFVh4JivTN\"\n)  # 请填写您自己的APIKey\nresponse = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"user\", \"content\": \"你好！你叫什么名字\"},\n    ],\n    stream=True,\n)",
+        "detail": "chatglm.test03",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "chatglm.test03",
+        "description": "chatglm.test03",
+        "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"user\", \"content\": \"你好！你叫什么名字\"},\n    ],\n    stream=True,\n)\nfor chunk in response:\n    print(chunk.choices[0].delta)",
+        "detail": "chatglm.test03",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "chatglm.test04",
+        "description": "chatglm.test04",
+        "peekOfCode": "client = ZhipuAI(\n    api_key=\"2544ea141595d420ca10f891833096ac.deW5ICKFVh4JivTN\"\n)  # 请填写您自己的APIKey\nresponse = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"system\", \"content\": \"你是一个聪明且富有创造力的小说作家\"},\n        {\n            \"role\": \"user\",\n            \"content\": \"请你作为童话故事大王，写一篇短篇童话故事，故事的主题是要永远保持一颗善良的心，要能够激发儿童的学习兴趣和想象力，同时也能够帮助儿童更好地理解和接受故事中所蕴含的道理和价值观。\",",
+        "detail": "chatglm.test04",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "chatglm.test04",
+        "description": "chatglm.test04",
+        "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"system\", \"content\": \"你是一个聪明且富有创造力的小说作家\"},\n        {\n            \"role\": \"user\",\n            \"content\": \"请你作为童话故事大王，写一篇短篇童话故事，故事的主题是要永远保持一颗善良的心，要能够激发儿童的学习兴趣和想象力，同时也能够帮助儿童更好地理解和接受故事中所蕴含的道理和价值观。\",\n        },\n    ],\n    stream=True,",
+        "detail": "chatglm.test04",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "chatglm.test05",
+        "description": "chatglm.test05",
+        "peekOfCode": "client = ZhipuAI(\n    api_key=\"2544ea141595d420ca10f891833096ac.deW5ICKFVh4JivTN\"\n)  # 请填写您自己的APIKey\nresponse = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"user\", \"content\": \"你好！你叫什么名字\"},\n    ],\n    tools=[\n        {",
+        "detail": "chatglm.test05",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "chatglm.test05",
+        "description": "chatglm.test05",
+        "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"user\", \"content\": \"你好！你叫什么名字\"},\n    ],\n    tools=[\n        {\n            \"type\": \"retrieval\",\n            \"retrieval\": '''\n                \"knowledge_id\": \"your knowledge id\",",
+        "detail": "chatglm.test05",
         "documentation": {}
     },
     {
