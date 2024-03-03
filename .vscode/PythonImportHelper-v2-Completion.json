@@ -690,6 +690,30 @@
         "documentation": {}
     },
     {
+        "label": "Wav2Vec2ForCTC",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Wav2Vec2Processor",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Wav2Vec2Model",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
         "label": "Trainer",
         "importPath": "swift",
         "description": "swift",
@@ -2458,6 +2482,33 @@
         "description": "paddleocr",
         "isExtraImport": true,
         "detail": "paddleocr",
+        "documentation": {}
+    },
+    {
+        "label": "soundfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "soundfile",
+        "description": "soundfile",
+        "detail": "soundfile",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
         "documentation": {}
     },
     {
@@ -7147,6 +7198,168 @@
         "description": "suanfa.mian03",
         "peekOfCode": "result = ocr.ocr(img_path, cls=True)\nfor line in result:\n    print(line)\n    print(line[0][1][0])\n# 注：\n# result是一个list，每个item包含了文本框，文字和识别置信度\n# line的格式为：\n# [[[3.0, 149.0], [43.0, 149.0], [43.0, 163.0], [3.0, 163.0]], ('人心安', 0.6762619018554688)]\n# 文字框 boxes = line[0]，包含文字框的四个角的(x,y)坐标\n# 文字 txts = line[1][0]",
         "detail": "suanfa.mian03",
+        "documentation": {}
+    },
+    {
+        "label": "processor",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "processor = Wav2Vec2Processor.from_pretrained(\"facebook/wav2vec2-base-960h\")\nmodel = Wav2Vec2ForCTC.from_pretrained(\"facebook/wav2vec2-base-960h\")   # 用于ASR等，32维\naudio_input, sample_rate = sf.read(path_audio)  # (31129,)\ninput_values = processor(audio_input, sampling_rate=sample_rate, return_tensors=\"pt\").input_values  # torch.Size([1, 31129])\nlogits = model(input_values).logits     # torch.Size([1, 97, 32])\npredicted_ids = torch.argmax(logits, dim=-1)    # torch.Size([1, 97])\ntranscription = processor.decode(predicted_ids[0])  # ASR的解码结果\nfrom transformers import Wav2Vec2Model\nmodel = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "model = Wav2Vec2ForCTC.from_pretrained(\"facebook/wav2vec2-base-960h\")   # 用于ASR等，32维\naudio_input, sample_rate = sf.read(path_audio)  # (31129,)\ninput_values = processor(audio_input, sampling_rate=sample_rate, return_tensors=\"pt\").input_values  # torch.Size([1, 31129])\nlogits = model(input_values).logits     # torch.Size([1, 97, 32])\npredicted_ids = torch.argmax(logits, dim=-1)    # torch.Size([1, 97])\ntranscription = processor.decode(predicted_ids[0])  # ASR的解码结果\nfrom transformers import Wav2Vec2Model\nmodel = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "input_values",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "input_values = processor(audio_input, sampling_rate=sample_rate, return_tensors=\"pt\").input_values  # torch.Size([1, 31129])\nlogits = model(input_values).logits     # torch.Size([1, 97, 32])\npredicted_ids = torch.argmax(logits, dim=-1)    # torch.Size([1, 97])\ntranscription = processor.decode(predicted_ids[0])  # ASR的解码结果\nfrom transformers import Wav2Vec2Model\nmodel = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "logits",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "logits = model(input_values).logits     # torch.Size([1, 97, 32])\npredicted_ids = torch.argmax(logits, dim=-1)    # torch.Size([1, 97])\ntranscription = processor.decode(predicted_ids[0])  # ASR的解码结果\nfrom transformers import Wav2Vec2Model\nmodel = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "predicted_ids",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "predicted_ids = torch.argmax(logits, dim=-1)    # torch.Size([1, 97])\ntranscription = processor.decode(predicted_ids[0])  # ASR的解码结果\nfrom transformers import Wav2Vec2Model\nmodel = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "transcription",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "transcription = processor.decode(predicted_ids[0])  # ASR的解码结果\nfrom transformers import Wav2Vec2Model\nmodel = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "model = Wav2Vec2Model.from_pretrained(\"facebook/wav2vec2-base-960h\")    # 用于提取通用特征，768维\nwav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "wav2vec2",
+        "kind": 5,
+        "importPath": "wav2vec.test01",
+        "description": "wav2vec.test01",
+        "peekOfCode": "wav2vec2 = model(input_values)['last_hidden_state']     # torch.Size([1, 97, 768])，模型出来是一个BaseModelOutput的结构体。",
+        "detail": "wav2vec.test01",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "def update():\n    global X, Y, W, lr, n\n    n = n + 1\n    O = np.dot(X, W.T)\n    O2 = np.dot(X, W.T)\n    # Q=np.array([O1,O2]);\n    # Q=np.dot(Q,W.T);\n    # 计算权值差\n    W_Tmp = lr * ((Y - O.T).dot(X))\n    W = W + W_Tmp",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "X = np.array([[8, 6, 8], [5, 8, 8], [1, 2, 2], [2, 2, 4], [6, 6, 8], [7, 6, 8]])\nY = np.array([15, 13, 3, 5, 13, 14])\n# W1 = (np.random.random(2)-0.5)*2;\nW = np.array([0, 0, 0])\nlr = 0.002\n# 计算迭代次数\nn = 0\n# #神经网络输出\nO1 = 0\nO2 = 0",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "Y",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "Y = np.array([15, 13, 3, 5, 13, 14])\n# W1 = (np.random.random(2)-0.5)*2;\nW = np.array([0, 0, 0])\nlr = 0.002\n# 计算迭代次数\nn = 0\n# #神经网络输出\nO1 = 0\nO2 = 0\nQ = 0",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "W",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "W = np.array([0, 0, 0])\nlr = 0.002\n# 计算迭代次数\nn = 0\n# #神经网络输出\nO1 = 0\nO2 = 0\nQ = 0\nn = 0\ndef update():",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "lr",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "lr = 0.002\n# 计算迭代次数\nn = 0\n# #神经网络输出\nO1 = 0\nO2 = 0\nQ = 0\nn = 0\ndef update():\n    global X, Y, W, lr, n",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "n = 0\n# #神经网络输出\nO1 = 0\nO2 = 0\nQ = 0\nn = 0\ndef update():\n    global X, Y, W, lr, n\n    n = n + 1\n    O = np.dot(X, W.T)",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "O1",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "O1 = 0\nO2 = 0\nQ = 0\nn = 0\ndef update():\n    global X, Y, W, lr, n\n    n = n + 1\n    O = np.dot(X, W.T)\n    O2 = np.dot(X, W.T)\n    # Q=np.array([O1,O2]);",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "O2",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "O2 = 0\nQ = 0\nn = 0\ndef update():\n    global X, Y, W, lr, n\n    n = n + 1\n    O = np.dot(X, W.T)\n    O2 = np.dot(X, W.T)\n    # Q=np.array([O1,O2]);\n    # Q=np.dot(Q,W.T);",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "Q = 0\nn = 0\ndef update():\n    global X, Y, W, lr, n\n    n = n + 1\n    O = np.dot(X, W.T)\n    O2 = np.dot(X, W.T)\n    # Q=np.array([O1,O2]);\n    # Q=np.dot(Q,W.T);\n    # 计算权值差",
+        "detail": "wav2vec.test02",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "wav2vec.test02",
+        "description": "wav2vec.test02",
+        "peekOfCode": "n = 0\ndef update():\n    global X, Y, W, lr, n\n    n = n + 1\n    O = np.dot(X, W.T)\n    O2 = np.dot(X, W.T)\n    # Q=np.array([O1,O2]);\n    # Q=np.dot(Q,W.T);\n    # 计算权值差\n    W_Tmp = lr * ((Y - O.T).dot(X))",
+        "detail": "wav2vec.test02",
         "documentation": {}
     },
     {
