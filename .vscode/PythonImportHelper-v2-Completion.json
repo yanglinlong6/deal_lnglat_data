@@ -566,6 +566,14 @@
         "documentation": {}
     },
     {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
         "label": "speech_recognition",
         "kind": 6,
         "isExtraImport": true,
@@ -3371,7 +3379,7 @@
         "kind": 5,
         "importPath": "gtts.test07",
         "description": "gtts.test07",
-        "peekOfCode": "AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), \"test.wav\")\n# AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), \"french.aiff\")\n# AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), \"chinese.flac\")\n# use the audio file as the audio source\nr = sr.Recognizer()\nwith sr.AudioFile(AUDIO_FILE) as source:\n    audio = r.record(source)  # read the entire audio file\n# recognize speech using Sphinx\ntry:\n    print(\"Sphinx thinks you said \" + r.recognize_sphinx(audio))",
+        "peekOfCode": "AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), \"test.wav\")\n# AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), \"french.aiff\")\n# AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), \"chinese.flac\")\n# use the audio file as the audio source\nr = sr.Recognizer()\nwith sr.AudioFile(AUDIO_FILE) as source:\n    audio = r.record(source)  # read the entire audio file\n# recognize speech using Sphinx language=\"zh-CN\",\ntry:\n    print(\"Sphinx thinks you said \")",
         "detail": "gtts.test07",
         "documentation": {}
     },
@@ -3380,7 +3388,7 @@
         "kind": 5,
         "importPath": "gtts.test07",
         "description": "gtts.test07",
-        "peekOfCode": "r = sr.Recognizer()\nwith sr.AudioFile(AUDIO_FILE) as source:\n    audio = r.record(source)  # read the entire audio file\n# recognize speech using Sphinx\ntry:\n    print(\"Sphinx thinks you said \" + r.recognize_sphinx(audio))\nexcept sr.UnknownValueError:\n    print(\"Sphinx could not understand audio\")\nexcept sr.RequestError as e:\n    print(\"Sphinx error; {0}\".format(e))",
+        "peekOfCode": "r = sr.Recognizer()\nwith sr.AudioFile(AUDIO_FILE) as source:\n    audio = r.record(source)  # read the entire audio file\n# recognize speech using Sphinx language=\"zh-CN\",\ntry:\n    print(\"Sphinx thinks you said \")\n    print(r.recognize_sphinx(audio))\n    # pprint(r.recognize_google(audio, show_all=True))\n    audio_info = r.recognize_google(audio, language=\"zh-CN\", show_all=True)\n    # pprint(audio_info)",
         "detail": "gtts.test07",
         "documentation": {}
     },

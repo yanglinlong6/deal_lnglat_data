@@ -1,7 +1,9 @@
-import speech_recognition as sr
-
 # obtain path to "english.wav" in the same folder as this script
 from os import path
+from pprint import pprint
+
+import speech_recognition as sr
+
 AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "test.wav")
 # AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "french.aiff")
 # AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "chinese.flac")
@@ -11,9 +13,25 @@ r = sr.Recognizer()
 with sr.AudioFile(AUDIO_FILE) as source:
     audio = r.record(source)  # read the entire audio file
 
-# recognize speech using Sphinx
+# recognize speech using Sphinx language="zh-CN",
 try:
-    print("Sphinx thinks you said " + r.recognize_sphinx(audio))
+    print("Sphinx thinks you said ")
+    print(r.recognize_sphinx(audio))
+    # pprint(r.recognize_google(audio, show_all=True))
+    audio_info = r.recognize_google(audio, language="zh-CN", show_all=True)
+    # pprint(audio_info)
+    # text = audio_info["alternative"][0]["transcript"]
+    # print(text)
+    # # 提取时间戳和文本
+    timestamped_text = audio_info["alternative"][0]["transcript"]
+    timestamped_text = timestamped_text.replace("<silence.>", "").replace("**/", "")
+    timestamped_text = timestamped_text.strip()
+    print(timestamped_text)
+    # for i, word_info in enumerate(audio_info["alternative"][0]["segments"]):
+    #     word = word_info["word"]
+    #     start_time = word_info["start"]
+    #     end_time = word_info["end"]
+    #     print({"word": word, "start_time": start_time, "end_time": end_time})
 except sr.UnknownValueError:
     print("Sphinx could not understand audio")
 except sr.RequestError as e:
