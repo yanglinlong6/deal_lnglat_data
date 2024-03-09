@@ -1,22 +1,5 @@
 [
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "hmm",
-        "importPath": "hmmlearn",
-        "description": "hmmlearn",
-        "isExtraImport": true,
-        "detail": "hmmlearn",
-        "documentation": {}
-    },
-    {
         "label": "AssistantAgent",
         "importPath": "autogen",
         "description": "autogen",
@@ -378,6 +361,14 @@
         "documentation": {}
     },
     {
+        "label": "ZhipuAI",
+        "importPath": "zhipuai",
+        "description": "zhipuai",
+        "isExtraImport": true,
+        "detail": "zhipuai",
+        "documentation": {}
+    },
+    {
         "label": "TextLoader",
         "importPath": "langchain.document_loaders",
         "description": "langchain.document_loaders",
@@ -511,6 +502,23 @@
         "description": "langchain.chat_models",
         "isExtraImport": true,
         "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "hmm",
+        "importPath": "hmmlearn",
+        "description": "hmmlearn",
+        "isExtraImport": true,
+        "detail": "hmmlearn",
         "documentation": {}
     },
     {
@@ -2371,12 +2379,97 @@
         "documentation": {}
     },
     {
+        "label": "pyaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyaudio",
+        "description": "pyaudio",
+        "detail": "pyaudio",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "requests",
         "description": "requests",
         "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "wave",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wave",
+        "description": "wave",
+        "detail": "wave",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "reload",
+        "importPath": "importlib ",
+        "description": "importlib ",
+        "isExtraImport": true,
+        "detail": "importlib ",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "playsound",
+        "importPath": "playsound",
+        "description": "playsound",
+        "isExtraImport": true,
+        "detail": "playsound",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
         "documentation": {}
     },
     {
@@ -2608,69 +2701,6 @@
         "importPath": "itchat.",
         "description": "itchat.",
         "detail": "itchat.",
-        "documentation": {}
-    },
-    {
-        "label": "n_states",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "n_states = 2\nn_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "n_observations",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "n_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model.startprob_",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model.transmat_",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model.emissionprob_",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "观测序列",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
         "documentation": {}
     },
     {
@@ -3112,6 +3142,69 @@
         "description": "deeplake.test03",
         "peekOfCode": "files = get_files_in_directory(directory_path)\n# 打印文件路径\nfor file in files:\n    print(file)",
         "detail": "deeplake.test03",
+        "documentation": {}
+    },
+    {
+        "label": "n_states",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "n_states = 2\nn_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "n_observations",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "n_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.startprob_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.transmat_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.emissionprob_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "观测序列",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
         "documentation": {}
     },
     {
@@ -5765,7 +5858,7 @@
         "kind": 5,
         "importPath": "langchain.test09",
         "description": "langchain.test09",
-        "peekOfCode": "tools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\n# Finally, let's initialize an agent with the tools, the language model, and the type of agent we want to use.\nagent = initialize_agent(\n    tools, chat, agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose=True\n)\n# Now let's test it out!\nresult = agent.run(\n    \"Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?\"\n)\n# print(result)",
+        "peekOfCode": "tools = load_tools([\"serpapi\", \"llm-math\"], llm=llm)\n# Finally, let's initialize an agent with the tools, the language model, and the type of agent we want to use.\nagent = initialize_agent(\n    tools, chat, agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose=True\n)\n# Now let's test it out!\nresult = agent.run(\n    \"Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?\"\n)\nprint(result)",
         "detail": "langchain.test09",
         "documentation": {}
     },
@@ -5774,7 +5867,7 @@
         "kind": 5,
         "importPath": "langchain.test09",
         "description": "langchain.test09",
-        "peekOfCode": "agent = initialize_agent(\n    tools, chat, agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose=True\n)\n# Now let's test it out!\nresult = agent.run(\n    \"Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?\"\n)\n# print(result)",
+        "peekOfCode": "agent = initialize_agent(\n    tools, chat, agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose=True\n)\n# Now let's test it out!\nresult = agent.run(\n    \"Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?\"\n)\nprint(result)",
         "detail": "langchain.test09",
         "documentation": {}
     },
@@ -5783,7 +5876,7 @@
         "kind": 5,
         "importPath": "langchain.test09",
         "description": "langchain.test09",
-        "peekOfCode": "result = agent.run(\n    \"Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?\"\n)\n# print(result)",
+        "peekOfCode": "result = agent.run(\n    \"Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?\"\n)\nprint(result)",
         "detail": "langchain.test09",
         "documentation": {}
     },
@@ -6604,6 +6697,267 @@
         "description": "ollama.test02",
         "peekOfCode": "all_splits = text_splitter.split_documents(data)\n# 使用Chroma数据库进行存储所有的分片，使用的分片方式是GPT4ALL\nwith SuppressStdout():\n    vectorstore = Chroma.from_documents(\n        documents=all_splits, embedding=GPT4AllEmbeddings()\n    )\nwhile True:\n    query = input(\"\\nQuery: \")\n    # 退出设置\n    if query == \"exit\":",
         "detail": "ollama.test02",
+        "documentation": {}
+    },
+    {
+        "label": "truncate",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def truncate(q):\n    if q is None:\n        return None\n    size = len(q)\n    return q if size <= 20 else q[0:10] + str(size) + q[size-10:size]\ndef encrypt(signStr):\n    hash_algorithm = hashlib.sha256()\n    hash_algorithm.update(signStr.encode('utf-8'))\n    return hash_algorithm.hexdigest()\ndef do_request(data):",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def encrypt(signStr):\n    hash_algorithm = hashlib.sha256()\n    hash_algorithm.update(signStr.encode('utf-8'))\n    return hash_algorithm.hexdigest()\ndef do_request(data):\n    headers = {'Content-Type': 'application/x-www-form-urlencoded'}\n    return requests.post(YOUDAO_URL, data=data, headers=headers)\ndef encrypt_tts(signStr):\n    hash_algorithm = hashlib.md5()\n    hash_algorithm.update(signStr.encode('utf-8'))",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "do_request",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def do_request(data):\n    headers = {'Content-Type': 'application/x-www-form-urlencoded'}\n    return requests.post(YOUDAO_URL, data=data, headers=headers)\ndef encrypt_tts(signStr):\n    hash_algorithm = hashlib.md5()\n    hash_algorithm.update(signStr.encode('utf-8'))\n    return hash_algorithm.hexdigest()\ndef do_request_tts(data):\n    headers = {'Content-Type': 'application/x-www-form-urlencoded'}\n    return requests.post(YOUDAO_URL_TTS, data=data, headers=headers)",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_tts",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def encrypt_tts(signStr):\n    hash_algorithm = hashlib.md5()\n    hash_algorithm.update(signStr.encode('utf-8'))\n    return hash_algorithm.hexdigest()\ndef do_request_tts(data):\n    headers = {'Content-Type': 'application/x-www-form-urlencoded'}\n    return requests.post(YOUDAO_URL_TTS, data=data, headers=headers)\ndef wav_to_text(audio_file_path):\n    lang_type = 'zh-CHS'\n    extension = audio_file_path[audio_file_path.rindex('.')+1:]",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "do_request_tts",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def do_request_tts(data):\n    headers = {'Content-Type': 'application/x-www-form-urlencoded'}\n    return requests.post(YOUDAO_URL_TTS, data=data, headers=headers)\ndef wav_to_text(audio_file_path):\n    lang_type = 'zh-CHS'\n    extension = audio_file_path[audio_file_path.rindex('.')+1:]\n    if extension != 'wav':\n        print('不支持的音频类型')\n        sys.exit(1)\n    wav_info = wave.open(audio_file_path, 'rb')",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "wav_to_text",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def wav_to_text(audio_file_path):\n    lang_type = 'zh-CHS'\n    extension = audio_file_path[audio_file_path.rindex('.')+1:]\n    if extension != 'wav':\n        print('不支持的音频类型')\n        sys.exit(1)\n    wav_info = wave.open(audio_file_path, 'rb')\n    sample_rate = wav_info.getframerate()\n    nchannels = wav_info.getnchannels()\n    wav_info.close()",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "text_to_wav",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def text_to_wav(text):\n    data = {}\n    data['langType'] = 'zh-CHS'\n    salt = str(uuid.uuid1())\n    signStr = APP_KEY + text + salt + APP_SECRET\n    sign = encrypt_tts(signStr)\n    data['appKey'] = APP_KEY\n    data['q'] = text\n    data['salt'] = salt\n    data['sign'] = sign",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "trans_mp3_to_wav",
+        "kind": 2,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "def trans_mp3_to_wav(filepath):\n    song = AudioSegment.from_mp3(filepath)\n    song.export(filepath.replace(\"mp3\",\"wav\"), format=\"wav\")\n    return filepath.replace(\"mp3\",\"wav\")\n# 设置音频参数\nFORMAT = pyaudio.paInt16\nCHANNELS = 1\nRATE = 16000 #44100\nCHUNK = 1024\nRECORD_SECONDS = 5",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "client = ZhipuAI(api_key=\"ac92c959bb3b9092c6f2e0da45cb3acf.kSuemdoJcPgFxieY\") # 填写您自己的APIKey\nreload(sys)\n#有道语音识别\nYOUDAO_URL = 'https://openapi.youdao.com/asrapi'\nYOUDAO_URL_TTS = 'https://openapi.youdao.com/ttsapi'\nAPP_KEY = '28d5d96858e3caee'\nAPP_SECRET = '3FXrws2dDX3Gq0p1GGc0Ek8bMoDGBl6d'\nWAVE_OUTPUT_FILENAME = \"D:/python_project/emotiVoice/output.wav\"\ndef truncate(q):\n    if q is None:",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "YOUDAO_URL",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "YOUDAO_URL = 'https://openapi.youdao.com/asrapi'\nYOUDAO_URL_TTS = 'https://openapi.youdao.com/ttsapi'\nAPP_KEY = '28d5d96858e3caee'\nAPP_SECRET = '3FXrws2dDX3Gq0p1GGc0Ek8bMoDGBl6d'\nWAVE_OUTPUT_FILENAME = \"D:/python_project/emotiVoice/output.wav\"\ndef truncate(q):\n    if q is None:\n        return None\n    size = len(q)\n    return q if size <= 20 else q[0:10] + str(size) + q[size-10:size]",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "YOUDAO_URL_TTS",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "YOUDAO_URL_TTS = 'https://openapi.youdao.com/ttsapi'\nAPP_KEY = '28d5d96858e3caee'\nAPP_SECRET = '3FXrws2dDX3Gq0p1GGc0Ek8bMoDGBl6d'\nWAVE_OUTPUT_FILENAME = \"D:/python_project/emotiVoice/output.wav\"\ndef truncate(q):\n    if q is None:\n        return None\n    size = len(q)\n    return q if size <= 20 else q[0:10] + str(size) + q[size-10:size]\ndef encrypt(signStr):",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "APP_KEY",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "APP_KEY = '28d5d96858e3caee'\nAPP_SECRET = '3FXrws2dDX3Gq0p1GGc0Ek8bMoDGBl6d'\nWAVE_OUTPUT_FILENAME = \"D:/python_project/emotiVoice/output.wav\"\ndef truncate(q):\n    if q is None:\n        return None\n    size = len(q)\n    return q if size <= 20 else q[0:10] + str(size) + q[size-10:size]\ndef encrypt(signStr):\n    hash_algorithm = hashlib.sha256()",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "APP_SECRET",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "APP_SECRET = '3FXrws2dDX3Gq0p1GGc0Ek8bMoDGBl6d'\nWAVE_OUTPUT_FILENAME = \"D:/python_project/emotiVoice/output.wav\"\ndef truncate(q):\n    if q is None:\n        return None\n    size = len(q)\n    return q if size <= 20 else q[0:10] + str(size) + q[size-10:size]\ndef encrypt(signStr):\n    hash_algorithm = hashlib.sha256()\n    hash_algorithm.update(signStr.encode('utf-8'))",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "WAVE_OUTPUT_FILENAME",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "WAVE_OUTPUT_FILENAME = \"D:/python_project/emotiVoice/output.wav\"\ndef truncate(q):\n    if q is None:\n        return None\n    size = len(q)\n    return q if size <= 20 else q[0:10] + str(size) + q[size-10:size]\ndef encrypt(signStr):\n    hash_algorithm = hashlib.sha256()\n    hash_algorithm.update(signStr.encode('utf-8'))\n    return hash_algorithm.hexdigest()",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "FORMAT",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "FORMAT = pyaudio.paInt16\nCHANNELS = 1\nRATE = 16000 #44100\nCHUNK = 1024\nRECORD_SECONDS = 5\nWAVE_OUTPUT_FILENAME = WAVE_OUTPUT_FILENAME #\"output.wav\"\n# 初始化PyAudio\naudio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNELS",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "CHANNELS = 1\nRATE = 16000 #44100\nCHUNK = 1024\nRECORD_SECONDS = 5\nWAVE_OUTPUT_FILENAME = WAVE_OUTPUT_FILENAME #\"output.wav\"\n# 初始化PyAudio\naudio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,\n                    channels=CHANNELS,",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "RATE",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "RATE = 16000 #44100\nCHUNK = 1024\nRECORD_SECONDS = 5\nWAVE_OUTPUT_FILENAME = WAVE_OUTPUT_FILENAME #\"output.wav\"\n# 初始化PyAudio\naudio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,\n                    channels=CHANNELS,\n                    rate=RATE,",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "CHUNK = 1024\nRECORD_SECONDS = 5\nWAVE_OUTPUT_FILENAME = WAVE_OUTPUT_FILENAME #\"output.wav\"\n# 初始化PyAudio\naudio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,\n                    channels=CHANNELS,\n                    rate=RATE,\n                    input=True,",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "RECORD_SECONDS",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "RECORD_SECONDS = 5\nWAVE_OUTPUT_FILENAME = WAVE_OUTPUT_FILENAME #\"output.wav\"\n# 初始化PyAudio\naudio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,\n                    channels=CHANNELS,\n                    rate=RATE,\n                    input=True,\n                    frames_per_buffer=CHUNK)",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "WAVE_OUTPUT_FILENAME",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "WAVE_OUTPUT_FILENAME = WAVE_OUTPUT_FILENAME #\"output.wav\"\n# 初始化PyAudio\naudio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,\n                    channels=CHANNELS,\n                    rate=RATE,\n                    input=True,\n                    frames_per_buffer=CHUNK)\nprint(\"录音开始...\")",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "audio",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "audio = pyaudio.PyAudio()\n# 打开音频流\nstream = audio.open(format=FORMAT,\n                    channels=CHANNELS,\n                    rate=RATE,\n                    input=True,\n                    frames_per_buffer=CHUNK)\nprint(\"录音开始...\")\n# 开始录音\nframes = []",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "stream",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "stream = audio.open(format=FORMAT,\n                    channels=CHANNELS,\n                    rate=RATE,\n                    input=True,\n                    frames_per_buffer=CHUNK)\nprint(\"录音开始...\")\n# 开始录音\nframes = []\nfor i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):\n    data = stream.read(CHUNK)",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "frames",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "frames = []\nfor i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):\n    data = stream.read(CHUNK)\n    frames.append(data)\nprint(\"录音结束...\")\n# 关闭音频流\nstream.stop_stream()\nstream.close()\naudio.terminate()\n# 将录音数据保存为.wav文件",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "waveFile",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "waveFile = wave.open(WAVE_OUTPUT_FILENAME, 'wb')\nwaveFile.setnchannels(CHANNELS)\nwaveFile.setsampwidth(audio.get_sample_size(FORMAT))\nwaveFile.setframerate(RATE)\nwaveFile.writeframes(b''.join(frames))\nwaveFile.close()\n# 语音文件转写\ntext = wav_to_text(WAVE_OUTPUT_FILENAME)\n# 语言大模型生成\nresponse = client.chat.completions.create(",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "text = wav_to_text(WAVE_OUTPUT_FILENAME)\n# 语言大模型生成\nresponse = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"user\", \"content\": f\"{text}\"}\n    ]\n)\nprint(response.choices[0].message.content)\nprint(response.usage.total_tokens)",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "response = client.chat.completions.create(\n    model=\"glm-4\",  # 填写需要调用的模型名称\n    messages=[\n        {\"role\": \"user\", \"content\": f\"{text}\"}\n    ]\n)\nprint(response.choices[0].message.content)\nprint(response.usage.total_tokens)\n# 语音合成\noutput = text_to_wav(response.choices[0].message.content)",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "output",
+        "kind": 5,
+        "importPath": "ollama.test03",
+        "description": "ollama.test03",
+        "peekOfCode": "output = text_to_wav(response.choices[0].message.content)\nprint(output)\n# 播放语音\n# output = trans_mp3_to_wav(output)\nfrom playsound import playsound\nplaysound(output)",
+        "detail": "ollama.test03",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ollama.test04",
+        "description": "ollama.test04",
+        "peekOfCode": "client = Groq(\n    # api_key=os.environ.get(\"GROQ_API_KEY\"),\n    api_key=\"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\",\n)\nchat_completion = client.chat.completions.create(\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": \"Explain the importance of low latency LLMs\",\n        }",
+        "detail": "ollama.test04",
+        "documentation": {}
+    },
+    {
+        "label": "chat_completion",
+        "kind": 5,
+        "importPath": "ollama.test04",
+        "description": "ollama.test04",
+        "peekOfCode": "chat_completion = client.chat.completions.create(\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": \"Explain the importance of low latency LLMs\",\n        }\n    ],\n    model=\"mixtral-8x7b-32768\",\n)\nprint(chat_completion.choices[0].message.content)",
+        "detail": "ollama.test04",
         "documentation": {}
     },
     {

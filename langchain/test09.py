@@ -27,4 +27,4 @@ agent = initialize_agent(
 result = agent.run(
     "Who is Olivia Wilde's boyfriend? What is his current age raised to the 0.23 power?"
 )
-# print(result)
+print(result)
