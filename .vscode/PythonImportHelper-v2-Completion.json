@@ -505,6 +505,59 @@
         "documentation": {}
     },
     {
+        "label": "gTTS",
+        "importPath": "gtts",
+        "description": "gtts",
+        "isExtraImport": true,
+        "detail": "gtts",
+        "documentation": {}
+    },
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -2125,15 +2178,6 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
         "label": "StateGraph",
         "importPath": "langgraph.graph",
         "description": "langgraph.graph",
@@ -2394,15 +2438,6 @@
         "importPath": "uuid",
         "description": "uuid",
         "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
         "documentation": {}
     },
     {
@@ -3150,6 +3185,168 @@
         "description": "deeplake.test03",
         "peekOfCode": "files = get_files_in_directory(directory_path)\n# 打印文件路径\nfor file in files:\n    print(file)",
         "detail": "deeplake.test03",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "gtts.test01",
+        "description": "gtts.test01",
+        "peekOfCode": "text = \"你好,杨林龙\"\nlang = 'zh-cn'\ntts = gTTS(text=text, lang=lang, slow=False)\ntts.save(\"hello.mp3\")\nos.system(\"start hello.mp3\")  # 在 Windows 上播放音频文件",
+        "detail": "gtts.test01",
+        "documentation": {}
+    },
+    {
+        "label": "lang",
+        "kind": 5,
+        "importPath": "gtts.test01",
+        "description": "gtts.test01",
+        "peekOfCode": "lang = 'zh-cn'\ntts = gTTS(text=text, lang=lang, slow=False)\ntts.save(\"hello.mp3\")\nos.system(\"start hello.mp3\")  # 在 Windows 上播放音频文件",
+        "detail": "gtts.test01",
+        "documentation": {}
+    },
+    {
+        "label": "tts",
+        "kind": 5,
+        "importPath": "gtts.test01",
+        "description": "gtts.test01",
+        "peekOfCode": "tts = gTTS(text=text, lang=lang, slow=False)\ntts.save(\"hello.mp3\")\nos.system(\"start hello.mp3\")  # 在 Windows 上播放音频文件",
+        "detail": "gtts.test01",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "gtts.test02",
+        "description": "gtts.test02",
+        "peekOfCode": "engine = pyttsx3.init()\nengine.say(\"Hello, world!\")\nengine.runAndWait()",
+        "detail": "gtts.test02",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "gtts.test03",
+        "description": "gtts.test03",
+        "peekOfCode": "text = \"Hello, world!\"\ncommand = f'echo \"{text}\" | festival --tts'\nprocess = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)\noutput, error = process.communicate()\nwith open('hello.wav', 'wb') as f:\n    f.write(output)\nsubprocess.call(['afplay', 'hello.wav'])  # 在 macOS 上播放音频文件",
+        "detail": "gtts.test03",
+        "documentation": {}
+    },
+    {
+        "label": "command",
+        "kind": 5,
+        "importPath": "gtts.test03",
+        "description": "gtts.test03",
+        "peekOfCode": "command = f'echo \"{text}\" | festival --tts'\nprocess = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)\noutput, error = process.communicate()\nwith open('hello.wav', 'wb') as f:\n    f.write(output)\nsubprocess.call(['afplay', 'hello.wav'])  # 在 macOS 上播放音频文件",
+        "detail": "gtts.test03",
+        "documentation": {}
+    },
+    {
+        "label": "process",
+        "kind": 5,
+        "importPath": "gtts.test03",
+        "description": "gtts.test03",
+        "peekOfCode": "process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)\noutput, error = process.communicate()\nwith open('hello.wav', 'wb') as f:\n    f.write(output)\nsubprocess.call(['afplay', 'hello.wav'])  # 在 macOS 上播放音频文件",
+        "detail": "gtts.test03",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "gtts.test04",
+        "description": "gtts.test04",
+        "peekOfCode": "engine = pyttsx3.init()\nengine.setProperty('rate', 120)  # 设置语速\nengine.setProperty('volume', 1.0)  # 设置音量\ntext = \"Hello, world!\"\nengine.say(text)\nengine.runAndWait()",
+        "detail": "gtts.test04",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "gtts.test04",
+        "description": "gtts.test04",
+        "peekOfCode": "text = \"Hello, world!\"\nengine.say(text)\nengine.runAndWait()",
+        "detail": "gtts.test04",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "gtts.test05",
+        "description": "gtts.test05",
+        "peekOfCode": "text = \"Hello, world!\"\nurl = \"https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/<instance_id>/v1/synthesize\"\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": \"Bearer <access_token>\"\n}\ndata = {\"text\": text, \"voice\": \"en-US_AllisonVoice\", \"accept\": \"audio/wav\"}\nresponse = requests.post(url, headers=headers, data=json.dumps(data))\nif response.status_code == 200:\n    with open(\"output.wav\", \"wb\") as f:",
+        "detail": "gtts.test05",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "gtts.test05",
+        "description": "gtts.test05",
+        "peekOfCode": "url = \"https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/<instance_id>/v1/synthesize\"\nheaders = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": \"Bearer <access_token>\"\n}\ndata = {\"text\": text, \"voice\": \"en-US_AllisonVoice\", \"accept\": \"audio/wav\"}\nresponse = requests.post(url, headers=headers, data=json.dumps(data))\nif response.status_code == 200:\n    with open(\"output.wav\", \"wb\") as f:\n        f.write(response.content)",
+        "detail": "gtts.test05",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "gtts.test05",
+        "description": "gtts.test05",
+        "peekOfCode": "headers = {\n    \"Content-Type\": \"application/json\",\n    \"Authorization\": \"Bearer <access_token>\"\n}\ndata = {\"text\": text, \"voice\": \"en-US_AllisonVoice\", \"accept\": \"audio/wav\"}\nresponse = requests.post(url, headers=headers, data=json.dumps(data))\nif response.status_code == 200:\n    with open(\"output.wav\", \"wb\") as f:\n        f.write(response.content)\n    # 播放音频文件",
+        "detail": "gtts.test05",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "gtts.test05",
+        "description": "gtts.test05",
+        "peekOfCode": "data = {\"text\": text, \"voice\": \"en-US_AllisonVoice\", \"accept\": \"audio/wav\"}\nresponse = requests.post(url, headers=headers, data=json.dumps(data))\nif response.status_code == 200:\n    with open(\"output.wav\", \"wb\") as f:\n        f.write(response.content)\n    # 播放音频文件\n    subprocess.run(['aplay', 'output.wav'])\nelse:\n    print(\"Error:\", response.text)",
+        "detail": "gtts.test05",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "gtts.test05",
+        "description": "gtts.test05",
+        "peekOfCode": "response = requests.post(url, headers=headers, data=json.dumps(data))\nif response.status_code == 200:\n    with open(\"output.wav\", \"wb\") as f:\n        f.write(response.content)\n    # 播放音频文件\n    subprocess.run(['aplay', 'output.wav'])\nelse:\n    print(\"Error:\", response.text)",
+        "detail": "gtts.test05",
+        "documentation": {}
+    },
+    {
+        "label": "FileDriver",
+        "kind": 6,
+        "importPath": "gtts.test06",
+        "description": "gtts.test06",
+        "peekOfCode": "class FileDriver:\n    def __init__(self, voice=None, rate=None, volume=None, output_file=None):\n        super().__init__()\n        self._voice = voice\n        self._rate = rate\n        self._volume = volume\n        self._output_file = output_file\n    def connect(self):\n        engine = pyttsx3.init()\n        engine.setProperty('voice', self._voice)",
+        "detail": "gtts.test06",
+        "documentation": {}
+    },
+    {
+        "label": "text_to_speech",
+        "kind": 2,
+        "importPath": "gtts.test06",
+        "description": "gtts.test06",
+        "peekOfCode": "def text_to_speech(text, voice=None, rate=None, volume=None, output_file=None):\n    with io.BytesIO() as output_stream:\n        driver = FileDriver(voice, rate, volume, output_stream)\n        engine = driver.connect()\n        engine.say(text)\n        engine.runAndWait()\n        engine.stop()\n        engine.disconnect({\"topic\": 1})\n        if output_file:\n            with open(output_file, 'wb') as f:",
+        "detail": "gtts.test06",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "gtts.test06",
+        "description": "gtts.test06",
+        "peekOfCode": "text = \"Hello, world! 我们都是中国人 世界需要我们\"\noutput_file = \"hello_world.wav\"\ntext_to_speech(text, output_file=output_file)",
+        "detail": "gtts.test06",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "kind": 5,
+        "importPath": "gtts.test06",
+        "description": "gtts.test06",
+        "peekOfCode": "output_file = \"hello_world.wav\"\ntext_to_speech(text, output_file=output_file)",
+        "detail": "gtts.test06",
         "documentation": {}
     },
     {
