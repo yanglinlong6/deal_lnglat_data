@@ -2537,6 +2537,14 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "easyocr",
         "kind": 6,
         "isExtraImport": true,
@@ -7444,6 +7452,24 @@
         "description": "paddlespeech.test02",
         "peekOfCode": "audio_executor = AudioExecutor()\naudio_executor(input=\"output.wav\", output=\"output01.wav\", effect=\"pitch\")",
         "detail": "paddlespeech.test02",
+        "documentation": {}
+    },
+    {
+        "label": "play_audio",
+        "kind": 2,
+        "importPath": "pyaudio.test01",
+        "description": "pyaudio.test01",
+        "peekOfCode": "def play_audio(wave_path):\n    CHUNK = 1024\n    wf = wave.open(wave_path, 'rb')\n    # instantiate PyAudio (1)\n    p = pyaudio.PyAudio()\n    # open stream (2)\n    stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),\n                    channels=wf.getnchannels(),\n                    rate=wf.getframerate(),\n                    output=True)",
+        "detail": "pyaudio.test01",
+        "documentation": {}
+    },
+    {
+        "label": "play",
+        "kind": 2,
+        "importPath": "pyaudio.test02",
+        "description": "pyaudio.test02",
+        "peekOfCode": "def play():\n    chunk = 1024\n    wf = wave.open(r\"测试音频.wav\", 'rb')\n    p = pyaudio.PyAudio()\n    stream = p.open(format=p.get_format_from_width(wf.getsampwidth()), channels=wf.getnchannels(),\n                    rate=wf.getframerate(), output=True)\n    data = wf.readframes(chunk)  # 读取数据\n    print(data)\n    while data != b'':  # 播放\n        stream.write(data)",
+        "detail": "pyaudio.test02",
         "documentation": {}
     },
     {
