@@ -82,6 +82,30 @@
         "documentation": {}
     },
     {
+        "label": "pipeline",
+        "importPath": "modelscope.pipelines",
+        "description": "modelscope.pipelines",
+        "isExtraImport": true,
+        "detail": "modelscope.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "modelscope.pipelines",
+        "description": "modelscope.pipelines",
+        "isExtraImport": true,
+        "detail": "modelscope.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "modelscope.pipelines",
+        "description": "modelscope.pipelines",
+        "isExtraImport": true,
+        "detail": "modelscope.pipelines",
+        "documentation": {}
+    },
+    {
         "label": "ChatGLM3",
         "importPath": "langchain_community.llms.chatglm3",
         "description": "langchain_community.llms.chatglm3",
@@ -2541,22 +2565,6 @@
         "documentation": {}
     },
     {
-        "label": "pipeline",
-        "importPath": "modelscope.pipelines",
-        "description": "modelscope.pipelines",
-        "isExtraImport": true,
-        "detail": "modelscope.pipelines",
-        "documentation": {}
-    },
-    {
-        "label": "pipeline",
-        "importPath": "modelscope.pipelines",
-        "description": "modelscope.pipelines",
-        "isExtraImport": true,
-        "detail": "modelscope.pipelines",
-        "documentation": {}
-    },
-    {
         "label": "Tasks",
         "importPath": "modelscope.utils.constant",
         "description": "modelscope.utils.constant",
@@ -3102,6 +3110,42 @@
         "description": "autogen.test02",
         "peekOfCode": "os.environ[\"OPENAI_API_KEY\"] = \"sk-CJ6T1HaR1ODHNHXc00Bd3fD7357c424fAa1868570c593102\"\ndef main():\n    # Load LLM inference endpoints from an env variable or a file\n    # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints\n    # and OAI_CONFIG_LIST_sample.\n    # For example, if you have created a OAI_CONFIG_LIST file in the current working directory, that file will be used.\n    config_list = config_list_from_json(env_or_file=\"OAI_CONFIG_LIST\")\n    # Create the agent that uses the LLM.\n    assistant = ConversableAgent(\n        \"agent\",",
         "detail": "autogen.test02",
+        "documentation": {}
+    },
+    {
+        "label": "sd_pipeline",
+        "kind": 5,
+        "importPath": "cam_train.test01",
+        "description": "cam_train.test01",
+        "peekOfCode": "sd_pipeline = pipeline(\n    task=\"speaker-diarization\",\n    model=\"damo/speech_eres2net-large_speaker-diarization_common\",\n    model_revision=\"v1.0.0\",\n)\ninput_wav = \"https://modelscope.cn/api/v1/models/damo/speech_campplus_speaker-diarization_common/repo?Revision=master&FilePath=examples/2speakers_example.wav\"\nresult = sd_pipeline(input_wav)\nprint(result)\n# 如果有先验信息，输入实际的说话人数，会得到更准确的预测结果\nresult = sd_pipeline(input_wav, oracle_num=2)",
+        "detail": "cam_train.test01",
+        "documentation": {}
+    },
+    {
+        "label": "input_wav",
+        "kind": 5,
+        "importPath": "cam_train.test01",
+        "description": "cam_train.test01",
+        "peekOfCode": "input_wav = \"https://modelscope.cn/api/v1/models/damo/speech_campplus_speaker-diarization_common/repo?Revision=master&FilePath=examples/2speakers_example.wav\"\nresult = sd_pipeline(input_wav)\nprint(result)\n# 如果有先验信息，输入实际的说话人数，会得到更准确的预测结果\nresult = sd_pipeline(input_wav, oracle_num=2)\nprint(result)",
+        "detail": "cam_train.test01",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "cam_train.test01",
+        "description": "cam_train.test01",
+        "peekOfCode": "result = sd_pipeline(input_wav)\nprint(result)\n# 如果有先验信息，输入实际的说话人数，会得到更准确的预测结果\nresult = sd_pipeline(input_wav, oracle_num=2)\nprint(result)",
+        "detail": "cam_train.test01",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "cam_train.test01",
+        "description": "cam_train.test01",
+        "peekOfCode": "result = sd_pipeline(input_wav, oracle_num=2)\nprint(result)",
+        "detail": "cam_train.test01",
         "documentation": {}
     },
     {
