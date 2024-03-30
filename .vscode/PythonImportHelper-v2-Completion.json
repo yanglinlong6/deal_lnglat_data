@@ -1,5 +1,22 @@
 [
     {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "hmm",
+        "importPath": "hmmlearn",
+        "description": "hmmlearn",
+        "isExtraImport": true,
+        "detail": "hmmlearn",
+        "documentation": {}
+    },
+    {
         "label": "AssistantAgent",
         "importPath": "autogen",
         "description": "autogen",
@@ -574,29 +591,28 @@
         "documentation": {}
     },
     {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
         "label": "speech_recognition",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "speech_recognition",
         "description": "speech_recognition",
         "detail": "speech_recognition",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "hmm",
-        "importPath": "hmmlearn",
-        "description": "hmmlearn",
-        "isExtraImport": true,
-        "detail": "hmmlearn",
         "documentation": {}
     },
     {
@@ -641,6 +657,54 @@
     },
     {
         "label": "AutoModelForCausalLM",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForSequenceClassification",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "MsDataset",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForSequenceClassification",
+        "importPath": "modelscope",
+        "description": "modelscope",
+        "isExtraImport": true,
+        "detail": "modelscope",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
         "importPath": "modelscope",
         "description": "modelscope",
         "isExtraImport": true,
@@ -752,6 +816,14 @@
         "documentation": {}
     },
     {
+        "label": "default_data_collator",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
         "label": "pipeline",
         "importPath": "transformers",
         "description": "transformers",
@@ -841,6 +913,126 @@
     },
     {
         "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingArguments",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoRAConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "ResTuningConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "PeftModel",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "PeftConfig",
+        "importPath": "swift",
+        "description": "swift",
+        "isExtraImport": true,
+        "detail": "swift",
+        "documentation": {}
+    },
+    {
+        "label": "LoraConfig",
         "importPath": "swift",
         "description": "swift",
         "isExtraImport": true,
@@ -2219,6 +2411,64 @@
         "documentation": {}
     },
     {
+        "label": "timm,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timm.",
+        "description": "timm.",
+        "detail": "timm.",
+        "documentation": {}
+    },
+    {
+        "label": "SbertForSequenceClassification",
+        "importPath": "modelscope.models.nlp",
+        "description": "modelscope.models.nlp",
+        "isExtraImport": true,
+        "detail": "modelscope.models.nlp",
+        "documentation": {}
+    },
+    {
+        "label": "SbertForSequenceClassification",
+        "importPath": "modelscope.models.nlp",
+        "description": "modelscope.models.nlp",
+        "isExtraImport": true,
+        "detail": "modelscope.models.nlp",
+        "documentation": {}
+    },
+    {
+        "label": "SbertConfig",
+        "importPath": "modelscope.models.nlp.structbert",
+        "description": "modelscope.models.nlp.structbert",
+        "isExtraImport": true,
+        "detail": "modelscope.models.nlp.structbert",
+        "documentation": {}
+    },
+    {
+        "label": "SbertConfig",
+        "importPath": "modelscope.models.nlp.structbert",
+        "description": "modelscope.models.nlp.structbert",
+        "isExtraImport": true,
+        "detail": "modelscope.models.nlp.structbert",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "pyannote.audio",
+        "description": "pyannote.audio",
+        "isExtraImport": true,
+        "detail": "pyannote.audio",
+        "documentation": {}
+    },
+    {
+        "label": "timm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timm",
+        "description": "timm",
+        "detail": "timm",
+        "documentation": {}
+    },
+    {
         "label": "DatasetName",
         "importPath": "swift.llm",
         "description": "swift.llm",
@@ -2323,15 +2573,6 @@
         "documentation": {}
     },
     {
-        "label": "timm",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "timm",
-        "description": "timm",
-        "detail": "timm",
-        "documentation": {}
-    },
-    {
         "label": "StableDiffusionPipeline",
         "importPath": "ppdiffusers",
         "description": "ppdiffusers",
@@ -2363,22 +2604,6 @@
         "description": "modelscope.models",
         "isExtraImport": true,
         "detail": "modelscope.models",
-        "documentation": {}
-    },
-    {
-        "label": "SbertForSequenceClassification",
-        "importPath": "modelscope.models.nlp",
-        "description": "modelscope.models.nlp",
-        "isExtraImport": true,
-        "detail": "modelscope.models.nlp",
-        "documentation": {}
-    },
-    {
-        "label": "SbertConfig",
-        "importPath": "modelscope.models.nlp.structbert",
-        "description": "modelscope.models.nlp.structbert",
-        "isExtraImport": true,
-        "detail": "modelscope.models.nlp.structbert",
         "documentation": {}
     },
     {
@@ -2769,6 +2994,69 @@
         "importPath": "itchat.",
         "description": "itchat.",
         "detail": "itchat.",
+        "documentation": {}
+    },
+    {
+        "label": "n_states",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "n_states = 2\nn_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "n_observations",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "n_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.startprob_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.transmat_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model.emissionprob_",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "model.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
+        "documentation": {}
+    },
+    {
+        "label": "观测序列",
+        "kind": 5,
+        "importPath": "HMM.test01",
+        "description": "HMM.test01",
+        "peekOfCode": "观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
+        "detail": "HMM.test01",
         "documentation": {}
     },
     {
@@ -3390,69 +3678,6 @@
         "description": "gtts.test07",
         "peekOfCode": "r = sr.Recognizer()\nwith sr.AudioFile(AUDIO_FILE) as source:\n    audio = r.record(source)  # read the entire audio file\n# recognize speech using Sphinx language=\"zh-CN\",\ntry:\n    print(\"Sphinx thinks you said \")\n    print(r.recognize_sphinx(audio))\n    # pprint(r.recognize_google(audio, show_all=True))\n    audio_info = r.recognize_google(audio, language=\"zh-CN\", show_all=True)\n    # pprint(audio_info)",
         "detail": "gtts.test07",
-        "documentation": {}
-    },
-    {
-        "label": "n_states",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "n_states = 2\nn_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "n_observations",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "n_observations = 3\n# 初始化HMM模型\nmodel = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model = hmm.MultinomialHMM(n_components=n_states)\n# 随机生成模型参数\nmodel.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model.startprob_",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model.startprob_ = np.array([0.6, 0.4])\nmodel.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model.transmat_",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model.transmat_ = np.array([[0.7, 0.3],\n                            [0.4, 0.6]])\nmodel.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "model.emissionprob_",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "model.emissionprob_ = np.array([[0.1, 0.4, 0.5],\n                                [0.6, 0.3, 0.1]])\n# 生成一些观测数据\n观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
-        "documentation": {}
-    },
-    {
-        "label": "观测序列",
-        "kind": 5,
-        "importPath": "HMM.test01",
-        "description": "HMM.test01",
-        "peekOfCode": "观测序列 = np.array([[0], [1], [2], [1]])\n# 使用模型解码，找到最可能的状态序列\nlogprob, 状态序列 = model.decode(观测序列, algorithm=\"viterbi\")\nprint(\"最可能的状态序列:\", 状态序列)",
-        "detail": "HMM.test01",
         "documentation": {}
     },
     {
@@ -6333,6 +6558,303 @@
         "description": "langgraph.test041",
         "peekOfCode": "inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\nfor output in app.stream(inputs):\n    # stream() yields dictionaries with output keyed by node name\n    for key, value in output.items():\n        print(f\"Output from node '{key}':\")\n        print(\"---\")\n        print(value)\n    print(\"\\n---\\n\")\n# inputs = {\"messages\": [HumanMessage(content=\"what is the weather in sf\")]}\n# for output in app.astream_log(inputs, include_types=[\"llm\"]):",
         "detail": "langgraph.test041",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test01",
+        "description": "lora_train.test01",
+        "peekOfCode": "model = Model.from_pretrained(\n    \"ZhipuAI/chatglm2-6b\", torch_dtype=torch.bfloat16, device_map=\"auto\"\n)\nlora_config = LoRAConfig(\n    r=16, target_modules=[\"query_key_value\"], lora_alpha=32, lora_dropout=0.0\n)\nmodel = Swift.prepare_model(model, lora_config)\n# use model to do other things\nprint(model)",
+        "detail": "lora_train.test01",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "lora_train.test01",
+        "description": "lora_train.test01",
+        "peekOfCode": "lora_config = LoRAConfig(\n    r=16, target_modules=[\"query_key_value\"], lora_alpha=32, lora_dropout=0.0\n)\nmodel = Swift.prepare_model(model, lora_config)\n# use model to do other things\nprint(model)",
+        "detail": "lora_train.test01",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test01",
+        "description": "lora_train.test01",
+        "peekOfCode": "model = Swift.prepare_model(model, lora_config)\n# use model to do other things\nprint(model)",
+        "detail": "lora_train.test01",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize_function",
+        "kind": 2,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "def tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",\n        truncation=True,\n        max_length=128,\n    )\ntrain_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"\nfrom modelscope import AutoModelForSequenceClassification, AutoTokenizer, MsDataset\nfrom transformers import default_data_collator\nfrom swift import Trainer, LoRAConfig, Swift, TrainingArguments\nmodel = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "model = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "lora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "model = Swift.prepare_model(model, config=lora_config)\ntrain_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "train_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"train\")\n    .to_hf_dataset()\n    .select(range(100))\n)\nval_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))\n)",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "val_dataset",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "val_dataset = (\n    MsDataset.load(\"clue\", subset_name=\"afqmc\", split=\"validation\")\n    .to_hf_dataset()\n    .select(range(100))\n)\ndef tokenize_function(examples):\n    return tokenizer(\n        examples[\"sentence1\"],\n        examples[\"sentence2\"],\n        padding=\"max_length\",",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "train_dataset = train_dataset.map(tokenize_function)\nval_dataset = val_dataset.map(tokenize_function)\narguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "val_dataset",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "val_dataset = val_dataset.map(tokenize_function)\narguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "arguments",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "arguments = TrainingArguments(\n    output_dir=\"./outputs\",\n    per_device_train_batch_size=16,\n)\ntrainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,\n    data_collator=default_data_collator,",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "lora_train.test02",
+        "description": "lora_train.test02",
+        "peekOfCode": "trainer = Trainer(\n    model,\n    arguments,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset,\n    data_collator=default_data_collator,\n)\ntrainer.train()",
+        "detail": "lora_train.test02",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test03",
+        "description": "lora_train.test03",
+        "peekOfCode": "model = AutoModelForSequenceClassification.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\ntokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "lora_train.test03",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "lora_train.test03",
+        "description": "lora_train.test03",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\n    \"AI-ModelScope/bert-base-uncased\", revision=\"v1.0.0\"\n)\nlora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "lora_train.test03",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "lora_train.test03",
+        "description": "lora_train.test03",
+        "peekOfCode": "lora_config = LoRAConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "lora_train.test03",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test03",
+        "description": "lora_train.test03",
+        "peekOfCode": "model = Swift.from_pretrained(model, model_id=\"./outputs/checkpoint-21\")\nprint(model(**tokenizer(\"this is a test\", return_tensors=\"pt\")))",
+        "detail": "lora_train.test03",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "lora_train.test04",
+        "description": "lora_train.test04",
+        "peekOfCode": "config = ResTuningConfig(\n    dims=768,\n    root_modules=r\".*blocks.0$\",\n    stem_modules=r\".*blocks\\.\\d+$\",\n    target_modules=r\"norm\",\n    tuner_cfg=\"res_adapter\",\n)\nfrom swift import Swift\nimport timm, torch\nmodel = timm.create_model(\"vit_base_patch16_224\", pretrained=False, num_classes=100)",
+        "detail": "lora_train.test04",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test04",
+        "description": "lora_train.test04",
+        "peekOfCode": "model = timm.create_model(\"vit_base_patch16_224\", pretrained=False, num_classes=100)\nmodel_tune = Swift.prepare_model(model, config)\nprint(model_tune.get_trainable_parameters())\nprint(model(torch.ones(1, 3, 224, 224)).shape)",
+        "detail": "lora_train.test04",
+        "documentation": {}
+    },
+    {
+        "label": "model_tune",
+        "kind": 5,
+        "importPath": "lora_train.test04",
+        "description": "lora_train.test04",
+        "peekOfCode": "model_tune = Swift.prepare_model(model, config)\nprint(model_tune.get_trainable_parameters())\nprint(model(torch.ones(1, 3, 224, 224)).shape)",
+        "detail": "lora_train.test04",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test05",
+        "description": "lora_train.test05",
+        "peekOfCode": "model = SbertForSequenceClassification(SbertConfig())\nlora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)\nprint(model)",
+        "detail": "lora_train.test05",
+        "documentation": {}
+    },
+    {
+        "label": "lora_config",
+        "kind": 5,
+        "importPath": "lora_train.test05",
+        "description": "lora_train.test05",
+        "peekOfCode": "lora_config = LoraConfig(target_modules=[\"query\", \"key\", \"value\"])\nmodel = Swift.prepare_model(model, lora_config)\nprint(model)",
+        "detail": "lora_train.test05",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.test05",
+        "description": "lora_train.test05",
+        "peekOfCode": "model = Swift.prepare_model(model, lora_config)\nprint(model)",
+        "detail": "lora_train.test05",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "kind": 5,
+        "importPath": "lora_train.test06",
+        "description": "lora_train.test06",
+        "peekOfCode": "pipeline = Pipeline.from_pretrained(\n    \"pyannote/speaker-diarization-3.1\",\n    use_auth_token=\"HUGGINGFACE_ACCESS_TOKEN_GOES_HERE\",\n)\n# run the pipeline on an audio file\ndiarization = pipeline(\"audio.wav\")\n# dump the diarization output to disk using RTTM format\nwith open(\"audio.rttm\", \"w\") as rttm:\n    diarization.write_rttm(rttm)",
+        "detail": "lora_train.test06",
+        "documentation": {}
+    },
+    {
+        "label": "diarization",
+        "kind": 5,
+        "importPath": "lora_train.test06",
+        "description": "lora_train.test06",
+        "peekOfCode": "diarization = pipeline(\"audio.wav\")\n# dump the diarization output to disk using RTTM format\nwith open(\"audio.rttm\", \"w\") as rttm:\n    diarization.write_rttm(rttm)",
+        "detail": "lora_train.test06",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "lora_train.timm_test01",
+        "description": "lora_train.timm_test01",
+        "peekOfCode": "m = timm.create_model(\"mobilenetv3_large_100\", pretrained=True)\nm.eval()",
+        "detail": "lora_train.timm_test01",
+        "documentation": {}
+    },
+    {
+        "label": "model_names",
+        "kind": 5,
+        "importPath": "lora_train.timm_test02",
+        "description": "lora_train.timm_test02",
+        "peekOfCode": "model_names = timm.list_models(pretrained=True)\npprint(model_names)",
+        "detail": "lora_train.timm_test02",
+        "documentation": {}
+    },
+    {
+        "label": "model_names",
+        "kind": 5,
+        "importPath": "lora_train.timm_test03",
+        "description": "lora_train.timm_test03",
+        "peekOfCode": "model_names = timm.list_models(\"*resne*t*\")\npprint(model_names)",
+        "detail": "lora_train.timm_test03",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "lora_train.timm_test04",
+        "description": "lora_train.timm_test04",
+        "peekOfCode": "x = torch.randn(1, 3, 224, 224)\nmodel = timm.create_model(\"mobilenetv3_large_100\", pretrained=True)\nfeatures = model.forward_features(x)\nprint(features.shape)\ntimm.data.create_transform((3, 224, 224))",
+        "detail": "lora_train.timm_test04",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "lora_train.timm_test04",
+        "description": "lora_train.timm_test04",
+        "peekOfCode": "model = timm.create_model(\"mobilenetv3_large_100\", pretrained=True)\nfeatures = model.forward_features(x)\nprint(features.shape)\ntimm.data.create_transform((3, 224, 224))",
+        "detail": "lora_train.timm_test04",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "lora_train.timm_test04",
+        "description": "lora_train.timm_test04",
+        "peekOfCode": "features = model.forward_features(x)\nprint(features.shape)\ntimm.data.create_transform((3, 224, 224))",
+        "detail": "lora_train.timm_test04",
         "documentation": {}
     },
     {
